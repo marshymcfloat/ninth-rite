@@ -1,0 +1,79 @@
+{
+  "version": "1.9.1",
+  "rtp": 0.963,
+  "rtpTolerance": 5e-05,
+  "weightScale": 100000000000000,
+  "weightGrouping": "constraint-buckets-v1",
+  "zeroBoundConstraintScale": 0.00001,
+  "maxWin": 50000,
+  "minCandidateBooks": 1000000,
+  "minimumCapProbability": 2e-07,
+  "maximumSingleBookProbability": 0.0001,
+  "modes": {
+    "base": {
+      "cost": 1
+    },
+    "ante_15": {
+      "cost": 1.5
+    },
+    "ante_30": {
+      "cost": 3
+    },
+    "lesser": {
+      "cost": 100,
+      "median": [
+        0.5,
+        0.75
+      ],
+      "profit": [
+        0.25,
+        0.35
+      ],
+      "confirmed": [
+        0.15,
+        0.25
+      ]
+    },
+    "blood": {
+      "cost": 200,
+      "median": [
+        0.4,
+        0.65
+      ],
+      "profit": [
+        0.22,
+        0.32
+      ],
+      "confirmed": [
+        0.15,
+        0.25
+      ]
+    },
+    "greater": {
+      "cost": 500,
+      "median": [
+        0.25,
+        0.5
+      ],
+      "profit": [
+        0.15,
+        0.25
+      ],
+      "confirmed": [
+        0.15,
+        0.25
+      ]
+    },
+    "god": {
+      "profit": [
+        0.2,
+        0.3
+      ],
+      "nonzero": [
+        0.45,
+        0.65
+      ],
+      "cost": 1000
+    }
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "integrationStatus": "not integrated; current game files remain unchanged",
+  "candidateVersion": "engraved-v1.review-2",
+  "assets": [
+    {
+      "id": "environment-base",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/cathedral.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "environment-bonus",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "environment-god",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "frame",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/frame.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "logo-ornament",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [],
+      "note": "Replaces the CSS IX ornament; lettering stays live."
+    },
+    {
+      "id": "symbol-j",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/jack.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-q",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/queen.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-k",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/king.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-a",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/ace.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-chalice",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/chalice.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-crown",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/crown.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-eye",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/eye.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-reliquary",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/reliquary.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "symbol-scatter",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/scatter.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "altar-surround",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/altar-frame-v2.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "offering-mark",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/offering-seal-v2.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "blood-empty",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/offering-seal-v2.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "blood-filled",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/offering-seal-v2.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "offering-empty",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/offering-vessel-v2.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "offering-filled",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/offering-vessel-v2.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "rose-halo",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/rose-window.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "ray-texture",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/stained-rays.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "rite-lesser",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/rite-lesser.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "rite-blood",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/rite-blood.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "rite-greater",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/rite-greater.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "rite-god",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/rite-god.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "intro-blood",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "intro-offerings",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "intro-scatters",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "feature-result",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "win-big",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "win-mega",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "win-epic",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "win-divine",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "win-cap",
+      "productionStatus": "review-candidate",
+      "futureAction": "add presentation role",
+      "existingMedia": [],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "priest-neutral",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/priest.webp",
+        "/style-2/media/priest-poster.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "priest-invocation",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/priest-invocation-pose.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "priest-bonus",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/priest-bonus-pose.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "priest-benediction",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/priest-benediction-pose.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    },
+    {
+      "id": "priest-expiry",
+      "productionStatus": "review-candidate",
+      "futureAction": "replace presentation role",
+      "existingMedia": [
+        "/style-2/media/priest-expiry-pose.webp"
+      ],
+      "note": "Candidate asset only; no current file overwritten."
+    }
+  ],
+  "keep": [
+    {
+      "role": "existing animation",
+      "path": "/style-2/media/priest-motion.webm",
+      "action": "keep untouched; do not mix with engraved candidate until separately restyled"
+    },
+    {
+      "role": "existing animation",
+      "path": "/style-2/media/priest-invocation.webm",
+      "action": "keep untouched; do not mix with engraved candidate until separately restyled"
+    },
+    {
+      "role": "existing animation",
+      "path": "/style-2/media/priest-bonus.webm",
+      "action": "keep untouched; do not mix with engraved candidate until separately restyled"
+    }
+  ],
+  "keepBehavior": [
+    "gameplay rules and probabilities",
+    "prices and versioned mode configuration",
+    "recorded books and replay",
+    "settlement and recovery",
+    "existing win classification and thresholds",
+    "current live controls"
+  ]
+}

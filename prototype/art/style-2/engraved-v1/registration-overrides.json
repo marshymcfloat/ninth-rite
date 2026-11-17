@@ -1,0 +1,7 @@
+{
+  "priest-neutral": {"headY":5,"footY":2070,"footX":320},
+  "priest-invocation": {"headY":9,"footY":2019,"footX":345.5},
+  "priest-bonus": {"headY":9,"footY":2044,"footX":341},
+  "priest-benediction": {"headY":4,"footY":2038,"footX":360},
+  "priest-expiry": {"headY":13,"footY":2060,"footX":325}
+}

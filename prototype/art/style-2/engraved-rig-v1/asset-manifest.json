@@ -1,0 +1,554 @@
+{
+  "version": "engraved-rig.1",
+  "referenceCanvas": [
+    1000,
+    1600
+  ],
+  "registration": {
+    "footX": 500,
+    "footY": 1520,
+    "headY": 80,
+    "uniformScaleOnly": true
+  },
+  "sources": "prototype/art/style-2/engraved-rig-v1/sources",
+  "assets": {
+    "feet": {
+      "url": "/style-2/media/engraved-rig-v1/feet.webp",
+      "source": "body.png",
+      "native": [
+        992,
+        1586
+      ],
+      "runtime": [
+        801,
+        1280
+      ],
+      "alpha": true,
+      "bounds": [
+        264,
+        1429,
+        777,
+        1541
+      ],
+      "bytes": 18374
+    },
+    "robe": {
+      "url": "/style-2/media/engraved-rig-v1/robe.webp",
+      "source": "body.png",
+      "native": [
+        992,
+        1586
+      ],
+      "runtime": [
+        801,
+        1280
+      ],
+      "alpha": true,
+      "bounds": [
+        282,
+        639,
+        776,
+        1430
+      ],
+      "bytes": 86724
+    },
+    "torso": {
+      "url": "/style-2/media/engraved-rig-v1/torso.webp",
+      "source": "body.png",
+      "native": [
+        992,
+        1586
+      ],
+      "runtime": [
+        801,
+        1280
+      ],
+      "alpha": true,
+      "bounds": [
+        389,
+        156,
+        566,
+        640
+      ],
+      "bytes": 10552
+    },
+    "cape": {
+      "url": "/style-2/media/engraved-rig-v1/cape.webp",
+      "source": "body.png",
+      "native": [
+        992,
+        1586
+      ],
+      "runtime": [
+        801,
+        1280
+      ],
+      "alpha": true,
+      "bounds": [
+        255,
+        139,
+        770,
+        640
+      ],
+      "bytes": 39540
+    },
+    "stole": {
+      "url": "/style-2/media/engraved-rig-v1/stole.webp",
+      "source": "body.png",
+      "native": [
+        992,
+        1586
+      ],
+      "runtime": [
+        801,
+        1280
+      ],
+      "alpha": true,
+      "bounds": [
+        347,
+        130,
+        609,
+        1303
+      ],
+      "bytes": 63384
+    },
+    "neck": {
+      "url": "/style-2/media/engraved-rig-v1/neck.webp",
+      "source": "body.png",
+      "native": [
+        992,
+        1586
+      ],
+      "runtime": [
+        801,
+        1280
+      ],
+      "alpha": true,
+      "bounds": [
+        404,
+        73,
+        600,
+        157
+      ],
+      "bytes": 8886
+    },
+    "free-upperarm": {
+      "url": "/style-2/media/engraved-rig-v1/free-upperarm.webp",
+      "source": "free-sleeve.png",
+      "native": [
+        1199,
+        1312
+      ],
+      "runtime": [
+        548,
+        600
+      ],
+      "alpha": true,
+      "bounds": [
+        539,
+        90,
+        1177,
+        801
+      ],
+      "bytes": 37440
+    },
+    "free-forearm": {
+      "url": "/style-2/media/engraved-rig-v1/free-forearm.webp",
+      "source": "free-sleeve.png",
+      "native": [
+        1199,
+        1312
+      ],
+      "runtime": [
+        548,
+        600
+      ],
+      "alpha": true,
+      "bounds": [
+        63,
+        440,
+        1038,
+        1188
+      ],
+      "bytes": 48702
+    },
+    "holding-upperarm": {
+      "url": "/style-2/media/engraved-rig-v1/holding-upperarm.webp",
+      "source": "holding-sleeve.png",
+      "native": [
+        1246,
+        1263
+      ],
+      "runtime": [
+        592,
+        600
+      ],
+      "alpha": true,
+      "bounds": [
+        634,
+        51,
+        1231,
+        741
+      ],
+      "bytes": 39212
+    },
+    "holding-forearm": {
+      "url": "/style-2/media/engraved-rig-v1/holding-forearm.webp",
+      "source": "holding-sleeve.png",
+      "native": [
+        1246,
+        1263
+      ],
+      "runtime": [
+        592,
+        600
+      ],
+      "alpha": true,
+      "bounds": [
+        257,
+        740,
+        1179,
+        1209
+      ],
+      "bytes": 45370
+    },
+    "head": {
+      "url": "/style-2/media/engraved-rig-v1/head.webp",
+      "source": "head.png",
+      "native": [
+        1312,
+        1199
+      ],
+      "runtime": [
+        650,
+        594
+      ],
+      "alpha": true,
+      "bounds": [
+        197,
+        33,
+        1115,
+        1153
+      ],
+      "bytes": 105650
+    },
+    "head-blink": {
+      "url": "/style-2/media/engraved-rig-v1/head-blink.webp",
+      "source": "head-blink.png",
+      "native": [
+        1312,
+        1199
+      ],
+      "runtime": [
+        650,
+        594
+      ],
+      "alpha": true,
+      "bounds": [
+        196,
+        31,
+        1114,
+        1154
+      ],
+      "bytes": 100300
+    },
+    "head-attentive": {
+      "url": "/style-2/media/engraved-rig-v1/head-attentive.webp",
+      "source": "head-attentive.png",
+      "native": [
+        1312,
+        1199
+      ],
+      "runtime": [
+        650,
+        594
+      ],
+      "alpha": true,
+      "bounds": [
+        195,
+        30,
+        1115,
+        1154
+      ],
+      "bytes": 99122
+    },
+    "free-hand": {
+      "url": "/style-2/media/engraved-rig-v1/free-hand.webp",
+      "source": "free-hand.png",
+      "native": [
+        1217,
+        1293
+      ],
+      "runtime": [
+        339,
+        360
+      ],
+      "alpha": true,
+      "bounds": [
+        83,
+        79,
+        1134,
+        1243
+      ],
+      "bytes": 27604
+    },
+    "free-hand-between": {
+      "url": "/style-2/media/engraved-rig-v1/free-hand-between.webp",
+      "source": "free-hand-between.png",
+      "native": [
+        1216,
+        1293
+      ],
+      "runtime": [
+        339,
+        360
+      ],
+      "alpha": true,
+      "bounds": [
+        84,
+        69,
+        1178,
+        1246
+      ],
+      "bytes": 29554
+    },
+    "free-hand-open": {
+      "url": "/style-2/media/engraved-rig-v1/free-hand-open.webp",
+      "source": "free-hand-open.png",
+      "native": [
+        1216,
+        1293
+      ],
+      "runtime": [
+        339,
+        360
+      ],
+      "alpha": true,
+      "bounds": [
+        81,
+        129,
+        1186,
+        1245
+      ],
+      "bytes": 28804
+    },
+    "holding-hand-final": {
+      "url": "/style-2/media/engraved-rig-v1/holding-hand-final.webp",
+      "source": "holding-hand-final.png",
+      "native": [
+        1536,
+        1024
+      ],
+      "runtime": [
+        400,
+        267
+      ],
+      "alpha": true,
+      "bounds": [
+        221,
+        258,
+        1332,
+        811
+      ],
+      "bytes": 18190
+    },
+    "vessel": {
+      "url": "/style-2/media/engraved-rig-v1/vessel.webp",
+      "source": "vessel.png",
+      "native": [
+        1271,
+        1238
+      ],
+      "runtime": [
+        300,
+        292
+      ],
+      "alpha": true,
+      "bounds": [
+        198,
+        70,
+        1073,
+        1173
+      ],
+      "bytes": 23060
+    },
+    "ruby": {
+      "url": "/style-2/media/engraved-rig-v1/ruby.webp",
+      "source": "ruby.png",
+      "native": [
+        1230,
+        1278
+      ],
+      "runtime": [
+        135,
+        140
+      ],
+      "alpha": true,
+      "bounds": [
+        293,
+        139,
+        938,
+        1029
+      ],
+      "bytes": 4956
+    }
+  },
+  "body": {
+    "scale": 0.87,
+    "x": 100,
+    "y": 180,
+    "hinge": [
+      540,
+      800
+    ],
+    "fixedBelow": 1430
+  },
+  "head": {
+    "scale": 0.21,
+    "x": 365,
+    "y": 74,
+    "pivot": [
+      870,
+      1020
+    ],
+    "facePatches": {
+      "rect": [
+        310,
+        465,
+        410,
+        235
+      ]
+    }
+  },
+  "free": {
+    "scale": 0.24,
+    "shoulder": [
+      930,
+      240
+    ],
+    "elbow": [
+      660,
+      980
+    ],
+    "wrist": [
+      160,
+      750
+    ],
+    "at": [
+      475,
+      465
+    ],
+    "baseElbow": 45
+  },
+  "holding": {
+    "scale": 0.27,
+    "shoulder": [
+      900,
+      190
+    ],
+    "elbow": [
+      920,
+      930
+    ],
+    "wrist": [
+      330,
+      970
+    ],
+    "at": [
+      665,
+      380
+    ]
+  },
+  "freeHand": {
+    "scale": 0.075,
+    "pivot": [
+      360,
+      1040
+    ],
+    "rotation": -75,
+    "cropBottom": 1050
+  },
+  "holdingHand": {
+    "scale": 0.145,
+    "pivot": [
+      1320,
+      585
+    ]
+  },
+  "vessel": {
+    "scale": 0.095,
+    "pivot": [
+      640,
+      1150
+    ],
+    "fromWrist": [
+      -93,
+      20
+    ]
+  },
+  "ruby": {
+    "scale": 0.045,
+    "pivot": [
+      615,
+      630
+    ],
+    "fromVessel": [
+      0,
+      -115
+    ]
+  },
+  "motionLimits": {
+    "torso": [
+      -4,
+      4
+    ],
+    "head": [
+      -14,
+      14
+    ],
+    "freeShoulder": [
+      -12,
+      38
+    ],
+    "freeElbow": [
+      -20,
+      32
+    ],
+    "holdingShoulder": [
+      -7,
+      8
+    ],
+    "holdingElbow": [
+      -12,
+      12
+    ],
+    "wrist": [
+      -24,
+      24
+    ]
+  },
+  "drawOrder": [
+    "feet",
+    "robe",
+    "free-upperarm",
+    "free-forearm",
+    "torso",
+    "cape",
+    "stole",
+    "neck",
+    "holding-upperarm",
+    "holding-forearm",
+    "head",
+    "head-attentive",
+    "head-blink",
+    "holding-hand-final",
+    "vessel",
+    "@chain",
+    "@ruby-glow",
+    "ruby",
+    "free-hand",
+    "free-hand-between",
+    "free-hand-open"
+  ],
+  "totalBytes": 835424
+}

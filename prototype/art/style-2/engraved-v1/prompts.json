@@ -1,0 +1,81 @@
+{
+  "generator": "built-in imagegen",
+  "higgsfieldSpend": 0,
+  "phase": "complete-still-candidate",
+  "records": ["generation-root.json", "generation-mechanics.json", "generation-character-intro.json", "generation-celebrations.json"],
+  "note": "The prompts below preserve the first-eight review provenance. The records files contain the complete executed set, reference roles and generation details. No paid or Higgsfield generation was used.",
+  "prompts": [
+    {
+      "id": "environment-base",
+      "prompt": "Create ONE original production background plate for THE NINTH RITE slot game. Image 1 is a reference ONLY for the engraved Gothic drawing treatment, tonal control and chapel architecture; do not copy its logo, symbols, statues or UI. Deliver a wide 16:9 opaque background, highest native resolution available (ideally 2560x1440 or higher). Empty medieval Catholic Gothic chapel interior drawn as fine copperplate engraving / wood engraving, crosshatched charcoal masonry, black pointed arch recesses, weathered gray stone, restrained aged ivory edge light. Solemn, mature, premium game illustration, crisp linework, not painterly, no 3D glossy rendering, no sepia wash. Original composition: ribbed vaults and recessed lancet windows, low altar architecture and a pale flagstone floor at bottom. Camera straight and level, no fisheye. A large low-contrast quiet dark space behind future game reels from x=19% to 77%, y=18% to 85%; the right side x=79%-97%, y=22%-86% is a clear alcove for a separately supplied standing priest. Left x=2%-18%, y=25%-61% must allow a logo. Bottom 12% quiet for controls. Architectural interest concentrated at outer sides and upper corners. Small muted oxblood stained-glass areas at far right, grayscale elsewhere. Broad readable structure plus selective fine etched detail. No people, no floating objects, no grid, no frame for reels, no text, no typography, no logo, no numbers, no UI. This is only the environment asset, not a game screenshot.",
+      "referenced_image_paths": [
+        "C:/Programming/marshy-slots/design-reference/evidence/game-only/life-main.jpg"
+      ],
+      "transparent_background": false
+    },
+    {
+      "id": "priest-neutral",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/public/style-2/media/priest.webp",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "prompt": "Use case: identity-preserving style transfer. Produce ONE full-body transparent character sprite. Image 1 is the exact Ninth Rite priest identity and neutral pose to preserve: same recognizable face, swept silver hair, black clerical garments, ivory long stole with the sun emblem, hand holding the small silver ritual vessel, other hand poised above its floating ruby, both shoes visible. Keep same angle, calm lowered gaze, garment silhouette and anatomical proportions. Image 2 defines the etched chapel art language. Redraw Image 1 as a meticulous monochrome copperplate engraving: crisp black contour, controlled crosshatching and stippled silver/ivory relief, broad readable cloth shadows. Not photographic, not smooth digital painting, not glossy 3D, not an old bearded monk. Preserve subtle crimson at the ruby and sleeve lining only. Neutral level camera, no perspective change. Full figure centered with 9% clear padding at head and sides and 6% below shoes, portrait canvas. No scenery, no rays, no glow halo, no floor, no text. Real clean alpha transparency outside the silhouette and within hand/arm openings; no white/gray matte, no edge fringe. One priest only.",
+      "transparent_background": true
+    },
+    {
+      "id": "frame",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "prompt": "Produce ONE modular empty Gothic reel-frame asset on genuine alpha transparency. Match the restrained charcoal, ivory and engraved-silver copperplate drawing in reference image 1. Wide rectangular frame, about 1.65:1 outer aspect, straight-on orthographic. Thin carved silver/aged ivory rails, deep black incised lines, crisp small leaves and architectural tracery at four corners, slim clustered side pilasters, tiny pointed pinnacles confined to the outside upper corners. Original ecclesiastical ornament. NO glossy cream picture-frame bevels, no yellow gold. The center opening is perfectly rectangular and completely transparent, about 88% of total width and 82% of height. Top and bottom straight rails have long neutral repeatable sections, side rails also long repeatable sections; ornate corner pieces must be visually separable with clean rail joins. Symmetric left/right weight, low central connector on top for a separate altar header, tiny oxblood jewel at bottom center. Exterior padding 4%. No arches protruding into the rectangular grid, no column dividers inside, no symbols, no counters, no text, no scenery, no shadow or fill in the opening. All pierced ornament holes and all outside/inside empty space have real alpha. Carefully rendered, sharp premium game asset with etched linework instead of smooth plastic.",
+      "transparent_background": true
+    },
+    {
+      "id": "symbol-chalice",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/public/style-2/media/chalice.webp",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "prompt": "Create ONE square transparent game-symbol sprite. Image 1 is Ninth Rite's chalice identity: broad low silver goblet, geometric bowl, short pedestal foot, central oval ruby in a sunburst setting, visible dark red liquid. Preserve those unmistakable shapes and proportions. Image 2 is the target copperplate engraving treatment. Redraw as crisp hand-engraved silver and ivory relief, black etched contours and controlled crosshatched shading, clear broad silhouette readable at 85px height. Reduce mirror-like smooth bevels, add selective carved marks instead of dense noise. Deep oxblood ruby and liquid are the only color, no golden metal, no outer glow. Center one chalice with 10% transparent padding all sides, three-quarter view as in reference 1, full rim and base visible. Real alpha background including openings; no white matte, no checkerboard, no scene, no lettering, no price. The asset should belong to a monochrome engraved Gothic chapel slot.",
+      "transparent_background": true
+    },
+    {
+      "id": "symbol-j",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "prompt": "ONE original game rank symbol, the uppercase letter J, centered on real transparent alpha. A bold readable Gothic blackletter J with squared broad stem, hooked lower terminal and restrained pointed serif; avoid confusion with I or T. Aged silver/ivory face with deep charcoal engraved outline, crosshatched incisions and a few small chips. Match the exact black/ivory copperplate engraving treatment of the supplied chalice and chapel, but keep the letter broad and much less detailed than a premium. No polished chrome, no smooth gradients, no metallic specular reflection, no backing shield, no extra symbols, no red gem, no halo. 12% transparent padding around the complete letter, square canvas, viewed front-on. One J only, all counters and surrounding space transparent. Designed to read immediately at 80px high."
+    },
+    {
+      "id": "symbol-scatter",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/public/style-2/media/scatter.webp",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "prompt": "Identity-preserving style transfer of Image 1, Ninth Rite's patron Scatter symbol. Preserve the youthful serene carved ivory face, closed eyes, swept wavy hair, dark hood, two upward curved ivory horns, segmented circular oxblood rose-window halo with silver spokes, small ruby at throat. One centered bust, front-facing, compact strong circular silhouette; complete horns and halo visible. Redraw using the precise ivory and charcoal etched engraving, crosshatching and strong black incisions seen in Images 2 and 3. It must look drawn/engraved, not photoreal smooth sculpture. Enlarge face relative to halo slightly for legibility at 90px high. Broad off-white face, deep black hood, oxblood halo; no luminous bloom or gold. Real transparent alpha all around and through spaces between horn/halo. Square canvas with 10% padding. No text, no SCATTER label, no letters, no scene, no white matte. Preserve identity, don't replace with skull or elderly face."
+    },
+    {
+      "id": "rite-greater",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/public/style-2/media/reliquary.webp",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "prompt": "ONE original wide 3:2 transparent rite illustration for THE NINTH RITE. Image 1 establishes the Greater Rite reliquary identity: Gothic silver/ivory shrine enclosing a floating teardrop ruby above a shallow bowl, pointed arches, small pinnacles and crimson glass insets. Expand this into a grand symmetrical sanctuary-shaped ceremonial object: central reliquary on a broad stepped altar, two smaller flanking architectural wings and narrow candle stands, strong central ruby, tasteful engraved foliage. Keep entirety visible with 8% padding, complete silhouette and no crop. Draw in controlled black-and-ivory copperplate engraving with bold incised contours and crosshatching consistent with Images 2 and 3. Oxblood accents only; tiny desaturated violet glass accents at outer wings allowed. No gold, no glossy 3D materials, no atmospheric background, no people. Genuine transparent alpha around and through pierced tracery. This art must crop well for a wide card and also stand alone large on a feature-entry screen. No text, numbers, counters, labels, ribbons with writing or buttons."
+    },
+    {
+      "id": "feature-result",
+      "alpha": false,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png"
+      ],
+      "prompt": "Create ONE 16:9 opaque illustrated feature-result stage for THE NINTH RITE in the exact restrained copperplate engraving family of the supplied chapel and chalice. A quiet resolved ritual in a Gothic sanctuary, straight-on architectural composition, black and charcoal stone, aged ivory engraved relief and precise crosshatching, small desaturated crimson details only. Original composition, not a copied game screen. Place a broad low altar entirely in the bottom 22% of the image, with a closed ritual book and resting silver chalice toward the lower left and right edges of that altar; extinguished or tiny steady candles. Slender architectural piers and draped dark cloth at the outside 15% edges, small symmetrical carved rose-window ornament high above center. Crucially leave the middle 55% width and middle 48% height as an uninterrupted very dark quiet recess for live large return amount and title; bottom center above altar also leaves room for Continue. No rays crossing that number region. Neutral solemn completion, appropriate even for a zero return: no cheering, victory gesture, treasure explosion or coins. No characters. No text, no letters, no numbers, no logo, no grid, no UI. Highest available native resolution, ideally 2560x1440 or higher."
+    }
+  ]
+}

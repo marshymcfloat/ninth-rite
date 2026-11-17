@@ -1,0 +1,238 @@
+{
+  "generator": "built-in imagegen",
+  "status": "seven-sources-complete-offline-reviewed",
+  "higgsfieldSpend": 0,
+  "records": [
+    {
+      "id": "priest-bonus",
+      "action": "Bonus awakening: keep both feet and torso standing exactly as in the reference. Turn his gaze and face only slightly toward the LEFT edge of the image, toward unseen reels. Open his free hand with a modest palm-up invitation at chest level, gently lift his eyebrows and show faint restrained satisfaction, mouth closed. Keep the vessel securely held at its neutral waist position. No grin, no sweeping arm or crouch.",
+      "prompt": "Use case: identity-preserving character pose edit. Create exactly ONE full-body transparent priest sprite for The Ninth Rite. Reference image 1 is the approved neutral priest and is the exact identity/wardrobe/proportion/framing source; image 2 defines the matching chapel engraving language. Preserve his youthful angular face, silver swept hair, black cassock and cape, ivory long stole with sun ornament and engraved hem, ruby cuff lining, same small silver ritual vessel, same boots and visible complete robe hem. Preserve the same front/three-quarter camera angle, anatomical proportions, shoulder width, head size, leg length and upright planted feet. Change ONLY the acting pose described below; this is the same man, not a new interpretation. Precisely match the neutral image's charcoal/ivory copperplate contours, etched crosshatching and restrained crimson ruby. No photorealism, glossy 3D, painterly gradients, new jewelry or costume changes. Bonus awakening: keep both feet and torso standing exactly as in the reference. Turn his gaze and face only slightly toward the LEFT edge of the image, toward unseen reels. Open his free hand with a modest palm-up invitation at chest level, gently lift his eyebrows and show faint restrained satisfaction, mouth closed. Keep the vessel securely held at its neutral waist position. No grin, no sweeping arm or crouch. Full figure including both shoes, with generous transparent space around head, hands and shoes. True alpha transparency in all background and hand/arm openings. No setting, floor plane, extra shadows outside the figure, halo, rays, beams, particles, text or numbers. One figure only. Keep cloth drape and body center aligned to the reference as much as the small gesture permits.",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-neutral.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "referenceRoles": [
+        "exact neutral identity, material, posture and body proportions",
+        "engraved chapel visual-family reference"
+      ],
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-3926a714-c942-4b67-9af2-6c42f71a4e38.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-bonus.png",
+      "reviewNotes": "Inspected individually and in five-pose source lineup. Coherent face, garments, vessel, engraving. Full figure and real alpha visible. Uniform scale and foot-anchor registration still required in packaging; canvas equality does not establish registration.",
+      "nativeSize": [
+        757,
+        2078
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "solidAlphaBounds": [
+        8,
+        9,
+        757,
+        2045
+      ]
+    },
+    {
+      "id": "priest-invocation",
+      "action": "Invocation: keep both feet and the body standing exactly as in the reference. Lift the supporting hand and silver ritual vessel only slightly, approximately one hand-width upward. Raise the free hand to upper chest level with a poised open palm facing a little upward, fingers naturally articulated. Raise his eyes toward his raised hand, eyebrows subtly lifted. This is controlled ceremonial acting, not a wide theatrical wave. The floating ruby remains just above the vessel.",
+      "prompt": "Use case: identity-preserving character pose edit. Create exactly ONE full-body transparent priest sprite for The Ninth Rite. Reference image 1 is the approved neutral priest and is the exact identity/wardrobe/proportion/framing source; image 2 defines the matching chapel engraving language. Preserve his youthful angular face, silver swept hair, black cassock and cape, ivory long stole with sun ornament and engraved hem, ruby cuff lining, same small silver ritual vessel, same boots and visible complete robe hem. Preserve the same front/three-quarter camera angle, anatomical proportions, shoulder width, head size, leg length and upright planted feet. Change ONLY the acting pose described below; this is the same man, not a new interpretation. Precisely match the neutral image's charcoal/ivory copperplate contours, etched crosshatching and restrained crimson ruby. No photorealism, glossy 3D, painterly gradients, new jewelry or costume changes. Invocation: keep both feet and the body standing exactly as in the reference. Lift the supporting hand and silver ritual vessel only slightly, approximately one hand-width upward. Raise the free hand to upper chest level with a poised open palm facing a little upward, fingers naturally articulated. Raise his eyes toward his raised hand, eyebrows subtly lifted. This is controlled ceremonial acting, not a wide theatrical wave. The floating ruby remains just above the vessel. Full figure including both shoes, with generous transparent space around head, hands and shoes. True alpha transparency in all background and hand/arm openings. No setting, floor plane, extra shadows outside the figure, halo, rays, beams, particles, text or numbers. One figure only. Keep cloth drape and body center aligned to the reference as much as the small gesture permits.",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-neutral.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "referenceRoles": [
+        "exact neutral identity, material, posture and body proportions",
+        "engraved chapel visual-family reference"
+      ],
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-f7499507-0444-4207-a916-415078b926a7.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-invocation.png",
+      "reviewNotes": "Inspected individually and in five-pose source lineup. Coherent face, garments, vessel, engraving. Full figure and real alpha visible. Uniform scale and foot-anchor registration still required in packaging; canvas equality does not establish registration.",
+      "nativeSize": [
+        757,
+        2078
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "solidAlphaBounds": [
+        17,
+        9,
+        747,
+        2020
+      ]
+    },
+    {
+      "id": "priest-benediction",
+      "action": "Benediction: keep both feet, pelvis and torso standing exactly as in the reference. Raise his free hand toward the upper LEFT as a deliberate modest blessing gesture, palm angled outward, fingers held naturally together. A small approving nod and calm focused eyes directed left. Keep vessel in the supporting hand at its neutral waist height. No full arm extension, no broad smile or change of body lean.",
+      "prompt": "Use case: identity-preserving character pose edit. Create exactly ONE full-body transparent priest sprite for The Ninth Rite. Reference image 1 is the approved neutral priest and is the exact identity/wardrobe/proportion/framing source; image 2 defines the matching chapel engraving language. Preserve his youthful angular face, silver swept hair, black cassock and cape, ivory long stole with sun ornament and engraved hem, ruby cuff lining, same small silver ritual vessel, same boots and visible complete robe hem. Preserve the same front/three-quarter camera angle, anatomical proportions, shoulder width, head size, leg length and upright planted feet. Change ONLY the acting pose described below; this is the same man, not a new interpretation. Precisely match the neutral image's charcoal/ivory copperplate contours, etched crosshatching and restrained crimson ruby. No photorealism, glossy 3D, painterly gradients, new jewelry or costume changes. Benediction: keep both feet, pelvis and torso standing exactly as in the reference. Raise his free hand toward the upper LEFT as a deliberate modest blessing gesture, palm angled outward, fingers held naturally together. A small approving nod and calm focused eyes directed left. Keep vessel in the supporting hand at its neutral waist height. No full arm extension, no broad smile or change of body lean. Full figure including both shoes, with generous transparent space around head, hands and shoes. True alpha transparency in all background and hand/arm openings. No setting, floor plane, extra shadows outside the figure, halo, rays, beams, particles, text or numbers. One figure only. Keep cloth drape and body center aligned to the reference as much as the small gesture permits.",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-neutral.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "referenceRoles": [
+        "exact neutral identity, material, posture and body proportions",
+        "engraved chapel visual-family reference"
+      ],
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-1a9099ac-1931-488e-a7a8-8251a83a5c0a.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-benediction.png",
+      "reviewNotes": "Inspected individually and in five-pose source lineup. Coherent face, garments, vessel, engraving. Full figure and real alpha visible. Uniform scale and foot-anchor registration still required in packaging; canvas equality does not establish registration.",
+      "nativeSize": [
+        757,
+        2078
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "solidAlphaBounds": [
+        9,
+        4,
+        756,
+        2039
+      ]
+    },
+    {
+      "id": "priest-expiry",
+      "action": "Expiry: same standing pose, both feet and torso exactly as in the reference. Lower his gaze toward the vessel and gently lower the free hand alongside it. Calm, restrained disappointment, relaxed eyebrows, closed mouth. Tiny shoulder relaxation only; no slump, shrinking, crouch, tears or distressed expression. The vessel remains supported at waist height, floating ruby remains with the vessel.",
+      "prompt": "Use case: identity-preserving character pose edit. Create exactly ONE full-body transparent priest sprite for The Ninth Rite. Reference image 1 is the approved neutral priest and is the exact identity/wardrobe/proportion/framing source; image 2 defines the matching chapel engraving language. Preserve his youthful angular face, silver swept hair, black cassock and cape, ivory long stole with sun ornament and engraved hem, ruby cuff lining, same small silver ritual vessel, same boots and visible complete robe hem. Preserve the same front/three-quarter camera angle, anatomical proportions, shoulder width, head size, leg length and upright planted feet. Change ONLY the acting pose described below; this is the same man, not a new interpretation. Precisely match the neutral image's charcoal/ivory copperplate contours, etched crosshatching and restrained crimson ruby. No photorealism, glossy 3D, painterly gradients, new jewelry or costume changes. Expiry: same standing pose, both feet and torso exactly as in the reference. Lower his gaze toward the vessel and gently lower the free hand alongside it. Calm, restrained disappointment, relaxed eyebrows, closed mouth. Tiny shoulder relaxation only; no slump, shrinking, crouch, tears or distressed expression. The vessel remains supported at waist height, floating ruby remains with the vessel. Full figure including both shoes, with generous transparent space around head, hands and shoes. True alpha transparency in all background and hand/arm openings. No setting, floor plane, extra shadows outside the figure, halo, rays, beams, particles, text or numbers. One figure only. Keep cloth drape and body center aligned to the reference as much as the small gesture permits.",
+      "alpha": true,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-neutral.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "referenceRoles": [
+        "exact neutral identity, material, posture and body proportions",
+        "engraved chapel visual-family reference"
+      ],
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-4933df60-0884-4364-95db-09c29f399403.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/priest-expiry.png",
+      "reviewNotes": "Inspected individually and in five-pose source lineup. Coherent face, garments, vessel, engraving. Full figure and real alpha visible. Uniform scale and foot-anchor registration still required in packaging; canvas equality does not establish registration.",
+      "nativeSize": [
+        757,
+        2078
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "solidAlphaBounds": [
+        56,
+        13,
+        746,
+        2061
+      ]
+    },
+    {
+      "id": "intro-offerings",
+      "alpha": false,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/offering-filled.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rose-halo.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "referenceRoles": [
+        "Offering vessel identity",
+        "pending rose-window identity",
+        "engraved environment treatment"
+      ],
+      "prompt": "Use case: original engraved game introduction illustration. Produce ONE opaque portrait 2:3 panel for THE NINTH RITE, an illustrated Gothic teaching panel rather than a screenshot. A consistent thin carved-ivory pointed-arch surround, narrow paired side columns and restrained thorn/leaf engraving. Charcoal architectural recess behind the subjects, muted ivory and silver copperplate linework, strong black contours and crosshatching, oxblood ritual accents only. Match the precise finish of the references, no smooth 3D, no cartoon, no photorealism, no broad gold, no parchment paper background. Composition: illustration in upper 64% of panel, a very dark quiet empty lower 28% reserved for live explanatory text. Keep detailed imagery clear of that lower text area. No readable text, titles, letterforms, labels, numerals, arrows with words, buttons, prices, counters, copied UI or watermark. The panel illustration is symbolic; live text outside the artwork will explain exact gameplay rules. Subject: exactly three small matching filled Offering vessels based on Image 1, in a clear horizontal row across the lower part of the illustrated upper region. Three restrained crimson engraved threads converge upward into the lower edge of a large rose-window halo based on Image 2, centered above them. The halo interior is an empty charcoal recess, signifying a proposed value not yet earned; do not place a number, face or altar inside it. An elegant narrow ivory line of light accents its top, but no broad fog or bloom. This illustrates offerings invoking a pending revelation. Keep the three vessels separate and countable, the halo readable, and the lower blank copy area untouched. Image 3 is palette and engraving reference only, not a background to copy literally.",
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-231d2be9-4971-4102-b19c-5b246673ea6a.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/intro-offerings.png",
+      "reviewNotes": "Opaque portrait introduction panel. Inspected for matching engraved border and palette, countable three subjects, no baked text or numbers, and dark lower live-copy panel.",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "liveCopySafeAreaNormalized": {
+        "x": 0.12,
+        "y": 0.76,
+        "width": 0.76,
+        "height": 0.19
+      }
+    },
+    {
+      "id": "intro-scatters",
+      "alpha": false,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/intro-offerings.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-scatter.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png"
+      ],
+      "referenceRoles": [
+        "exact panel frame, palette, layout and blank-copy placement",
+        "patron Scatter identity",
+        "engraved environment treatment"
+      ],
+      "prompt": "Use case: original engraved game introduction illustration. Produce ONE opaque portrait 2:3 panel for THE NINTH RITE, an illustrated Gothic teaching panel rather than a screenshot. A consistent thin carved-ivory pointed-arch surround, narrow paired side columns and restrained thorn/leaf engraving. Charcoal architectural recess behind the subjects, muted ivory and silver copperplate linework, strong black contours and crosshatching, oxblood ritual accents only. Match the precise finish of the references, no smooth 3D, no cartoon, no photorealism, no broad gold, no parchment paper background. Composition: illustration in upper 64% of panel, a very dark quiet empty lower 28% reserved for live explanatory text. Keep detailed imagery clear of that lower text area. No readable text, titles, letterforms, labels, numerals, arrows with words, buttons, prices, counters, copied UI or watermark. The panel illustration is symbolic; live text outside the artwork will explain exact gameplay rules. Use Image 1 as the exact design template: match its surrounding Gothic border, portrait framing, black blank bottom copy panel, ivory/charcoal contrast and engraving density. Replace ONLY the main story illustration above the blank panel. Subject: exactly THREE matching patron Scatter bust medallions based closely on Image 2, equally sized in a horizontal row, prominent and individually countable in the lower portion of the upper illustration. Preserve the closed-eyed youthful carved face, ivory swept hair, dark hood and distinctive horned crown with crimson halo, without adding text or SCATTER labels. Behind and above their row, a pointed cathedral doorway opens onto a quiet deep crimson sanctuary and distant small ceremonial altar, a symbolic bonus entrance. A restrained ivory ray outlines the open threshold. The arch doorway must be visually secondary to the three Scatters. NO additional faces, no priest, no UI, no numbers or free-spin entitlement. Match Image 1's blank lower region exactly; leave it entirely free of objects and text.",
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-aad74ca5-69c4-4ec4-8f1d-b6916d9d8ddb.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/intro-scatters.png",
+      "reviewNotes": "Opaque portrait introduction panel. Inspected for matching engraved border and palette, countable three subjects, no baked text or numbers, and dark lower live-copy panel.",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "liveCopySafeAreaNormalized": {
+        "x": 0.12,
+        "y": 0.76,
+        "width": 0.76,
+        "height": 0.19
+      }
+    },
+    {
+      "id": "intro-blood",
+      "alpha": false,
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/intro-offerings.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/altar-surround.png"
+      ],
+      "referenceRoles": [
+        "exact panel border, palette, layout and blank-copy area",
+        "matching winning-cluster symbol identity",
+        "horizontal Gothic altar progression rail identity"
+      ],
+      "prompt": "Use case: original engraved game introduction illustration. Produce ONE opaque portrait 2:3 panel for THE NINTH RITE, an illustrated Gothic teaching panel rather than a screenshot. A consistent thin carved-ivory pointed-arch surround, narrow paired side columns and restrained thorn/leaf engraving. Charcoal architectural recess behind the subjects, muted ivory and silver copperplate linework, strong black contours and crosshatching, oxblood ritual accents only. Match the precise finish of the references, no smooth 3D, no cartoon, no photorealism, no broad gold, no parchment paper background. Composition: illustration in upper 64% of panel, a very dark quiet empty lower 28% reserved for live explanatory text. Keep detailed imagery clear of that lower text area. No readable text, titles, letterforms, labels, numerals, arrows with words, buttons, prices, counters, copied UI or watermark. The panel illustration is symbolic; live text outside the artwork will explain exact gameplay rules. Use Image 1 as the exact portrait design template: same surrounding Gothic border, charcoal environment, blank black lower copy panel and ivory engraving density. Replace ONLY the main story illustration. In the middle/lower part of the upper illustrated region, show a single visibly connected winning cluster of SIX identical chalice symbols from Image 2 arranged as a compact aligned 3-column by 2-row group. The chalices must read as small game-symbol reliefs on quiet dark square recesses, visually touching as one cluster, not six large scenic altars. A restrained deep crimson outline unifies the cluster. One thin crimson engraved stream rises from the cluster toward the LEFT interior of the long horizontal Gothic altar rail from Image 3, which spans the upper part of the illustration. The rail is the same silver parallel molding with decorative endcaps, deliberately wide and shallow, not an arch or round medallion. Its recessed interior is a dark empty field with only a small crimson illumination where the stream arrives. This is a rule-neutral symbolic illustration of a winning cluster feeding altar progress. DO NOT draw separate pips, tier compartments, tick marks, numbers, arrows, letters, plus signs, spin icons, multiplier values or labels. No free-spin award claim. Keep the entire lower blank text region matching Image 1; live text will explain exact progression rules outside the artwork.",
+      "status": "generated-visually-reviewed-offline",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-0579d4e0-a571-4587-ba91-b8fabdb68837.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/intro-blood.png",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "liveCopySafeAreaNormalized": {
+        "x": 0.12,
+        "y": 0.76,
+        "width": 0.76,
+        "height": 0.19
+      },
+      "reviewNotes": "Symbolic six-chalice connected cluster feeds a horizontal Gothic rail. No pips, tier counters, numeric values or +1-spin claim. Engraved frame and dark live-copy area match the other two panels; inspected separately and in triptych."
+    }
+  ],
+  "qaSheets": [
+    "qa/priest-source-lineup-ci.jpg",
+    "qa/introduction-triptych-ci.jpg"
+  ],
+  "notes": [
+    "Priest pose line-up uses common head/foot lines and uniform scale for visual review only; final horizontal/foot-anchor metadata belongs to packaging.",
+    "All generated source PNGs preserved; no new runtime integration, motion, audio, or paid generation.",
+    "Introduction Blood panel updated for newly approved horizontal altar art; no mechanics were changed."
+  ]
+}

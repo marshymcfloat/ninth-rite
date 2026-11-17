@@ -1,0 +1,12 @@
+{
+  "tool": "built-in imagegen",
+  "asset": "sources/free-wrist-original.png",
+  "generatedSource": "C:/Users/LENOVO/.codex/generated_images/01a1589d-4835-7c40-8540-c4b32a463eba/exec-0bb60fdf-801a-4ce7-8731-a6b4dd384601.png",
+  "reference": "../engraved-rig-v1/sources/free-hand.png",
+  "referenceRole": "Exact skin, engraving, lighting and anatomy reference; existing hand and fingers remain unchanged.",
+  "prompt": "Create one transparent game animation replacement part for THE NINTH RITE. Image 1 is the exact skin, lighting, engraving, anatomy and viewing-angle reference; it is not a composition to reproduce. Generate ONLY a longer bare wrist and short lower-forearm connector, without a hand or fingers, without sleeve or cuff. This is a normal intact character rig segment, not an injury; both clean rounded ends will be concealed under overlapping artwork. It must seamlessly extend the reference's wrist toward the lower left. A single gently tapered, anatomically natural masculine lower forearm, seen from the same three-quarter angle as the reference, running diagonally from lower left toward upper right (axis about 50 degrees above horizontal). The upper-right end is the narrow wrist, the lower-left end is slightly wider forearm. Warm aged ivory skin, extremely fine dark etched crosshatching and engraved contour lines matching the reference, with light from upper left and restrained shadow on lower right. Preserve the reference's mature slender anatomy; no veins exaggerated, no muscles exaggerated, no plastic shading, no shine, no jewelry, no clothing, no blood, no text, no props. Long enough to give an animator substantial concealed overlap at both ends: length about 2.2 times its average width. Center it with generous 15 percent clear padding. Use true alpha transparency with clean edges, no black or white matte, no background, no ground shadow. High-resolution production-ready cutout, one part only.",
+  "native": [1216,1293],
+  "alpha": true,
+  "HiggsfieldCredits": 0,
+  "newVideo": false
+}

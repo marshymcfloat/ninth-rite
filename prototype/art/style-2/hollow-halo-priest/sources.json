@@ -1,0 +1,47 @@
+{
+  "generator": "Built-in ImageGen",
+  "sources": {
+    "priest-neutral-source.png": "Create a production quality full-body transparent character cutout for a Gothic cathedral slot game, its new priest mascot. This is a distinct character design called the Hollow Halo priest. Portrait ratio around 5:8, entire head and both feet visible with a tight but uncut border. A severe tall cathedral officiant, planted stance, turned in a three-quarter view and looking to the LEFT of the image. His face is hidden in the shadow of a structured black pointed hood, beneath which a beautiful antiqued SILVER ecclesiastical half mask covers brow, eyes and nose, with a restrained burgundy mark at its forehead. He wears an asymmetric black wool and embossed leather mantle with a high silver-embroidered collar, a slim double ivory stole engraved with tiny archaic geometric marks, riveted ornamental silver cuffs, layered dark robes, and muted wine-red lining on the RIGHT edge of his cape. One empty hand on the LEFT side of the image is relaxed at chest height, visibly detached from the torso, palm shallowly angled upward to support a floating liturgical object to be composited later. The other hand rests naturally low against his sash, partially concealed in its heavy sleeve. Clear separation of the palm and the hood silhouette, dramatic blocky shapes that remain readable at small game scale, a slight lean of the attention toward the left, and both shoes firmly on the same baseline. Fine tactile engraved intaglio strokes and sharp black and ivory contrast with deep crimson accents, stylish adult dark fantasy, like antique etching brought to life, beautifully rendered real cloth and metal. Neutral cool ivory rim light, dark environmental bounce, clear separations between costume shapes. No weapon, no staff, no chalice, no orb, no scenery, no props, no lettering, no caption, no ground cast shadow, no background colors. Export the entire figure with clean real transparency.",
+    "priest-bow-source.png": "Edit the supplied full-body transparent game sprite into one registered animation key pose. Use the supplied image as the edit target and copy the same pose outside the requested edit region, with exactly the same camera, scale, lighting, position, framing, fixed feet, robe hem and original clean alpha. Preserve this precise pointed black hood, ornate antiqued silver half mask and burgundy mark, silver mantle ornaments and collar, slim engraved ivory double stole, oxblood sash, sleeve ornament and fabric engraving. Make the character recognizable as the exact same figure. Keep all existing artwork unchanged away from the localized edits. No scenery, text, props, magic effects or floor. Full figure visible with both shoes included on the original baseline. Change ONLY the head and hood: he makes a slow, solemn bow toward his open palm on the left of the picture. Tip his mask and hood down and slightly forward, approximately 13 degrees. Keep the enlarged pointed hood the same recognizable piece of cloth with the tip carried by the movement, and attach at the same collar. Copy both shoulders, mantle, torso and both hands in their exact original positions. A modest, clear nod with an unbroken neckline, at the crest of the motion.",
+    "priest-raise-source.png": "Edit the supplied full-body transparent game sprite into one registered animation key pose. Use the supplied image as the edit target and copy the same pose outside the requested edit region, with exactly the same camera, scale, lighting, position, framing, fixed feet, robe hem and original clean alpha. Preserve this precise pointed black hood, ornate antiqued silver half mask and burgundy mark, silver mantle ornaments and collar, slim engraved ivory double stole, oxblood sash, sleeve ornament and fabric engraving. Make the character recognizable as the exact same figure. Keep all existing artwork unchanged away from the localized edits. No scenery, text, props, magic effects or floor. Full figure visible with both shoes included on the original baseline. Change ONLY the LEFT-SIDE raised forearm and fingers (the viewer's left). Bend that elbow so the empty palm rises a full hand-height from its current position and draws slightly inward toward his mask, as if guiding a levitating reliquary upward. Palm up, natural five digits, wrist in the same ornate silver cuff, readable gesture, matching black sleeve and burgundy lining. The shoulder is fixed and the draped front of that sleeve naturally lifts with the elbow without pulling the rest of the cloak. Copy the existing head, both shoulders, chest, stance, other hand at sash, and entire lower body exactly.",
+    "reliquary-source.png": "One isolated small magical liturgical reliquary prop as a transparent game sprite, centered and fully visible. A pointed Gothic hexagonal silver lantern or tiny cathedral shrine, aged blackened silver with clean, dramatic engraved tracery and a large richly saturated garnet-red faceted crystal visible through the center. A compact crown with a ring at its top and a short tapered pendant at its base. View slightly three-quarter from the front at eye level, symmetric readable silhouette and bold filigree that remains legible small. Gothic intaglio engraving and antique print texture, cool ivory highlights, near black engraved shadows, restrained muted gold accents, and the dark crimson inner crystal. Its dimensions are roughly twice as tall as it is wide. Clean true alpha cutout, no glow beyond the metal, no flame, no chain or long handle, no hand, no scene, floor, border or text."
+  },
+  "segments": {
+    "breathing": [
+      0,
+      4
+    ],
+    "watch": [
+      4,
+      8
+    ],
+    "orbit": [
+      8,
+      13
+    ],
+    "blood": [
+      13,
+      15.5
+    ],
+    "offering": [
+      15.5,
+      19.75
+    ],
+    "celebration": [
+      19.75,
+      23.75
+    ],
+    "confirmation": [
+      23.75,
+      26
+    ],
+    "expiry": [
+      26,
+      27.5
+    ],
+    "scatter": [
+      27.5,
+      31.5
+    ]
+  }
+}

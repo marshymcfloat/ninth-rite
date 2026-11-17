@@ -1,0 +1,21 @@
+export const MOTION_ASSETS = [
+  "/style-2/media/engraved-rig-v1/feet.webp",
+  "/style-2/media/engraved-rig-v1/robe.webp",
+  "/style-2/media/engraved-rig-v1/torso.webp",
+  "/style-2/media/engraved-rig-v1/cape.webp",
+  "/style-2/media/engraved-rig-v1/stole.webp",
+  "/style-2/media/engraved-rig-v1/neck.webp",
+  "/style-2/media/engraved-rig-v1/free-upperarm.webp",
+  "/style-2/media/engraved-rig-v1/free-forearm.webp",
+  "/style-2/media/engraved-rig-v1/holding-upperarm.webp",
+  "/style-2/media/engraved-rig-v1/holding-forearm.webp",
+  "/style-2/media/engraved-rig-v1/head.webp",
+  "/style-2/media/engraved-rig-v1/head-blink.webp",
+  "/style-2/media/engraved-rig-v1/head-attentive.webp",
+  "/style-2/media/engraved-rig-v1/free-hand.webp",
+  "/style-2/media/engraved-rig-v1/free-hand-between.webp",
+  "/style-2/media/engraved-rig-v1/free-hand-open.webp",
+  "/style-2/media/engraved-rig-v1/holding-hand-final.webp",
+  "/style-2/media/engraved-rig-v1/vessel.webp",
+  "/style-2/media/engraved-rig-v1/ruby.webp"
+];

@@ -1,0 +1,87 @@
+{
+  "tool": "built-in imagegen",
+  "higgsfieldCredits": 0,
+  "reference": "../engraved-v1/assets/priest-neutral.webp",
+  "rejected": [
+    "holding-hand",
+    "holding-hand-clean"
+  ],
+  "assets": [
+    {
+      "id": "body",
+      "prompt": "Edit the supplied approved engraved priest into ONE animation underpainting asset. Keep the exact original 3/4 pose, clothes, narrow proportions, ivory stole ornament and black engraved crosshatching, standing feet and body silhouette. REMOVE the entire head above the collar, both arms INCLUDING the projecting sleeves and hands, the silver vessel and the ruby. Seamlessly reconstruct the complete torso, continuous ivory stole and robe beneath where the arms/vessel previously hid them. The result must be a clean headless armless standing priest costume with shoes, with broad dark shoulder stubs underneath the cape to overlap separate arm sprites later. Keep the high neck black clerical collar. Do not change the costume design. Important: no face, hair, hands, forearms, ruby or vessel may remain. Full-length upright image with generous transparent padding. True alpha transparent background, no background colour and no checkerboard drawn into the art. Only this one underpainting asset, no labels, no layout of several assets.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-83ca9df8-00f3-4001-9e11-39ee47b87205.png"
+    },
+    {
+      "id": "head",
+      "prompt": "Extract ONLY the HEAD AND NECK of the approved priest in the reference into one transparent animation sprite. Faithfully preserve this exact man's face, silver swept wavy hair, downturned 3/4 gaze toward image-left, nose, proportions, engraved ivory skin and crosshatching. Include the complete head, ear, neck extending down to the clavicle and black clerical collar, no torso, robe, hands or props. Preserve the original approved character identity; no redesign or caricature. Center the isolated head with generous transparent padding; make it large enough for fine detail. Crisp real alpha edges around hair. No shadow or background, no label. This is one neutral head asset for a layered character rig.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-092d985d-afc9-42cf-922e-f5f398969b6b.png"
+    },
+    {
+      "id": "free-sleeve",
+      "prompt": "Create ONE isolated animation-part sprite matching the attached approved priest. Identical aged ivory, black copperplate engraving, fine crosshatched fabric, crimson cuff lining. Preserve the costume design. Real alpha transparent background, generous padding, no scene, no text, no body, no head, no other parts. Extract and reconstruct ONLY the arm sleeve on the LEFT SIDE OF THE IMAGE (the priest's raised free arm). Show the entire bent sleeve from rounded shoulder at upper RIGHT down to the elbow at lower middle then up to its open cuff at upper LEFT. Pose exactly as in the reference: hand would be hovering above the ruby, elbow hanging below. No hand or skin. Black broad sleeve, engraved ivory scrollwork edging on cuff with dark crimson inner lining; solid rounded shoulder overlap for rigging; complete cloth behind previously overlapping torso. Shape is a narrow bent V, not a detached rectangle. The shoulder is higher and to the right of the cuff; elbow is below both.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-327e2d16-2112-4014-947d-ca5a03e550a5.png"
+    },
+    {
+      "id": "holding-sleeve",
+      "prompt": "Create ONE isolated animation-part sprite matching the attached approved priest. Identical aged ivory, black copperplate engraving, fine crosshatched fabric, crimson cuff lining. Preserve the costume design. Real alpha transparent background, generous padding, no scene, no text, no body, no head, no other parts. Extract and reconstruct ONLY the arm sleeve on the RIGHT SIDE OF THE IMAGE, the arm supporting the silver vessel. Entire bent sleeve: rounded shoulder upper RIGHT, upper arm descending to elbow at lower RIGHT, then forearm sweeping LEFT and slightly up to the wide ornate cuff at lower LEFT. Exactly the reference pose. Black engraved vestment fabric, ivory embroidered scrolling cuff with crimson piping. No hand, no skin, no vessel. Complete hidden shoulder and cuff interior for overlapping animation joints. This is one connected sleeve with bent elbow, no other body parts.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-da76a3b4-81ce-442f-a2bb-40de338fc028.png"
+    },
+    {
+      "id": "vessel",
+      "prompt": "Create ONE isolated animation-part sprite matching the attached approved priest. Identical aged ivory, black copperplate engraving, fine crosshatched fabric, crimson cuff lining. Preserve the costume design. Real alpha transparent background, generous padding, no scene, no text, no body, no head, no other parts. Extract ONLY the small silver ritual vessel held in the reference priest's lower hand. Match its exact original geometry: angular faceted censer/chalice bowl with engraved Gothic panels, domed pyramidal hinged lid with finial, small curved foot, dark metal recesses. Upright FRONT THREE-QUARTER view as held in the original, fully reconstruct the lower edge hidden by fingers. No hand, no arm, no ruby, no chains, no detached parts. One complete silver vessel centered with transparent padding.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-99fa03cd-60f3-4d85-814f-eb50fe80c1f5.png"
+    },
+    {
+      "id": "free-hand",
+      "prompt": "ONE isolated animation-part sprite for the attached engraved priest, faithful aged ivory skin and fine black crosshatching. This is the same adult male's hand, realistic correct anatomy, EXACTLY five digits. Real alpha transparent background and generous padding. No label, scene, arm sleeve or other parts. The raised FREE HAND on the LEFT of the reference, gently pinching above the ruby. Reproduce its original pose: wrist exits lower left, palm diagonal upwards, bent index finger and thumb tips approach each other at upper right, other three fingers relaxed and curled. Include the whole wrist and a little bare forearm for overlap inside the cuff. Do not include ruby, vessel, sleeve, chain or detached fingers. Anatomically right hand seen three-quarter from the back, fingertips point diagonally right/up.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-75f265a4-4c89-4e00-bf52-bad6518f60a7.png"
+    },
+    {
+      "id": "holding-hand",
+      "prompt": "ONE isolated animation-part sprite for the attached engraved priest, faithful aged ivory skin and fine black crosshatching. This is the same adult male's hand, realistic correct anatomy, EXACTLY five digits. Real alpha transparent background and generous padding. No label, scene, arm sleeve or other parts. The LOWER SUPPORTING HAND of the reference priest, extending LEFT from a wrist on the RIGHT, palm upward gently cupped to hold a small bowl. Thumb rises behind where the bowl would be; four fingers together form a gently curved horizontal shelf toward the LEFT. Include the complete wrist with a little bare forearm on the RIGHT for overlap inside the sleeve. Do NOT draw the bowl or any object: reconstruct the complete bare cupped palm and fingers. Same oblique side view as the reference supporting hand.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-4e5dd906-2b2c-410d-a7db-7c53ec4cfef7.png"
+    },
+    {
+      "id": "ruby",
+      "prompt": "Extract ONLY the small round ruby from the approved priest reference. Single faceted deep crimson sphere with dark engraved metal rim, tiny warm ivory specular reflection, strong red interior; keep the original simple round silhouette. Small silver attachment point above and below but NO chains, hands, flame, rays, glow, text, or background. Center the one object on real alpha transparency with generous padding. Engraved religious reliquary art matching the reference.",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-520cf22b-54db-4912-a2dc-0e207f477b94.png"
+    },
+    {
+      "id": "head-blink",
+      "prompt": "Edit this exact isolated engraved priest head. Change ONLY the eyelids: gently close both eyes for a natural blink. Preserve every other feature, hair silhouette, head angle, eyebrows, facial identity, collar, scale, framing and canvas proportions exactly. Do not rotate or resize the head. Do not add expression or background. True alpha transparency, no halo, matte, cast shadow or glow.",
+      "reference": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-092d985d-afc9-42cf-922e-f5f398969b6b.png",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-97aba9c4-f49f-4945-84cd-3fb61329067f.png"
+    },
+    {
+      "id": "free-hand-open",
+      "prompt": "Create the next hand pose for this exact engraved adult male hand. Same wrist angle emerging from the LOWER LEFT, palm angled toward upper right, same aged ivory skin with fine black crosshatching. Open the hand into a graceful theatrical invitation: relaxed palm visible three-quarter, fingers slightly spread and curved toward upper right. Exactly five anatomically correct digits. Keep the wrist position and hand scale consistent, generous transparent padding. Only one hand and wrist, no arm sleeve, no other objects, no halo or shadow. Real alpha transparency with crisp contours.",
+      "reference": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-75f265a4-4c89-4e00-bf52-bad6518f60a7.png",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-07cb9d18-5c43-4143-b90d-e9b400c78626.png"
+    },
+    {
+      "id": "holding-hand-clean",
+      "prompt": "Remove ALL the diffuse white haze and shadow around this hand. Keep only the exact engraved cupped hand and wrist itself, identical shape, orientation, anatomy, skin shading and engraving, crisp antialiased contour. NO glow, NO surrounding blur, NO white or black matte. Pixels outside the hand must be fully transparent alpha, including the space above the palm and between the fingers. Preserve the visible hand entirely. One isolated hand, genuinely transparent background.",
+      "reference": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-4e5dd906-2b2c-410d-a7db-7c53ec4cfef7.png",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-77e73bec-168e-4fd2-a87c-b5facc024d2e.png"
+    },
+    {
+      "id": "holding-hand-final",
+      "prompt": "Produce a technically clean game sprite, one isolated engraved male hand. Copy the priest's hand that supports the bowl at waist height: wrist enters from RIGHT, fingers extend toward LEFT, palm gently cups upward, thumb curls upward behind the imaginary bowl. Exactly five fingers. OMIT the bowl and sleeve and the rest of the man. Include complete wrist with a squared edge on the far right which will be concealed inside a sleeve. STRICT ALPHA: outside the sharp ink silhouette every pixel is completely transparent. NO shadow, NO bloom, NO haze, NO softly fading edge, NO backdrop, NO paper rectangle. White/ivory ink must exist only INSIDE the hand. Fine etched black linework on aged ivory skin, reference-matched. Center with 12% clear alpha padding on all sides.",
+      "reference": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/assets/priest-neutral.webp",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-69f2faee-b9a9-4db3-b7b9-604c2066bbbf.png"
+    },
+    {
+      "id": "head-attentive",
+      "prompt": "Edit this exact isolated priest HEAD sprite. Keep his identical hair outline, face identity, 3/4 view looking toward image-left, neck, collar, framing and scale. Change ONLY expression and eyes: lift the eyebrows slightly and open the eyes to look intently toward image-left, suggesting a theatrical awakening. Keep mouth closed, a slight knowing expression, no exaggerated grin. Keep all proportions and the engraved ivory/charcoal rendering. Do not rotate the head or add a body. Real alpha transparency with NO glow, shadow, matte or haze.",
+      "reference": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-092d985d-afc9-42cf-922e-f5f398969b6b.png",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-3f3e287c-893a-409c-9a2a-2ef3f717c8fb.png"
+    },
+    {
+      "id": "free-hand-between",
+      "prompt": "Edit this exact isolated engraved hand sprite into a transition hand halfway between the current pinch and a relaxed open palm. Preserve wrist position at lower left, skin texture, adult male anatomy, rendering, size and framing. Index finger and thumb separate slightly, middle and ring fingers partly uncurl, pinky relaxed. Five digits total. This is one IN-BETWEEN pose for an animation; preserve the same angle, not fully palm facing camera. No other objects. Real alpha transparency with crisp dark outlines and no haze or shadow.",
+      "reference": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-75f265a4-4c89-4e00-bf52-bad6518f60a7.png",
+      "path": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a1589d-4835-7c40-8540-c4b32a463eba\\exec-226d2b41-822f-43c3-9395-424865b6dfe7.png"
+    }
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "generator": "built-in imagegen",
+  "status": "nine-generated-offline-inspected",
+  "assets": [
+    {
+      "id": "logo-ornament",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/frame.png",
+          "role": "Engraving and architectural line treatment reference"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Silver/ivory and oxblood material reference"
+        }
+      ],
+      "prompt": "Create one transparent ornamental logo crest, square canvas. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. A compact original Gothic ecclesiastical silver medallion with nine restrained radial points, small curled acanthus brackets left and right, and a subtle central oxblood ruby. The ornament must be wider than tall, with a strong silhouette that reads at 100 pixels. No letters, no IX, no title, no banner wording; the game name is typeset below it separately. Avoid crowns or faces that could confuse this with a paying symbol. No background scene.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/logo-ornament.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-99aedf33-7e96-4d43-9b6c-95f6f03a7b94.png",
+      "attempts": 1,
+      "qa": {
+        "id": "logo-ornament",
+        "nativeSize": [
+          1609,
+          977
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          0,
+          7,
+          1608,
+          971
+        ],
+        "centerAlpha": 252,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 59.44,
+        "nearOpaquePercent": 38.2,
+        "notes": "Engraved silver/ivory decorative identity, no text. Left/right extrema need export padding; real alpha."
+      }
+    },
+    {
+      "id": "altar-surround",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/frame.png",
+          "role": "Exact engraved architectural linework and straight rail profiles"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Ivory/silver etching and oxblood accent rendering"
+        }
+      ],
+      "prompt": "Create one horizontal engraved Gothic progression-rail SURROUND for The Ninth Rite, isolated on genuine transparent alpha. Wide landscape composition, around 3:1 canvas, with the border itself long and low. Exact visual family of the supplied carved reel frame and etched chalice: aged ivory and silver, crisp black ink outlines, fine crosshatching, deep charcoal carved recesses, upper-left cool light. Two compact ornamental endcaps connect straight parallel upper and lower rails. Keep the middle 80% of the rail length clean, repeatable and restrained, and the full long interior opening entirely transparent for LIVE multiplier labels and a five-part Blood track. No central arch, no large medallion, no building facade, no tall towers; tiny finials only at the far endcaps. No labels, letters, numbers, progress segments, pips, dividers, tick marks, +1, spin symbols or rewards baked into the art. No gradients filling the opening. Only a few tiny muted oxblood inset accents at the two endcaps. Entire border visible with generous transparent padding. No scenery, floor, cast shadow, white/black matte, checkerboard or gold chrome. The rails will later be sliced and repeated; avoid irregular artwork crossing the quiet middle.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/altar-surround.png",
+      "status": "candidate-offline-inspected",
+      "note": "User approved ladder artwork; rules deferred. Horizontal rail replaces arched altar surround. No free-spin reward graphic.",
+      "previousPrompt": "Restyle and simplify the supplied wide altar arch into a matching engraved frame header, landscape canvas approximately 3:1. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. Keep a wide low Gothic arch, straight lower rail, compact side buttresses and tiny pointed finials; it must join naturally to the supplied reel-frame rails. Keep the middle 65% of width and central 60% of height completely open alpha for the live multiplier and five Blood insets. NO symbols, gemstones, numbers or text inside that large central opening. One tiny oxblood accent at the top crest only. Thin but strong architectural outline, side structures remain compact; avoid a massive cathedral facade. Do not include the reel frame or grid itself. No rectangular opaque backplate.",
+      "revision": 2,
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-c6eeadc8-b95b-4aba-9038-e69e123fde98.png",
+      "attempts": 1,
+      "qa": {
+        "id": "altar-surround",
+        "nativeSize": [
+          2172,
+          724
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          8,
+          137,
+          2165,
+          569
+        ],
+        "centerAlpha": 0,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 80.71,
+        "nearOpaquePercent": 16.83,
+        "notes": "User-approved horizontal progression rail with quiet repeatable middle. True alpha center, no baked ladder values or Blood counts. Source slice guide can use x approximately370..1800 as quiet rail region; packaging must measure exact joins."
+      }
+    },
+    {
+      "id": "offering-mark",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/public/style-2/media/offering-seal-v2.webp",
+          "role": "Offering mark identity: quatrefoil seal and crimson drop"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Approved engraving treatment and ruby color"
+        }
+      ],
+      "prompt": "Restyle the supplied quatrefoil Offering seal as a clean small-scale engraved game badge, square canvas. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. Keep the recognizable silver four-point seal with a single large oxblood teardrop center; simplify tiny beads and curls into broad carved borders. Central red drop occupies about half the object so it remains legible at 24–36 pixels. Thick etched edge, angular red facets with black hatch lines rather than a glossy white specular highlight. This will mark the upper corner of a symbol, so the seal should be compact and self-contained. No hanging ribbons, text, aura, surrounding rays or rectangular plaque.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/offering-mark.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-117f41d1-7140-4fb2-a24d-484ae2be68ce.png",
+      "attempts": 1,
+      "qa": {
+        "id": "offering-mark",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          56,
+          39,
+          1195,
+          1189
+        ],
+        "centerAlpha": 253,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 57.79,
+        "nearOpaquePercent": 41.4,
+        "notes": "Broad carved quatrefoil seal and crimson drop read as a ritual mark. Real alpha."
+      }
+    },
+    {
+      "id": "blood-empty",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/frame.png",
+          "role": "Engraved silver trim reference"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Etched rendering reference"
+        }
+      ],
+      "prompt": "Create the EMPTY version of one small Blood progress inset, square canvas. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. One upright simple teardrop-shaped carved silver setting surrounding a dark charcoal recessed glass center. Bold silver rim, only a few etched lines and two small lower facets. The interior is unmistakably empty/inactive: dark gray, NO red. Broad recognizable silhouette for a 16–24-pixel display. Fill most of the canvas with the compact drop while retaining 12% alpha padding. Strictly frontal, symmetric, no pedestal, no wings, no spikes, no text. This exact geometry will later be reused for its filled version.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/blood-empty.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-cb85519c-124c-4773-a908-6dba71c748a1.png",
+      "attempts": 1,
+      "qa": {
+        "id": "blood-empty",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          198,
+          56,
+          1057,
+          1201
+        ],
+        "centerAlpha": 253,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 59.91,
+        "nearOpaquePercent": 39.46,
+        "notes": "Dark faceted inset within an etched drop rim; paired with the filled ruby state. Not a new reward mechanic."
+      }
+    },
+    {
+      "id": "blood-filled",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/blood-empty.png",
+          "role": "Exact edit target; preserve geometry, scale, framing and alpha"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Oxblood color and engraving reference only"
+        }
+      ],
+      "prompt": "Edit only the central recessed interior of the supplied EMPTY Blood inset into its FILLED state. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. Preserve the source canvas, alpha edge, silver outline, framing, location, outer dimensions and every carved border exactly. Replace only the charcoal center with rich oxblood/crimson glass and a restrained ivory etched facet near the upper left, with dark hatching across the red. The full red interior must read immediately at 16–24 pixels. No external glow, rays, splashes, extra objects, changes to the silver geometry or added text.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/blood-filled.png",
+      "status": "candidate-offline-inspected",
+      "failedAttempts": [
+        {
+          "attempt": 1,
+          "reason": "image generation failed: connection failed: error sending request",
+          "output": null
+        }
+      ],
+      "attempts": 2,
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-53afe143-2b1a-453a-9bf4-d132b9145ff1.png",
+      "qa": {
+        "id": "blood-filled",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          198,
+          56,
+          1058,
+          1202
+        ],
+        "centerAlpha": 253,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 59.76,
+        "nearOpaquePercent": 39.63,
+        "notes": "Filled ruby state matches empty source dimensions and silhouette to alpha128 IoU0.9957. Not pixel-identical; do not claim exact outline equality."
+      }
+    },
+    {
+      "id": "offering-empty",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/public/style-2/media/offering-vessel-v2.webp",
+          "role": "Offering vessel identity and silhouette only; replace glossy finish"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rite-greater.png",
+          "role": "Approved Gothic architecture and ivory/silver engraving reference"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Etched material reference"
+        }
+      ],
+      "prompt": "Create an EMPTY Offering vessel in the same identity family as the supplied ornate vessel, upright portrait canvas approximately 3:4. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. A compact Gothic reliquary with two slender side columns, a pointed central finial and a broad oval glass vessel in the middle on a low stepped base. Simplify the fussy filigree into broad readable carved forms, matching the new engraved sanctuary. The oval chamber occupies roughly half the object width and remains dark charcoal and visibly EMPTY, with subtle pale etched glass lines and no ruby/red contents. Outer frame ivory and silver only, not gold. Strong silhouette at 50×75 pixels. Preserve large negative-space openings around the chamber. No scenery, glow, particles, text or floating jewels. This exact centered geometry will be the base for a filled state.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/offering-empty.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-156977d2-15d4-489a-b2bc-951452bf0422.png",
+      "attempts": 1,
+      "qa": {
+        "id": "offering-empty",
+        "nativeSize": [
+          1086,
+          1448
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          128,
+          12,
+          959,
+          1426
+        ],
+        "centerAlpha": 110,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 50.37,
+        "nearOpaquePercent": 38.48,
+        "notes": "Gothic vessel with a broad empty charcoal chamber; center alpha110 is intentional. Empty/filled outer trim varies slightly."
+      }
+    },
+    {
+      "id": "offering-filled",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/offering-empty.png",
+          "role": "Exact edit target; preserve silhouette/camera/framing/alpha"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+          "role": "Crimson and etched glass treatment reference"
+        }
+      ],
+      "prompt": "Edit the supplied EMPTY Offering vessel into its FILLED state. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. Preserve the exact canvas, outer silhouette, side columns, finial, stepped base, ornament placement, transparent openings and camera framing. Change ONLY the broad oval central glass chamber: fill it with deep crimson ritual energy that looks like engraved blood-red glass with black hatch lines, a bright red center, and one restrained ivory etched highlight. Clearly filled at 50×75 pixels, no bright external halo. The silver outer frame must remain identical to the empty version. Do not add particles, symbols, lettering, background, extra ornaments or a floor.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/offering-filled.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-46558463-e399-4c9d-8891-f55a11b166ee.png",
+      "attempts": 1,
+      "qa": {
+        "id": "offering-filled",
+        "nativeSize": [
+          1086,
+          1448
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          121,
+          12,
+          965,
+          1442
+        ],
+        "centerAlpha": 253,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 49.03,
+        "nearOpaquePercent": 47.77,
+        "notes": "Broad crimson chamber is visibly distinct from empty. Base extends16px lower and bounds13px wider than empty; needs optical registration before animation."
+      }
+    },
+    {
+      "id": "rose-halo",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/frame.png",
+          "role": "Exact architectural engraving style"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rite-greater.png",
+          "role": "Rose-window tracery and restrained crimson material family"
+        }
+      ],
+      "prompt": "Create one transparent circular Gothic rose-window halo for the Ninth Rite intervention display, square canvas. An original Ninth Rite game asset in the exact visual family of the supplied engraved frame and chalice: hand-etched black contours, disciplined crosshatching, aged ivory highlights and carved silver, deep charcoal recesses. Broad readable silhouette and restrained detail, no smooth CGI chrome, plastic gloss, airbrushed gold, watercolor, cartoon simplification, baked illumination backdrop, writing or numbers. Upper-left cool ivory illumination. Genuine alpha transparency outside the object and through every open cutout; no white/black matte, checkerboard or ground shadow. Entire object visible, centered with 10% transparent padding. A carved silver and aged-ivory ring with nine petal-like stained-glass lobes arranged symmetrically. Thin oxblood glass accents in the outer lobes; keep the inner 45% of the circle fully open alpha so live pending/confirmed multiplier text can be typeset there. Slight engraved acanthus at the outer circumference, black hatch shadows, broad distinguishable geometry. No center face, no priest, no letters, no numerals, no solid disk, no rays and no scene. No gold coloring in this neutral pending-state halo.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rose-halo.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-9d931d40-921f-45ab-b9d9-9051d0186983.png",
+      "attempts": 1,
+      "qa": {
+        "id": "rose-halo",
+        "nativeSize": [
+          1254,
+          1254
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "visibleBoundsAlpha16": [
+          27,
+          5,
+          1227,
+          1241
+        ],
+        "centerAlpha": 0,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "transparentPercent": 56.34,
+        "nearOpaquePercent": 39.88,
+        "notes": "Etched rose-window ring with open alpha center and oxblood panels. Actual ornament has eight large lobes, no mechanical counts implied."
+      }
+    },
+    {
+      "id": "ray-texture",
+      "references": [
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/environment-base.png",
+          "role": "Lighting direction and subdued chapel atmosphere only"
+        },
+        {
+          "path": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rite-greater.png",
+          "role": "Ivory/crimson palette reference only"
+        }
+      ],
+      "prompt": "Create a standalone TRANSPARENT light-ray texture for a Gothic engraved game, portrait canvas approximately 2:3. Seven narrow ivory chapel light shafts descend from a small convergence point near the top center, fan gently outward and taper into faint drifting etched dust near the bottom. Almost all pixels outside the shafts should be fully transparent; shafts themselves have soft partial alpha, fine engraved striations and sparse ivory grain. Very faint crimson flecks near the lower middle only. The rays must be restrained enough to layer behind a priest without washing him out. No window, frame, architecture, halo disk, priest, object, words, numbers, white/black canvas or opaque vignette. Do not paint a scene or a rectangular gradient. Genuine alpha texture; no baked matte.",
+      "transparent_background": true,
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/ray-texture.png",
+      "status": "candidate-offline-inspected",
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18ad3-4059-7b11-9602-d1b3a14dfc3a\\exec-43f7ebfc-328b-4c19-ba73-0cde49436f96.png",
+      "attempts": 1,
+      "qa": {
+        "id": "ray-texture",
+        "nativeSize": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          253
+        ],
+        "visibleBoundsAlpha16": [
+          36,
+          5,
+          989,
+          1526
+        ],
+        "centerAlpha": 250,
+        "cornerAlpha": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "transparentPercent": 27.07,
+        "nearOpaquePercent": 11.36,
+        "notes": "Real alpha feathered ray texture. Dense center alpha250; warm ivory hue and haze require restrained compositing/opacity. No camera/character/counters baked."
+      }
+    }
+  ],
+  "reviewBoundary": "Original still candidates inspected individually. Native alpha metadata checked; in-browser scene review is pending. No game or rule integration."
+}

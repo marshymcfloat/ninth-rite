@@ -1,0 +1,9 @@
+{
+  "folders": [
+    { "name": "Marshy Slots", "path": "." }
+  ],
+  "settings": {
+    "files.exclude": { "**/.venv": true, "**/node_modules": true },
+    "search.exclude": { "**/library": true, "**/work": true, "**/.svelte-kit": true }
+  }
+}

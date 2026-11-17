@@ -1,0 +1,12 @@
+work/
+release/
+*.log
+.playwright-cli/
+node_modules/
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+.svelte-kit/
+.turbo/

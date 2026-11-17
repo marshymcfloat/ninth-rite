@@ -1,0 +1,61 @@
+{
+  "fonts": [
+    {
+      "file": "Cinzel-Variable.ttf",
+      "bytes": 125468,
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34",
+      "internalNames": {
+        "1": "Cinzel",
+        "2": "Regular"
+      },
+      "requiredGlyphs": "0123456789.,×+-−$€£¥₱%",
+      "missingGlyphs": [
+        "₱"
+      ],
+      "variableAxes": [
+        {
+          "tag": "wght",
+          "minimum": 400.0,
+          "default": 400.0,
+          "maximum": 900.0
+        }
+      ]
+    },
+    {
+      "file": "CinzelDecorative-Bold.ttf",
+      "bytes": 62300,
+      "sha256": "e854e68a388aa50d742a4415c1ae5c17a617ef7956c95a70021d0a4a44f20518",
+      "internalNames": {
+        "1": "Cinzel Decorative",
+        "2": "Bold"
+      },
+      "requiredGlyphs": "0123456789.,×+-−$€£¥₱%",
+      "missingGlyphs": [
+        "₱"
+      ]
+    },
+    {
+      "file": "SourceSans3-Variable.ttf",
+      "bytes": 646340,
+      "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+      "internalNames": {
+        "1": "Source Sans 3 ExtraLight",
+        "2": "Regular",
+        "16": "Source Sans 3",
+        "17": "ExtraLight"
+      },
+      "requiredGlyphs": "0123456789.,×+-−$€£¥₱%",
+      "missingGlyphs": [],
+      "variableAxes": [
+        {
+          "tag": "wght",
+          "minimum": 200.0,
+          "default": 200.0,
+          "maximum": 900.0
+        }
+      ]
+    }
+  ],
+  "totalFontBytes": 834108,
+  "validation": "SFNT internal name, exact cmap glyph indexes and variable axes verified; no font data altered."
+}

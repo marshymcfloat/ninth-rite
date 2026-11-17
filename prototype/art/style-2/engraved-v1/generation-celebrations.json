@@ -1,0 +1,242 @@
+{
+  "generator": "built-in imagegen",
+  "status": "five-celebration-sources-complete-offline-reviewed",
+  "higgsfieldSpend": 0,
+  "records": [
+    {
+      "id": "win-big",
+      "alpha": true,
+      "prompt": "Use case: transparent original engraved slot-game celebration artwork for The Ninth Rite. Produce exactly ONE wide landscape 3:2 standalone emblem, with true alpha transparency behind the silhouette and through all internal openings. Match the referenced copperplate artwork: aged ivory and silver, deliberate black etched contours, visible crosshatching, carved relief, deep oxblood/crimson accents. No glossy chrome, plastic 3D, photorealism, soft-painted fog or cartoon drawing. The physical ornament and ritual energy should have a confident readable silhouette at desktop scale. No background room, ground plane, drop-shadow rectangle or colored matte. Keep all artwork inside the canvas with at least 6 percent generous transparent padding. No words, letters, rank symbols, prices, values, digits, titles, buttons or watermark. Titles and return amounts will be live game text, separate from this artwork. BIG-tier concept: the overflowing chalice. One large chalice matching Image 1 sits at the upper center on a shallow carved silver crescent pedestal. Two thin symmetrical streams of crimson ritual liquid overflow its rim and curl out to the left and right into elegant engraved scrolls. Small carved Gothic leaf flourishes support the side contours; use modest ornamentation, so this remains the first tier of a much stronger family. The cup is the sole central symbol; do not add faces, crown, skulls or a halo. Composition is an open inverted U: cup and pedestal in the upper half, curved scrolls framing the sides, with a completely CLEAR transparent amount area occupying the lower center (middle 60 percent width, from 65 to 91 percent canvas height). The crimson streams must stay around the sides of that clear area, not cross it. The bottom center must have no plaque or banner fill. Silvery ivory only, no gold at this tier.",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rite-greater.png"
+      ],
+      "referenceRoles": [
+        "exact chalice identity and engraving",
+        "Gothic architectural ornament finish"
+      ],
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-c4b146e7-ae2b-4ea4-b400-421880750190.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-big.png",
+      "status": "generated-and-visually-reviewed-offline",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "amountSafeRect": [
+        340,
+        655,
+        856,
+        236
+      ],
+      "amountSafeRectNormalized": [
+        0.2214,
+        0.6396,
+        0.5573,
+        0.2305
+      ],
+      "solidAlphaBounds": [
+        12,
+        14,
+        1524,
+        1010
+      ],
+      "reviewNotes": "Inspected individually and in qa/celebrations-alpha-amount-ci.jpg over black, gray and chapel backgrounds with separately typeset 50,000.00. True alpha confirmed; no rectangular matte. Source artwork has no baked text."
+    },
+    {
+      "id": "win-mega",
+      "alpha": true,
+      "prompt": "Use case: transparent original engraved slot-game celebration artwork for The Ninth Rite. Produce exactly ONE wide landscape 3:2 standalone emblem, with true alpha transparency behind the silhouette and through all internal openings. Match the referenced copperplate artwork: aged ivory and silver, deliberate black etched contours, visible crosshatching, carved relief, deep oxblood/crimson accents. No glossy chrome, plastic 3D, photorealism, soft-painted fog or cartoon drawing. The physical ornament and ritual energy should have a confident readable silhouette at desktop scale. No background room, ground plane, drop-shadow rectangle or colored matte. Keep all artwork inside the canvas with at least 6 percent generous transparent padding. No words, letters, rank symbols, prices, values, digits, titles, buttons or watermark. Titles and return amounts will be live game text, separate from this artwork. MEGA-tier concept: the crimson tide. Escalate beyond the smaller chalice emblem in Image 1 with a broad, dramatic double crest of crimson ritual liquid rising symmetrically from two low silver basins at the lower side corners, sweeping UP and OUT then curling inward across the upper center. This liquid is an elegant copperplate engraving of wine-like ritual energy, with bold carved red forms and black etched shading, not gore, slime or realistic splashes. The two wave crests support a single faceted crimson teardrop at the upper center, set in a small carved silver sun. Fine Gothic tracery binds the outer sides of the waves, richer than Big but still no gold. Do NOT place a giant chalice in the center; the tidal arch and large ruby drop distinguish this tier. Compose the wave and silver architecture as an open inverted U with clear alpha inside, keeping a broad absolutely empty amount window across the middle 58 percent width from 60 to 89 percent height. No energy thread crosses that window. Keep the lower center transparent, no banner or plaque. All wave shapes and basins fit fully inside the padded canvas.",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-big.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-chalice.png"
+      ],
+      "referenceRoles": [
+        "engraving family and open amount-area framing",
+        "silver ritual metal and ruby palette"
+      ],
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-da68d332-847a-41e6-bd56-ce559c9d5bd2.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-mega.png",
+      "status": "generated-and-visually-reviewed-offline",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "amountSafeRect": [
+        440,
+        492,
+        657,
+        215
+      ],
+      "amountSafeRectNormalized": [
+        0.2865,
+        0.4805,
+        0.4277,
+        0.21
+      ],
+      "solidAlphaBounds": [
+        12,
+        16,
+        1525,
+        1008
+      ],
+      "reviewNotes": "Inspected individually and in qa/celebrations-alpha-amount-ci.jpg over black, gray and chapel backgrounds with separately typeset 50,000.00. True alpha confirmed; no rectangular matte. Source artwork has no baked text."
+    },
+    {
+      "id": "win-epic",
+      "alpha": true,
+      "prompt": "Use case: transparent original engraved slot-game celebration artwork for The Ninth Rite. Produce exactly ONE wide landscape 3:2 standalone emblem, with true alpha transparency behind the silhouette and through all internal openings. Match the referenced copperplate artwork: aged ivory and silver, deliberate black etched contours, visible crosshatching, carved relief, deep oxblood/crimson accents. No glossy chrome, plastic 3D, photorealism, soft-painted fog or cartoon drawing. The physical ornament and ritual energy should have a confident readable silhouette at desktop scale. No background room, ground plane, drop-shadow rectangle or colored matte. Keep all artwork inside the canvas with at least 6 percent generous transparent padding. No words, letters, rank symbols, prices, values, digits, titles, buttons or watermark. Titles and return amounts will be live game text, separate from this artwork. EPIC-tier concept: the crowned halo. A large OPEN rose-window halo closely related to Image 2, built of boldly readable silver Gothic tracery and deep crimson glass, dominates the central composition. Mount the exact horned crown identity of Image 1 over its top at a dignified larger scale, with both ivory horns completely inside the canvas. The crown sits like the crest of a triumphal architectural emblem. Add broad symmetrical carved leaf/feather-like side flourishes for a wide landscape silhouette. Ivory and silver remain dominant; introduce only thin restrained old-gold edge accents at crown jewel settings and a few halo seams. No faces, cups, blood tide or new animals. Keep the full halo circular and structurally coherent, not stretched. Its center must be a very large completely transparent window for live win text, no picture or glow filling it, minimum middle 40 percent canvas width and 30 percent canvas height. Opening centered around x50%, y61%; crown stays above the window, ornaments remain around its perimeter. The center must be wider and quieter than the source halo to support a long amount. All interior tracery holes genuine alpha; no soft backdrop or atmospheric vignette.",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-crown.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rose-halo.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-big.png"
+      ],
+      "referenceRoles": [
+        "exact horned crown identity",
+        "engraved open rose-window construction",
+        "celebration finish and live-amount negative space"
+      ],
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-02b74b5f-dc7c-4c64-bda6-8d0efc06928e.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-epic.png",
+      "status": "generated-and-visually-reviewed-offline",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "amountSafeRect": [
+        541,
+        532,
+        453,
+        216
+      ],
+      "amountSafeRectNormalized": [
+        0.3522,
+        0.5195,
+        0.2949,
+        0.2109
+      ],
+      "solidAlphaBounds": [
+        4,
+        7,
+        1531,
+        1018
+      ],
+      "reviewNotes": "Inspected individually and in qa/celebrations-alpha-amount-ci.jpg over black, gray and chapel backgrounds with separately typeset 50,000.00. True alpha confirmed; no rectangular matte. Source artwork has no baked text."
+    },
+    {
+      "id": "win-divine",
+      "alpha": true,
+      "prompt": "Use case: transparent original engraved slot-game celebration artwork for The Ninth Rite. Produce exactly ONE wide landscape 3:2 standalone emblem, with true alpha transparency behind the silhouette and through all internal openings. Match the referenced copperplate artwork: aged ivory and silver, deliberate black etched contours, visible crosshatching, carved relief, deep oxblood/crimson accents. No glossy chrome, plastic 3D, photorealism, soft-painted fog or cartoon drawing. The physical ornament and ritual energy should have a confident readable silhouette at desktop scale. No background room, ground plane, drop-shadow rectangle or colored matte. Keep all artwork inside the canvas with at least 6 percent generous transparent padding. No words, letters, rank symbols, prices, values, digits, titles, buttons or watermark. Titles and return amounts will be live game text, separate from this artwork. DIVINE-tier concept: the patron revelation, the grandest ordinary win celebration. Preserve the exact closed-eyed youthful ivory-carved patron face, wavy hair, black hood, horned crown, crimson circular halo and ruby pendant from Image 1. Show this patron bust prominently at UPPER CENTER, with the face unobstructed and both horns completely within the image. Surround it with a much wider fan of carved silver chapel rays and restrained old-gold ray tips, and two imposing open-work Gothic wings of miniature pointed arches, crimson glass and silver pinnacles extending to the left and right. This is sacred architectural heraldry, not feather wings and not a room background. Increase visual stature beyond Image 2 through a stronger radiant silhouette and imposing bilateral structure, while preserving the same engraving finish. Let the outer architecture curve downward at the extreme sides only. Preserve an absolutely clear transparent lower-center amount window across the middle 58 percent width, y65–90 percent; face and pendant stop above it. No face, rays, cloth tails or ornament crosses the amount area. No cups, banners, closed plaque, priest, invented human figures, open-mouth scream, gold flood or soft bloom. The Divine emblem must feel revealed and expansive, distinct from a sealed ending.",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/symbol-scatter.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-epic.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rite-greater.png"
+      ],
+      "referenceRoles": [
+        "exact patron identity",
+        "celebration silhouette and restrained gold finish",
+        "Gothic revelation architecture"
+      ],
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-e360a2f8-75d8-4c98-b7d3-576c82e1d815.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-divine.png",
+      "status": "generated-and-visually-reviewed-offline",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "amountSafeRect": [
+        433,
+        748,
+        669,
+        163
+      ],
+      "amountSafeRectNormalized": [
+        0.2819,
+        0.7305,
+        0.4355,
+        0.1592
+      ],
+      "solidAlphaBounds": [
+        8,
+        5,
+        1528,
+        1009
+      ],
+      "reviewNotes": "Inspected individually and in qa/celebrations-alpha-amount-ci.jpg over black, gray and chapel backgrounds with separately typeset 50,000.00. True alpha confirmed; no rectangular matte. Source artwork has no baked text."
+    },
+    {
+      "id": "win-cap",
+      "alpha": true,
+      "prompt": "Use case: transparent original engraved slot-game celebration artwork for The Ninth Rite. Produce exactly ONE wide landscape 3:2 standalone emblem, with true alpha transparency behind the silhouette and through all internal openings. Match the referenced copperplate artwork: aged ivory and silver, deliberate black etched contours, visible crosshatching, carved relief, deep oxblood/crimson accents. No glossy chrome, plastic 3D, photorealism, soft-painted fog or cartoon drawing. The physical ornament and ritual energy should have a confident readable silhouette at desktop scale. No background room, ground plane, drop-shadow rectangle or colored matte. Keep all artwork inside the canvas with at least 6 percent generous transparent padding. No words, letters, rank symbols, prices, values, digits, titles, buttons or watermark. Titles and return amounts will be live game text, separate from this artwork. MAXIMUM-RETURN ENDING concept: a sealed, completed altar, visually distinct from the Divine patron revelation. At UPPER CENTER place a wide low ceremonial silver tabernacle-altar with a compact Gothic pointed pediment. Its two engraved front doors are firmly CLOSED, joined by one large deep crimson faceted seal in a restrained old-gold sun setting, with a thin gold band across the joined doors. The solid sealed doors are an intentional part of the object, not a background. The altar stands on a shallow engraved stone plinth and is flanked by two modest silver candles with tiny ivory flames. Use balanced stable horizontal forms and the finite closed seal to convey completion. No patron, human face, horned crown, outpouring liquid or radiating explosion. Extend restrained silver tracery from the lower outer corners of the altar into two low symmetrical side ornaments, framing a completely empty transparent lower-center amount area from x20–80%, y67–90%. No object or glow may cross that clear area. It should be stately and resolved, not louder than Divine. Old gold only in the seal and narrow door binding; the rest ivory/silver/charcoal crosshatching, no glowing yellow mass. Keep all candlestick flames, finials, plinth and leaves fully inside padded canvas.",
+      "references": [
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/rite-greater.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-epic.png",
+        "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/altar-surround.png"
+      ],
+      "referenceRoles": [
+        "architectural ritual altar identity",
+        "engraved material palette with restrained gold",
+        "quiet horizontal rail and endcap construction"
+      ],
+      "generatedPath": "C:\\Users\\LENOVO\\.codex\\generated_images\\01a18b09-383d-7452-ab0d-4ab3e1c72d1c\\exec-042911e7-9fa0-45ed-81b1-fcf7ae80bf52.png",
+      "source": "C:/Programming/marshy-slots/prototype/art/style-2/engraved-v1/sources/win-cap.png",
+      "status": "generated-and-visually-reviewed-offline",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "amountSafeRect": [
+        287,
+        829,
+        962,
+        62
+      ],
+      "amountSafeRectNormalized": [
+        0.1868,
+        0.8096,
+        0.6263,
+        0.0605
+      ],
+      "solidAlphaBounds": [
+        27,
+        10,
+        1510,
+        1012
+      ],
+      "reviewNotes": "Inspected individually and in qa/celebrations-alpha-amount-ci.jpg over black, gray and chapel backgrounds with separately typeset 50,000.00. True alpha confirmed; no rectangular matte. Source artwork has no baked text. Lower amount rail is shallow; final layout may place a larger live amount outside the artwork instead."
+    }
+  ],
+  "qaSheets": [
+    "qa/celebrations-alpha-amount-ci.jpg"
+  ],
+  "provenanceNote": "Actual literal prompts, reference arrays and output paths transcribed verbatim from the executed imagegen tool calls retained in this agent's conversation; exec store had reset before final save.",
+  "notes": [
+    "No new generation, animation or runtime integration during this provenance-save pass.",
+    "Full-resolution source originals remain unchanged.",
+    "Alpha composites were inspected; raw generated preview exposes unused RGB beneath transparency."
+  ]
+}

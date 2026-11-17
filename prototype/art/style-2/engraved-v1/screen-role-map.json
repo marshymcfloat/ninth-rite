@@ -1,0 +1,93 @@
+{
+  "version": "engraved-v1",
+  "integrationStatus": "contract only; no runtime changes",
+  "environmentByMode": {
+    "standard": "environment-base",
+    "enhancedChance": "environment-base",
+    "maximumChance": "environment-base",
+    "lesser": "environment-bonus",
+    "blood": "environment-bonus",
+    "greater": "environment-bonus",
+    "god": "environment-god"
+  },
+  "illustrationByScreen": {
+    "selector": [
+      "rite-lesser",
+      "rite-blood",
+      "rite-greater",
+      "rite-god"
+    ],
+    "entryByMode": {
+      "lesser": "rite-lesser",
+      "blood": "rite-blood",
+      "greater": "rite-greater",
+      "god": "rite-god"
+    },
+    "featureResult": "feature-result",
+    "retrigger": [
+      "symbol-scatter",
+      "logo-ornament"
+    ],
+    "introduction": [
+      "intro-blood",
+      "intro-offerings",
+      "intro-scatters"
+    ]
+  },
+  "celebrationByExistingTier": {
+    "big": "win-big",
+    "mega": "win-mega",
+    "epic": "win-epic",
+    "divine": "win-divine",
+    "maximumReturn": "win-cap"
+  },
+  "mechanicsByState": {
+    "earnedAltar": "altar-surround",
+    "marked": "offering-mark",
+    "blood": [
+      "blood-empty",
+      "blood-filled"
+    ],
+    "offering": [
+      "offering-empty",
+      "offering-filled"
+    ],
+    "intervention": [
+      "rose-halo",
+      "ray-texture"
+    ]
+  },
+  "priestByReaction": {
+    "idlePoster": "priest-neutral",
+    "invocation": "priest-invocation",
+    "bonusAwakening": "priest-bonus",
+    "benediction": "priest-benediction",
+    "expiry": "priest-expiry"
+  },
+  "unchanged": [
+    "rules",
+    "mode prices",
+    "recorded outcomes",
+    "win thresholds",
+    "audio",
+    "existing video assets"
+  ],
+  "altar": {
+    "tiers": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      120,
+      250,
+      500,
+      1000,
+      2500
+    ],
+    "bloodSegments": 5,
+    "extraSpinPerStep": "proposal only, not encoded or implemented"
+  }
+}

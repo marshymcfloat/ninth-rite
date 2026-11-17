@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17191b">
+  <meta name="description" content="The Ninth Rite, a gothic slot game with cascading symbols and bonus rites.">
+  <title>The Ninth Rite</title>
+  <link rel="stylesheet" href="/style-2/scene.css">
+  <link rel="stylesheet" href="/style-2/rite-selector.css">
+  <link rel="stylesheet" href="/style-2/revelation.css">
+  <link rel="stylesheet" href="/style-2/typography.css">
+  <link rel="stylesheet" href="/style-2/engraved.css">
+  <link rel="stylesheet" href="/style-2/motion.css">
+  <link rel="stylesheet" href="/slot-controls.css">
+  <script src="/vendor/gsap.min.js" defer></script>
+  <script type="module" src="/style-2/scene.mjs"></script>
+</head>
+<body>
+  <main class="scene" aria-label="The Ninth Rite play-credit game">
+    <div class="cathedral" aria-hidden="true">
+      <video class="cathedral-loop" data-src="/style-2/media/engraved-v1/cathedral-ambient.webm" preload="none" muted playsinline loop></video>
+    </div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="mist" aria-hidden="true"></div>
+    <header class="brand">
+      <div class="brand-ornament" aria-hidden="true"><img data-art="logo-ornament" alt=""></div>
+      <h1><span>THE</span>NINTH<span class="brand-rite">RITE</span></h1>
+      <p>A pact with the unseen</p>
+    </header>
+    <section class="altar-header" aria-label="Altar multiplier and Blood">
+      <div class="altar-summary">
+        <div class="altar-earned"><div class="altar-caption">THE ALTAR</div><div class="altar-value" id="multiplier">×1</div></div>
+        <div class="altar-blood"><div class="blood-track" id="blood" role="img" aria-label="Blood: 0 of 5 clusters"></div><div class="blood-caption"><span id="bloodNumber">0 / 5</span> BLOOD</div></div>
+      </div>
+      <div class="altar-rail">
+        <img class="altar-sculpture" data-art="altar-surround" alt="" aria-hidden="true">
+        <ol class="altar-ladder" id="altarLadder" aria-label="Earned altar multiplier progression"></ol>
+        <div class="altar-track-fx" aria-hidden="true">
+          <i class="altar-track-blood"></i><i class="altar-track-earned"></i><i class="altar-track-bead"></i>
+        </div>
+        <i class="altar-jewel altar-jewel-start" aria-hidden="true"></i><i class="altar-jewel altar-jewel-end" aria-hidden="true"></i>
+      </div>
+    </section>
+    <aside class="spin-counter" aria-label="Free spins remaining" hidden>
+      <div class="spin-counter-content">
+        <span>FREE SPINS</span>
+        <strong id="remaining">8</strong>
+      </div>
+    </aside>
+    <section class="reels" aria-label="Six columns by five rows">
+      <div class="reel-frame" aria-hidden="true"></div>
+      <div class="grid" id="grid" role="img" aria-label="Loading symbols"></div>
+      <div class="tumble-award" id="tumbleAward" hidden>THE ALTAR RISES</div>
+    </section>
+    <aside class="patron" aria-label="Priest and Offering progress">
+      <div class="patron-heading"><span>THE HOLLOW HALO</span><i></i></div>
+      <div class="patron-portrait">
+        <button class="priest mascot" id="mascot" aria-label="Play the Hollow Halo animation">
+          <img class="mascot-poster" src="/assets/style-2-hollow-halo-priest.webp" alt="The Hollow Halo priest">
+          <video class="mascot-video" data-generated-idle data-src="/style-2/media/engraved-v1/priest-idle-generated.webm?v=4" preload="none" muted playsinline loop aria-hidden="true"></video>
+          <span class="mascot-aura" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="offering-panel is-dormant">
+        <div class="offering-title">THE OFFERING VESSELS</div>
+        <div class="offering-track" id="offerings" role="img" aria-label="Offering vessels, available during bonus rites"></div>
+        <div id="offeringReadout" inert>
+          <span id="offeringNumber">0 / 3</span>
+          <small id="offeringHint"></small>
+        </div>
+      </div>
+      <div class="pending" id="pending" role="status" hidden><span>PENDING</span><strong></strong><b>Win the next tumble</b></div>
+    </aside>
+    <span class="visually-hidden" id="sceneMessage" role="status">Loading game…</span>
+    <footer class="slot-controls" id="gameControls" aria-label="Game controls" data-speed="1">
+      <button class="slot-controls__feature" id="bonusButton" disabled>
+        <span class="slot-controls__feature-mark" aria-hidden="true">IX</span>
+        <span class="slot-controls__feature-label">Choose your rite</span>
+      </button>
+      <div class="slot-controls__tools">
+        <button class="slot-controls__icon" id="settingsButton" data-slot-settings aria-label="Game settings" aria-controls="slotSettings" aria-expanded="false" title="Settings">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M8 4v4m8 2v4m-6 2v4"/></svg>
+        </button>
+        <button class="slot-controls__icon" id="helpButton" aria-label="Game info" title="Game info">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg>
+        </button>
+      </div>
+      <div class="slot-controls__totals">
+        <div class="slot-controls__metric"><span class="slot-controls__label">Play balance</span><strong class="slot-controls__value" id="balance">—</strong></div>
+        <div class="slot-controls__metric slot-controls__win"><span class="slot-controls__label">Round win</span><strong class="slot-controls__value" id="roundWin">0.00</strong></div>
+      </div>
+      <div class="slot-controls__stepper" role="group" aria-label="Wager controls">
+        <button id="betDown" aria-label="Decrease base bet" title="Decrease base bet" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg></button>
+        <div class="slot-controls__wager"><span class="slot-controls__label" id="wagerLabel">BASE BET</span><strong class="slot-controls__value" id="wagerValue">1.00</strong></div>
+        <button id="betUp" aria-label="Increase base bet" title="Increase base bet" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12m-6-6v12"/></svg></button>
+      </div>
+      <button class="slot-controls__speed" id="speedButton" data-slot-speed aria-label="Playback speed: Normal (1×)" title="Change playback speed">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 6 6 6-6 6m8-12 6 6-6 6"/></svg>
+        <span><span class="slot-controls__label">Speed</span><strong class="slot-controls__value" id="speedValue" data-slot-speed-value>1×</strong></span>
+      </button>
+      <button class="slot-controls__spin" id="previewSpin" data-slot-spin data-state="busy" aria-label="Spin" disabled>
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M25 11a10 10 0 1 0 1 9m-1-15v7h-7"/></svg>
+        <span class="slot-controls__label" data-slot-spin-label>WAIT</span>
+      </button>
+      <section class="slot-controls__settings" id="slotSettings" data-slot-panel hidden></section>
+      <div class="rite-caption"><small id="sceneNotice" role="alert" hidden></small><button id="skipPlayback" hidden>Skip to result</button></div>
+    </footer>
+    <dialog id="riteDialog" class="rite-dialog" aria-labelledby="riteSelectorTitle">
+      <button class="close-dialog" aria-label="Close bonus selection">×</button>
+      <div class="rite-selector">
+        <header class="selector-heading"><span class="eyebrow">THE NINTH RITE</span><h2 id="riteSelectorTitle">Choose your rite</h2></header>
+        <div class="rite-options" id="riteOptions" role="group" aria-label="Bonus purchases"></div>
+        <h3 class="base-row-title">Base &amp; Chance</h3><div class="base-options" id="baseOptions" role="group" aria-label="Base and Chance modes"></div>
+        <footer class="selector-wallet">
+          <div><span>PLAY BALANCE</span><strong id="selectorBalance">—</strong></div>
+          <div class="selector-wager"><button id="selectorBetDown" aria-label="Decrease base bet">−</button><div><span>BASE BET</span><strong id="selectorBet">—</strong></div><button id="selectorBetUp" aria-label="Increase base bet">+</button></div>
+        </footer>
+        <p class="selector-note">Bonus purchases start after confirmation. Chance modes apply to subsequent spins.</p>
+      </div>
+    </dialog>
+    <dialog id="confirmDialog" class="confirm-dialog" aria-labelledby="confirmTitle">
+      <button class="close-dialog" aria-label="Cancel selection">×</button>
+      <div class="confirm-illustration"><img id="confirmArt" alt=""></div>
+      <span class="eyebrow">CONFIRM YOUR RITE</span><h2 id="confirmTitle"></h2>
+      <p id="confirmDetail"></p><strong id="confirmCost"></strong><p id="confirmBalance"></p>
+      <button class="primary-action" id="confirmPurchase">Confirm and begin</button>
+    </dialog>
+    <dialog id="featureDialog" class="feature-dialog" aria-labelledby="featureTitle" aria-describedby="featureDetail">
+      <div id="featureContent">
+        <header class="feature-heading"><span class="eyebrow" id="featureEyebrow"></span><h2 id="featureTitle"></h2><span class="feature-rule" aria-hidden="true"></span></header>
+        <div class="feature-reveal">
+          <div class="feature-relic" aria-hidden="true">
+            <span class="feature-aureole"><span class="feature-glow"></span></span>
+            <img id="featureArt" class="feature-art" src="/style-2/media/engraved-v1/symbol-scatter.webp" alt="">
+            <div class="ledger-motion" id="ledgerMotion" hidden>
+              <span class="ledger-flame"></span>
+              <i class="ledger-ember"></i><i class="ledger-ember"></i><i class="ledger-ember"></i>
+              <i class="ledger-ember"></i><i class="ledger-ember"></i>
+            </div>
+          </div>
+          <div class="feature-award">
+            <span class="feature-award-caption" id="featureAwardCaption">AWARDED</span>
+            <strong id="featureValue"></strong><span id="featureUnit"></span>
+            <div id="featureAltar" class="feature-altar"><span id="featureAltarLabel">STARTING ALTAR</span><b id="featureAltarValue"></b></div>
+          </div>
+        </div>
+        <footer class="feature-actions"><p id="featureDetail"></p><button class="primary-action" id="featureContinue" autofocus>Enter the rite</button><button id="featureSkip">Skip to result</button></footer>
+      </div>
+    </dialog>
+    <dialog id="helpDialog" class="help-dialog" aria-labelledby="helpTitle">
+      <button class="close-dialog" aria-label="Close game help">×</button>
+      <span class="eyebrow">THE NINTH RITE</span><h2 id="helpTitle">The rites of the altar</h2>
+      <div class="help-features">
+        <article><div class="help-illustration"><img data-art="intro-blood" alt="Winning clusters feed the Blood altar" loading="lazy"></div><h3>Raise the altar</h3><p>Winning clusters collect Blood. Fill five insets to reach the next earned multiplier on the ladder.</p></article>
+        <article><div class="help-illustration"><img data-art="intro-offerings" alt="Three Offering vessels invoke the patron" loading="lazy"></div><h3>Invoke the patron</h3><p>Three Offerings reveal a pending multiplier. Win the next tumble, or use the last chance on the following free spin.</p></article>
+        <article><div class="help-illustration"><img data-art="intro-scatters" alt="Scatters open the sanctuary" loading="lazy"></div><h3>Enter the sanctuary</h3><p>Scatters unlock bonus rites. Three or more on an initial free-spin board award five more spins, except in God Mode.</p></article>
+      </div>
+      <p>Groups of five or more matching symbols connected by shared edges pay. Winning symbols and disconnected symbols of the same type clear. New symbols tumble into place.</p>
+      <p><span id="ruleBlood">5</span> winning clusters advance the altar. During bonuses, <span id="ruleOfferings">3</span> Offerings invoke a pending multiplier. The invoking win uses the earned multiplier. The offer confirms before the next winning tumble pays. If the next tumble loses, the offer gets one last chance on the following free spin. A losing second chance expires it, even if more spins are awarded. No extra spin is granted to resolve an offer. Expiry keeps earned progress and surplus Offerings; spent Offerings are not refunded.</p>
+      <p>Bonuses run their free spins automatically. In Lesser, Blood and Greater Rite, 3 or more Scatters on the initial board of any free spin award +5 free spins. This can happen repeatedly, including during awarded spins. Tumble refills do not retrigger. God Mode does not retrigger.</p>
+      <p id="ruleModes"></p>
+      <details class="help-math">
+        <summary>Prices, RTP and maximum wins</summary>
+        <div class="help-table-scroll" tabindex="0" role="region" aria-label="Rite prices, return and maximum wins">
+          <table class="help-table">
+            <caption id="rulePriceBasis"></caption>
+            <thead><tr><th scope="col">Rite</th><th scope="col">Cost</th><th scope="col">RTP</th><th scope="col">Max win</th></tr></thead>
+            <tbody id="rulePriceRows"></tbody>
+          </table>
+        </div>
+        <p id="ruleChance"></p>
+        <p id="ruleRtpBasis"></p>
+      </details>
+      <details class="help-math">
+        <summary>Cluster paytable</summary>
+        <div class="help-table-scroll" tabindex="0" role="region" aria-label="Cluster paytable">
+          <table class="help-table">
+            <caption>Pays in multiples of the base bet before the altar multiplier applies</caption>
+            <thead id="rulePaytableHead"></thead>
+            <tbody id="rulePaytableRows"></tbody>
+          </table>
+        </div>
+        <p>Scatters open bonuses instead of paying a cluster prize. Three Scatters open Lesser Rite, four open Blood Rite and five or more open Greater Rite.</p>
+      </details>
+      <p>Purchases require confirmation. Your selected base mode carries over to later spins. The spin counter shows spins remaining after the current spin.</p>
+      <p>Play credits have no cash value.</p>
+      <button class="primary-action" id="replayRound" disabled>Replay last round · no charge</button>
+    </dialog>
+  </main>
+</body>
+</html>

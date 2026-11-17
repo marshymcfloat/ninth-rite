@@ -1,0 +1,1076 @@
+{
+  "version": "style-2.engraved.motion.2",
+  "status": "local-play-credit-preview",
+  "rulesChanged": false,
+  "rulesVersion": "rite-v1.9",
+  "mathStatus": "Candidate calibration status is supplied by the versioned game configuration. Original catalog remains unchanged.",
+  "playbackConnected": true,
+  "direction": "Engraved Gothic chapel, charcoal architecture, aged ivory, silver relief and crimson ritual energy",
+  "typography": {
+    "display": "Cinzel",
+    "logo": "Cinzel Decorative Bold",
+    "ui": "Source Sans 3",
+    "license": "SIL Open Font License 1.1; licenses and provenance bundled in style-2/fonts",
+    "localFontBytes": 834108
+  },
+  "loadingBudget": {
+    "eagerArtBytes": 3237914,
+    "postRecoveryReactionPoseBytes": 859196,
+    "artAndFontsBytes": 4931218,
+    "selectorIllustrationBytes": 833948,
+    "secondaryScreens": "Loaded on demand; registered still poses remain the motion fallback",
+    "optionalRigBytes": 854834,
+    "rigLoading": "After essential session initialization and recovery; never blocks play"
+  },
+  "intervention": {
+    "timings": {
+      "invoke": 1.2,
+      "confirm": 0.8,
+      "expire": 0.6
+    },
+    "halo": "/style-2/media/engraved-v1/rose-halo.webp",
+    "rays": "/style-2/media/engraved-v1/ray-texture.webp"
+  },
+  "mascot": {
+    "presentation": "layered-pixi-rig",
+    "generated": {
+      "idlePoster": "/assets/style-2-hollow-halo-priest.webp",
+      "footage": {
+        "duration": 31.5,
+        "idleSegments": [[0, 4], [4, 8], [8, 13]],
+        "idleChoices": [0, 0, 0, 0, 1, 2, 2]
+      },
+      "vessel": {"idle": [0.164, 0.2175]},
+      "reactions": {
+        "altar": {
+          "segment": [13, 15.5], "durationMs": 950,
+          "poster": "/assets/style-2-hollow-halo-priest-blood.webp",
+          "vesselPath": [
+            [0, 0.164, 0.2175], [0.25, 0.1624, 0.2212], [0.5, 0.1574, 0.2329], [0.75, 0.156, 0.2362],
+            [1, 0.156, 0.2362], [1.25, 0.157, 0.2339], [1.5, 0.1596, 0.2277], [1.75, 0.1625, 0.2211],
+            [2, 0.164, 0.2175], [2.25, 0.164, 0.2175], [2.5, 0.164, 0.2175]
+          ]
+        },
+        "invocation": {
+          "segment": [15.5, 19.75], "durationMs": 1400,
+          "poster": "/assets/style-2-hollow-halo-priest-offering.webp",
+          "vesselPath": [
+            [0, 0.164, 0.2175], [0.25, 0.1731, 0.2094], [0.5, 0.224, 0.1651], [0.75, 0.273, 0.124],
+            [1, 0.2771, 0.1206], [1.25, 0.2714, 0.1225], [1.5, 0.2682, 0.1203], [1.75, 0.2691, 0.1157],
+            [2, 0.2714, 0.1149], [2.25, 0.2658, 0.126], [2.5, 0.2509, 0.1451], [2.75, 0.2287, 0.1656],
+            [3, 0.2046, 0.1839], [3.25, 0.1839, 0.1995], [3.5, 0.1699, 0.2117], [3.75, 0.1641, 0.2174],
+            [4, 0.164, 0.2175], [4.25, 0.164, 0.2175]
+          ]
+        },
+        "bonus": {
+          "segment": [27.5, 31.5], "durationMs": 1400,
+          "poster": "/assets/style-2-hollow-halo-priest-bonus.webp",
+          "vesselPath": [
+            [0, 0.164, 0.2175], [0.25, 0.123, 0.2314], [0.5, 0.1645, 0.2013], [0.75, 0.2385, 0.1426],
+            [1, 0.253, 0.1173], [1.25, 0.2369, 0.122], [1.5, 0.2323, 0.1213], [1.75, 0.2423, 0.1154],
+            [2, 0.2539, 0.1162], [2.25, 0.2519, 0.1297], [2.5, 0.2322, 0.1528], [2.75, 0.2044, 0.1776],
+            [3, 0.1814, 0.1977], [3.25, 0.1686, 0.2112], [3.5, 0.1641, 0.2174], [3.75, 0.164, 0.2175],
+            [4, 0.164, 0.2175]
+          ]
+        },
+        "celebration": {
+          "segment": [19.75, 23.75], "durationMs": 1650,
+          "poster": "/assets/style-2-hollow-halo-priest-win.webp",
+          "vesselPath": [
+            [0, 0.164, 0.2175], [0.25, 0.1851, 0.1979], [0.5, 0.261, 0.1288], [0.75, 0.293, 0.0955],
+            [1, 0.2806, 0.1], [1.25, 0.2741, 0.101], [1.5, 0.2786, 0.0976], [1.75, 0.2879, 0.0956],
+            [2, 0.2843, 0.1063], [2.25, 0.2632, 0.1279], [2.5, 0.2326, 0.1532], [2.75, 0.2043, 0.1766],
+            [3, 0.184, 0.196], [3.25, 0.1705, 0.2106], [3.5, 0.1641, 0.2174], [3.75, 0.164, 0.2175],
+            [4, 0.164, 0.2175]
+          ]
+        },
+        "benediction": {
+          "segment": [23.75, 26], "durationMs": 1000,
+          "poster": "/assets/style-2-hollow-halo-priest-offering.webp",
+          "vesselPath": [
+            [0, 0.164, 0.2175], [0.25, 0.1789, 0.2034], [0.5, 0.228, 0.157], [0.75, 0.238, 0.1475],
+            [1, 0.238, 0.1475], [1.25, 0.2238, 0.1609], [1.5, 0.1916, 0.1914], [1.75, 0.1665, 0.2152],
+            [2, 0.164, 0.2175], [2.25, 0.164, 0.2175]
+          ]
+        },
+        "expiry": {
+          "segment": [26, 27.5], "durationMs": 700,
+          "poster": "/assets/style-2-hollow-halo-priest-blood.webp",
+          "vesselPath": [
+            [0, 0.164, 0.2175], [0.25, 0.1609, 0.226], [0.5, 0.158, 0.2338], [0.75, 0.1596, 0.2294],
+            [1, 0.1634, 0.219], [1.25, 0.164, 0.2175], [1.5, 0.164, 0.2175]
+          ]
+        }
+      }
+    },
+    "rig": {
+      "enabled": true,
+      "version": "engraved-rig-v2",
+      "url": "/style-2/media/engraved-rig-v2/rig.json",
+      "sourcePack": "art/style-2/engraved-rig-v2",
+      "resolutionCap": 2,
+      "fallbackQuery": "motion=still"
+    },
+    "blendMs": 140,
+    "idlePoster": "/style-2/media/engraved-v1/priest-neutral.webp",
+    "videoEnabled": false,
+    "registration": {
+      "idle": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      },
+      "uniformScaleOnly": true,
+      "anchor": "Common head and foot anchors, same standing center for all poses"
+    },
+    "reactions": {
+      "invocation": {
+        "poster": "/style-2/media/engraved-v1/priest-invocation.webp",
+        "durationMs": 1400,
+        "registration": {
+          "poster": {
+            "canvas": [
+              1000,
+              1600
+            ],
+            "footX": 500,
+            "footY": 1520,
+            "headY": 80
+          }
+        }
+      },
+      "bonus": {
+        "poster": "/style-2/media/engraved-v1/priest-bonus.webp",
+        "durationMs": 1400,
+        "registration": {
+          "poster": {
+            "canvas": [
+              1000,
+              1600
+            ],
+            "footX": 500,
+            "footY": 1520,
+            "headY": 80
+          }
+        }
+      },
+      "benediction": {
+        "poster": "/style-2/media/engraved-v1/priest-benediction.webp",
+        "durationMs": 1000,
+        "registration": {
+          "poster": {
+            "canvas": [
+              1000,
+              1600
+            ],
+            "footX": 500,
+            "footY": 1520,
+            "headY": 80
+          }
+        }
+      },
+      "expiry": {
+        "poster": "/style-2/media/engraved-v1/priest-expiry.webp",
+        "durationMs": 700,
+        "registration": {
+          "poster": {
+            "canvas": [
+              1000,
+              1600
+            ],
+            "footX": 500,
+            "footY": 1520,
+            "headY": 80
+          }
+        }
+      }
+    }
+  },
+  "assets": {
+    "environment-base": "/style-2/media/engraved-v1/environment-base.webp",
+    "environment-bonus": "/style-2/media/engraved-v1/environment-bonus.webp",
+    "environment-god": "/style-2/media/engraved-v1/environment-god.webp",
+    "frame": "/style-2/media/engraved-v1/frame.webp",
+    "logo-ornament": "/style-2/media/engraved-v1/logo-ornament.webp",
+    "symbol-j": "/style-2/media/engraved-v1/symbol-j.webp",
+    "symbol-q": "/style-2/media/engraved-v1/symbol-q.webp",
+    "symbol-k": "/style-2/media/engraved-v1/symbol-k.webp",
+    "symbol-a": "/style-2/media/engraved-v1/symbol-a.webp",
+    "symbol-chalice": "/style-2/media/engraved-v1/symbol-chalice.webp",
+    "symbol-crown": "/style-2/media/engraved-v1/symbol-crown.webp",
+    "symbol-eye": "/style-2/media/engraved-v1/symbol-eye.webp",
+    "symbol-reliquary": "/style-2/media/engraved-v1/symbol-reliquary.webp",
+    "symbol-scatter": "/style-2/media/engraved-v1/symbol-scatter.webp",
+    "altar-surround": "/style-2/media/engraved-v1/altar-surround.webp",
+    "offering-mark": "/style-2/media/engraved-v1/offering-mark.webp",
+    "blood-empty": "/style-2/media/engraved-v1/blood-empty.webp",
+    "blood-filled": "/style-2/media/engraved-v1/blood-filled.webp",
+    "offering-empty": "/style-2/media/engraved-v1/offering-empty.webp",
+    "offering-filled": "/style-2/media/engraved-v1/offering-filled.webp",
+    "rose-halo": "/style-2/media/engraved-v1/rose-halo.webp",
+    "ray-texture": "/style-2/media/engraved-v1/ray-texture.webp",
+    "rite-lesser": "/style-2/media/engraved-v1/rite-lesser.webp",
+    "rite-blood": "/style-2/media/engraved-v1/rite-blood.webp",
+    "rite-greater": "/style-2/media/engraved-v1/rite-greater.webp",
+    "rite-god": "/style-2/media/engraved-v1/rite-god.webp",
+    "intro-blood": "/style-2/media/engraved-v1/intro-blood.webp",
+    "intro-offerings": "/style-2/media/engraved-v1/intro-offerings.webp",
+    "intro-scatters": "/style-2/media/engraved-v1/intro-scatters.webp",
+    "feature-result": "/style-2/media/engraved-v1/feature-result.webp",
+    "win-big": "/style-2/media/engraved-v1/win-big.webp",
+    "win-mega": "/style-2/media/engraved-v1/win-mega.webp",
+    "win-epic": "/style-2/media/engraved-v1/win-epic.webp",
+    "win-divine": "/style-2/media/engraved-v1/win-divine.webp",
+    "win-cap": "/style-2/media/engraved-v1/win-cap.webp",
+    "priest-neutral": "/style-2/media/engraved-v1/priest-neutral.webp",
+    "priest-invocation": "/style-2/media/engraved-v1/priest-invocation.webp",
+    "priest-bonus": "/style-2/media/engraved-v1/priest-bonus.webp",
+    "priest-benediction": "/style-2/media/engraved-v1/priest-benediction.webp",
+    "priest-expiry": "/style-2/media/engraved-v1/priest-expiry.webp"
+  },
+  "notes": "Engraved still artwork replaces Style 2 presentation assets. Recorded events, rules, prices and settlement are unchanged. Existing video files are preserved but this presentation uses matching registered still poses.",
+  "artVersion": "engraved-v1.runtime-1",
+  "screenRoles": {
+    "version": "engraved-v1",
+    "integrationStatus": "integrated into isolated Style 2 presentation",
+    "environmentByMode": {
+      "standard": "environment-base",
+      "enhancedChance": "environment-base",
+      "maximumChance": "environment-base",
+      "lesser": "environment-bonus",
+      "blood": "environment-bonus",
+      "greater": "environment-bonus",
+      "god": "environment-god"
+    },
+    "illustrationByScreen": {
+      "selector": [
+        "rite-lesser",
+        "rite-blood",
+        "rite-greater",
+        "rite-god"
+      ],
+      "entryByMode": {
+        "lesser": "rite-lesser",
+        "blood": "rite-blood",
+        "greater": "rite-greater",
+        "god": "rite-god"
+      },
+      "featureResult": "feature-result",
+      "retrigger": [
+        "symbol-scatter",
+        "logo-ornament"
+      ],
+      "introduction": [
+        "intro-blood",
+        "intro-offerings",
+        "intro-scatters"
+      ]
+    },
+    "celebrationByExistingTier": {
+      "big": "win-big",
+      "mega": "win-mega",
+      "epic": "win-epic",
+      "divine": "win-divine",
+      "maximumReturn": "win-cap"
+    },
+    "mechanicsByState": {
+      "earnedAltar": "altar-surround",
+      "marked": "offering-mark",
+      "blood": [
+        "blood-empty",
+        "blood-filled"
+      ],
+      "offering": [
+        "offering-empty",
+        "offering-filled"
+      ],
+      "intervention": [
+        "rose-halo",
+        "ray-texture"
+      ]
+    },
+    "priestByReaction": {
+      "idlePoster": "priest-neutral",
+      "invocation": "priest-invocation",
+      "bonusAwakening": "priest-bonus",
+      "benediction": "priest-benediction",
+      "expiry": "priest-expiry"
+    },
+    "unchanged": [
+      "rules",
+      "mode prices",
+      "recorded outcomes",
+      "win thresholds",
+      "audio",
+      "existing video assets"
+    ],
+    "altar": {
+      "tiers": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        120,
+        250,
+        500,
+        1000,
+        2500
+      ],
+      "bloodSegments": 5,
+      "extraSpinPerStep": "proposal only, not encoded or implemented"
+    }
+  },
+  "assetMetadata": {
+    "environment-base": {
+      "id": "environment-base",
+      "url": "/style-2/media/engraved-v1/environment-base.webp",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bytes": 541884
+    },
+    "environment-bonus": {
+      "id": "environment-bonus",
+      "url": "/style-2/media/engraved-v1/environment-bonus.webp",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bytes": 550574
+    },
+    "environment-god": {
+      "id": "environment-god",
+      "url": "/style-2/media/engraved-v1/environment-god.webp",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bytes": 559682
+    },
+    "frame": {
+      "id": "frame",
+      "url": "/style-2/media/engraved-v1/frame.webp",
+      "width": 1600,
+      "height": 1126,
+      "alpha": true,
+      "bounds": [
+        145,
+        98,
+        1455,
+        1025
+      ],
+      "bytes": 90464,
+      "aperture": {
+        "x": 194.07245,
+        "y": 223.92975,
+        "width": 1211.8551,
+        "height": 714.81888
+      }
+    },
+    "logo-ornament": {
+      "id": "logo-ornament",
+      "url": "/style-2/media/engraved-v1/logo-ornament.webp",
+      "width": 1000,
+      "height": 607,
+      "alpha": true,
+      "bounds": [
+        100,
+        63,
+        900,
+        543
+      ],
+      "bytes": 115306
+    },
+    "symbol-j": {
+      "id": "symbol-j",
+      "url": "/style-2/media/engraved-v1/symbol-j.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        117,
+        80,
+        403,
+        441
+      ],
+      "bytes": 35678
+    },
+    "symbol-q": {
+      "id": "symbol-q",
+      "url": "/style-2/media/engraved-v1/symbol-q.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        77,
+        82,
+        432,
+        441
+      ],
+      "bytes": 48352
+    },
+    "symbol-k": {
+      "id": "symbol-k",
+      "url": "/style-2/media/engraved-v1/symbol-k.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        74,
+        84,
+        438,
+        429
+      ],
+      "bytes": 49070
+    },
+    "symbol-a": {
+      "id": "symbol-a",
+      "url": "/style-2/media/engraved-v1/symbol-a.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        80,
+        77,
+        432,
+        438
+      ],
+      "bytes": 41234
+    },
+    "symbol-chalice": {
+      "id": "symbol-chalice",
+      "url": "/style-2/media/engraved-v1/symbol-chalice.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        64,
+        69,
+        447,
+        451
+      ],
+      "bytes": 66678
+    },
+    "symbol-crown": {
+      "id": "symbol-crown",
+      "url": "/style-2/media/engraved-v1/symbol-crown.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        62,
+        77,
+        450,
+        437
+      ],
+      "bytes": 65152
+    },
+    "symbol-eye": {
+      "id": "symbol-eye",
+      "url": "/style-2/media/engraved-v1/symbol-eye.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        56,
+        57,
+        456,
+        449
+      ],
+      "bytes": 52564
+    },
+    "symbol-reliquary": {
+      "id": "symbol-reliquary",
+      "url": "/style-2/media/engraved-v1/symbol-reliquary.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        88,
+        58,
+        422,
+        451
+      ],
+      "bytes": 50150
+    },
+    "symbol-scatter": {
+      "id": "symbol-scatter",
+      "url": "/style-2/media/engraved-v1/symbol-scatter.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "bounds": [
+        65,
+        55,
+        446,
+        452
+      ],
+      "bytes": 66928
+    },
+    "altar-surround": {
+      "id": "altar-surround",
+      "url": "/style-2/media/engraved-v1/altar-surround.webp",
+      "width": 1600,
+      "height": 533,
+      "alpha": true,
+      "bounds": [
+        165,
+        133,
+        1435,
+        388
+      ],
+      "bytes": 75486,
+      "labelArea": [
+        378.70718232044203,
+        238.93370165745856,
+        841.4088397790056,
+        55.30939226519337
+      ]
+    },
+    "offering-mark": {
+      "id": "offering-mark",
+      "url": "/style-2/media/engraved-v1/offering-mark.webp",
+      "width": 1000,
+      "height": 1000,
+      "alpha": true,
+      "bounds": [
+        136,
+        124,
+        862,
+        858
+      ],
+      "bytes": 173918
+    },
+    "blood-empty": {
+      "id": "blood-empty",
+      "url": "/style-2/media/engraved-v1/blood-empty.webp",
+      "width": 1000,
+      "height": 1000,
+      "alpha": true,
+      "bounds": [
+        226,
+        136,
+        774,
+        866
+      ],
+      "bytes": 154340
+    },
+    "blood-filled": {
+      "id": "blood-filled",
+      "url": "/style-2/media/engraved-v1/blood-filled.webp",
+      "width": 1000,
+      "height": 1000,
+      "alpha": true,
+      "bounds": [
+        226,
+        135,
+        775,
+        867
+      ],
+      "bytes": 150974
+    },
+    "offering-empty": {
+      "id": "offering-empty",
+      "url": "/style-2/media/engraved-v1/offering-empty.webp",
+      "width": 768,
+      "height": 1280,
+      "alpha": true,
+      "bounds": [
+        82,
+        127,
+        684,
+        1152
+      ],
+      "bytes": 300864
+    },
+    "offering-filled": {
+      "id": "offering-filled",
+      "url": "/style-2/media/engraved-v1/offering-filled.webp",
+      "width": 768,
+      "height": 1280,
+      "alpha": true,
+      "bounds": [
+        82,
+        128,
+        686,
+        1152
+      ],
+      "bytes": 271914
+    },
+    "rose-halo": {
+      "id": "rose-halo",
+      "url": "/style-2/media/engraved-v1/rose-halo.webp",
+      "width": 1000,
+      "height": 1000,
+      "alpha": true,
+      "bounds": [
+        117,
+        103,
+        883,
+        892
+      ],
+      "bytes": 216540
+    },
+    "ray-texture": {
+      "id": "ray-texture",
+      "url": "/style-2/media/engraved-v1/ray-texture.webp",
+      "width": 1000,
+      "height": 1500,
+      "alpha": true,
+      "bounds": [
+        128,
+        154,
+        873,
+        1342
+      ],
+      "bytes": 436776
+    },
+    "rite-lesser": {
+      "id": "rite-lesser",
+      "url": "/style-2/media/engraved-v1/rite-lesser.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        133,
+        119,
+        1065,
+        696
+      ],
+      "bytes": 194062
+    },
+    "rite-blood": {
+      "id": "rite-blood",
+      "url": "/style-2/media/engraved-v1/rite-blood.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        126,
+        89,
+        1074,
+        693
+      ],
+      "bytes": 199428
+    },
+    "rite-greater": {
+      "id": "rite-greater",
+      "url": "/style-2/media/engraved-v1/rite-greater.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        131,
+        87,
+        1069,
+        709
+      ],
+      "bytes": 211560
+    },
+    "rite-god": {
+      "id": "rite-god",
+      "url": "/style-2/media/engraved-v1/rite-god.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        130,
+        88,
+        1070,
+        710
+      ],
+      "bytes": 228898
+    },
+    "intro-blood": {
+      "id": "intro-blood",
+      "url": "/style-2/media/engraved-v1/intro-blood.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "bytes": 531684
+    },
+    "intro-offerings": {
+      "id": "intro-offerings",
+      "url": "/style-2/media/engraved-v1/intro-offerings.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "bytes": 597448
+    },
+    "intro-scatters": {
+      "id": "intro-scatters",
+      "url": "/style-2/media/engraved-v1/intro-scatters.webp",
+      "width": 1024,
+      "height": 1536,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "bytes": 564238
+    },
+    "feature-result": {
+      "id": "feature-result",
+      "url": "/style-2/media/engraved-v1/feature-result.webp",
+      "width": 1672,
+      "height": 941,
+      "alpha": false,
+      "bounds": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "bytes": 486772
+    },
+    "win-big": {
+      "id": "win-big",
+      "url": "/style-2/media/engraved-v1/win-big.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        127,
+        88,
+        1073,
+        712
+      ],
+      "bytes": 195258,
+      "amountSafeRect": [
+        332.5,
+        489.375,
+        535.0,
+        147.5
+      ]
+    },
+    "win-mega": {
+      "id": "win-mega",
+      "url": "/style-2/media/engraved-v1/win-mega.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        127,
+        90,
+        1074,
+        711
+      ],
+      "bytes": 235374,
+      "amountSafeRect": [
+        395.0,
+        387.5,
+        410.625,
+        134.375
+      ]
+    },
+    "win-epic": {
+      "id": "win-epic",
+      "url": "/style-2/media/engraved-v1/win-epic.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        122,
+        84,
+        1077,
+        717
+      ],
+      "bytes": 214490,
+      "amountSafeRect": [
+        458.125,
+        412.5,
+        283.125,
+        135.0
+      ]
+    },
+    "win-divine": {
+      "id": "win-divine",
+      "url": "/style-2/media/engraved-v1/win-divine.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        125,
+        82,
+        1075,
+        711
+      ],
+      "bytes": 247188,
+      "amountSafeRect": [
+        390.625,
+        547.5,
+        418.125,
+        101.875
+      ]
+    },
+    "win-cap": {
+      "id": "win-cap",
+      "url": "/style-2/media/engraved-v1/win-cap.webp",
+      "width": 1200,
+      "height": 800,
+      "alpha": true,
+      "bounds": [
+        136,
+        86,
+        1064,
+        713
+      ],
+      "bytes": 221682,
+      "amountSafeRect": [
+        299.375,
+        598.125,
+        601.25,
+        38.75
+      ]
+    },
+    "priest-neutral": {
+      "id": "priest-neutral",
+      "url": "/style-2/media/engraved-v1/priest-neutral.webp",
+      "width": 1000,
+      "height": 1600,
+      "alpha": true,
+      "bounds": [
+        281,
+        78,
+        800,
+        1522
+      ],
+      "bytes": 233642,
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      }
+    },
+    "priest-invocation": {
+      "id": "priest-invocation",
+      "url": "/style-2/media/engraved-v1/priest-invocation.webp",
+      "width": 1000,
+      "height": 1600,
+      "alpha": true,
+      "bounds": [
+        263,
+        80,
+        787,
+        1522
+      ],
+      "bytes": 214762,
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      }
+    },
+    "priest-bonus": {
+      "id": "priest-bonus",
+      "url": "/style-2/media/engraved-v1/priest-bonus.webp",
+      "width": 1000,
+      "height": 1600,
+      "alpha": true,
+      "bounds": [
+        264,
+        80,
+        795,
+        1521
+      ],
+      "bytes": 218168,
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      }
+    },
+    "priest-benediction": {
+      "id": "priest-benediction",
+      "url": "/style-2/media/engraved-v1/priest-benediction.webp",
+      "width": 1000,
+      "height": 1600,
+      "alpha": true,
+      "bounds": [
+        251,
+        79,
+        781,
+        1521
+      ],
+      "bytes": 215462,
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      }
+    },
+    "priest-expiry": {
+      "id": "priest-expiry",
+      "url": "/style-2/media/engraved-v1/priest-expiry.webp",
+      "width": 1000,
+      "height": 1600,
+      "alpha": true,
+      "bounds": [
+        310,
+        79,
+        797,
+        1521
+      ],
+      "bytes": 210804,
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      }
+    }
+  },
+  "essentialArtBytes": 2584598,
+  "frame": {
+    "asset": "frame",
+    "sourceCanvas": [
+      1600,
+      1126
+    ],
+    "aperture": {
+      "x": 194.07245,
+      "y": 223.92975,
+      "width": 1211.8551,
+      "height": 714.81888
+    },
+    "sourceRects": {
+      "topLeft": [
+        0,
+        0,
+        350,
+        420
+      ],
+      "topRight": [
+        1250,
+        0,
+        350,
+        420
+      ],
+      "bottomLeft": [
+        0,
+        850,
+        350,
+        276
+      ],
+      "bottomRight": [
+        1250,
+        850,
+        350,
+        276
+      ],
+      "topOrnament": [
+        700,
+        0,
+        200,
+        300
+      ],
+      "bottomOrnament": [
+        700,
+        920,
+        200,
+        206
+      ],
+      "topRail": [
+        400,
+        0,
+        160,
+        265
+      ],
+      "bottomRail": [
+        400,
+        920,
+        160,
+        206
+      ],
+      "leftRail": [
+        0,
+        480,
+        235,
+        100
+      ],
+      "rightRail": [
+        1365,
+        480,
+        235,
+        100
+      ]
+    },
+    "uniformScale": "min(gridWidth/aperture.width, gridHeight/aperture.height)",
+    "assembly": "Opening matches the grid. Anchor corners to its corresponding corners using the aperture offset; repeat rails between corner joins. Center ornaments keep the same scale. Never independently scale x/y.",
+    "desktopOpeningRatio": 1.6953316901758386
+  },
+  "altar": {
+    "tiers": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      120,
+      250,
+      500,
+      1000,
+      2500
+    ],
+    "art": "altar-surround",
+    "progress": "Existing five-Blood progress only. Ladder artwork does not award additional free spins."
+  }
+}

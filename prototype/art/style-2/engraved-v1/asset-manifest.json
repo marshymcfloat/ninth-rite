@@ -1,0 +1,5427 @@
+{
+  "version": "engraved-v1.review-2",
+  "status": "complete-static-review-candidate",
+  "generatedAt": "2026-10-30T17:36:29.402329+00:00",
+  "generationTool": "built-in imagegen",
+  "plannedCoreAssets": 40,
+  "generatedAndPackaged": 40,
+  "integratedIntoGame": false,
+  "animationCreated": false,
+  "sourcePolicy": "Original generated PNGs preserved unmodified. Derived exports use only resize, padding, registration and documented frame slicing. No recoloring, alpha keying or fringe removal.",
+  "assets": [
+    {
+      "id": "environment-base",
+      "group": "Environments",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/environment-base.png",
+      "native": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3550266,
+        "sha256": "6a0ed81643dcd1a7dfc70ecc13a15f6a40eda730d0e256ca381cfa732da23ffb",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "base gameplay"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1672,
+          941
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/environment-base.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 541884,
+        "sha256": "782fe6b9458716066f46aab87804e5f914886d12e4819a57e5ea5e3456f1f6e0",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "environment-bonus",
+      "group": "Environments",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/environment-bonus.png",
+      "native": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3445186,
+        "sha256": "39d8889d94255f40eea610d4e461e8c297e0629a8d836100629cdd122174dba4",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "Lesser/Blood/Greater gameplay"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1672,
+          941
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/environment-bonus.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 550574,
+        "sha256": "d9af84cb263e691a8a05be7ca3483165ef30bc4cf2436fd99b4e1098ccb4efbf",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "environment-god",
+      "group": "Environments",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/environment-god.png",
+      "native": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3594398,
+        "sha256": "e20a4569f0a338b2946e2522653d7bdc4a1569b242680316111e6bf62dbd81c6",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "God Mode gameplay"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1672,
+          941
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/environment-god.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 559682,
+        "sha256": "17012ca596e2f756251a5ea51e108e13518a60bd33d02737eb7c656172d5eeba",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame",
+      "group": "Architecture",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/frame.png",
+      "native": {
+        "width": 1610,
+        "height": 977,
+        "mode": "RGBA",
+        "bytes": 1044723,
+        "sha256": "cf2e0058105a50fb57274e6bf43b8ffd0223485e16ddcf8a8ce51d04861d9182",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1593,
+            966
+          ],
+          "visibleBoundsAlpha16": [
+            22,
+            8,
+            1588,
+            964
+          ],
+          "transparentFraction": 0.776682,
+          "partialFraction": 0.223131,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1221698
+            },
+            {
+              "alpha": 253,
+              "pixels": 203812
+            },
+            {
+              "alpha": 252,
+              "pixels": 42321
+            },
+            {
+              "alpha": 1,
+              "pixels": 18402
+            },
+            {
+              "alpha": 251,
+              "pixels": 15067
+            }
+          ]
+        }
+      },
+      "modular": true,
+      "sourceSliceRectanglesXYXY": {
+        "topLeft": [
+          0,
+          0,
+          320,
+          370
+        ],
+        "topRight": [
+          1290,
+          0,
+          1610,
+          370
+        ],
+        "bottomLeft": [
+          0,
+          700,
+          320,
+          977
+        ],
+        "bottomRight": [
+          1290,
+          700,
+          1610,
+          977
+        ],
+        "topRail": [
+          320,
+          0,
+          450,
+          260
+        ],
+        "bottomRail": [
+          320,
+          780,
+          450,
+          977
+        ],
+        "leftRail": [
+          0,
+          450,
+          180,
+          530
+        ],
+        "rightRail": [
+          1430,
+          450,
+          1610,
+          530
+        ],
+        "topConnector": [
+          700,
+          0,
+          910,
+          246
+        ],
+        "bottomJewel": [
+          700,
+          780,
+          910,
+          977
+        ]
+      },
+      "ornamentUniformScale": 0.6,
+      "assembledCanvas": [
+        1518,
+        1068
+      ],
+      "assembledAperture": {
+        "x": 69,
+        "y": 148,
+        "width": 1380,
+        "height": 814
+      },
+      "exportAperture": {
+        "x": 194.07245,
+        "y": 223.92975,
+        "width": 1211.8551,
+        "height": 714.81888
+      },
+      "assembly": "fixed uniformly scaled corners/connectors; cropped repeats of unchanged rail strips; no nonuniform ornament scaling",
+      "needsVisualJoinReview": true,
+      "intendedScreens": [
+        "all gameplay"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          22,
+          8,
+          1588,
+          964
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/frame.webp",
+        "width": 1600,
+        "height": 1126,
+        "bytes": 90464,
+        "sha256": "87630efd9de7c222aa0768c62a1b203abc55e1ac7c41ab49ee8d930b70f6da20",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            133,
+            94,
+            1458,
+            1027
+          ],
+          "visibleBoundsAlpha16": [
+            145,
+            98,
+            1455,
+            1025
+          ],
+          "transparentFraction": 0.912695,
+          "partialFraction": 0.083148,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1644311
+            },
+            {
+              "alpha": 253,
+              "pixels": 87355
+            },
+            {
+              "alpha": 252,
+              "pixels": 16900
+            },
+            {
+              "alpha": 255,
+              "pixels": 7490
+            },
+            {
+              "alpha": 1,
+              "pixels": 5538
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "logo-ornament",
+      "group": "Architecture",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/logo-ornament.png",
+      "native": {
+        "width": 1609,
+        "height": 977,
+        "mode": "RGBA",
+        "bytes": 2127604,
+        "sha256": "c152f7d0d3d5ab79d34d942980ce771030a7d0f625e9c85dbc5e91cc30cf0601",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1609,
+            977
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            7,
+            1608,
+            971
+          ],
+          "transparentFraction": 0.594433,
+          "partialFraction": 0.405299,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 934444
+            },
+            {
+              "alpha": 253,
+              "pixels": 463500
+            },
+            {
+              "alpha": 252,
+              "pixels": 99399
+            },
+            {
+              "alpha": 251,
+              "pixels": 14763
+            },
+            {
+              "alpha": 1,
+              "pixels": 11252
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.49720323182100684,
+        "x": 100,
+        "y": 60
+      },
+      "intendedScreens": [
+        "branding",
+        "launch",
+        "gameplay"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          7,
+          1608,
+          971
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/logo-ornament.webp",
+        "width": 1000,
+        "height": 607,
+        "bytes": 115306,
+        "sha256": "4e005a79d12f3ee92be137702bc1867a67fa623c00d35860bc4737f592d77ae9",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            100,
+            60,
+            900,
+            546
+          ],
+          "visibleBoundsAlpha16": [
+            100,
+            63,
+            900,
+            543
+          ],
+          "transparentFraction": 0.740285,
+          "partialFraction": 0.257573,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 449353
+            },
+            {
+              "alpha": 253,
+              "pixels": 115379
+            },
+            {
+              "alpha": 252,
+              "pixels": 23603
+            },
+            {
+              "alpha": 251,
+              "pixels": 2931
+            },
+            {
+              "alpha": 1,
+              "pixels": 2047
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-j",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-j.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 1485072,
+        "sha256": "d4c09fd91668a0fd67a0be62c9fef8c61dd7994395118838ecd702a6246e455a",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            21,
+            1232,
+            1254
+          ],
+          "visibleBoundsAlpha16": [
+            203,
+            89,
+            1077,
+            1193
+          ],
+          "transparentFraction": 0.704089,
+          "partialFraction": 0.295151,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1107191
+            },
+            {
+              "alpha": 253,
+              "pixels": 360570
+            },
+            {
+              "alpha": 252,
+              "pixels": 73377
+            },
+            {
+              "alpha": 254,
+              "pixels": 4631
+            },
+            {
+              "alpha": 251,
+              "pixels": 3854
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          203,
+          89,
+          1077,
+          1193
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-j.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 35678,
+        "sha256": "6cd89c9ded97ea07eace26495139e6591914587069ccae3e8e1cf729864d750a",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            115,
+            78,
+            424,
+            457
+          ],
+          "visibleBoundsAlpha16": [
+            117,
+            80,
+            403,
+            441
+          ],
+          "transparentFraction": 0.805565,
+          "partialFraction": 0.189995,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 211174
+            },
+            {
+              "alpha": 253,
+              "pixels": 38258
+            },
+            {
+              "alpha": 252,
+              "pixels": 6467
+            },
+            {
+              "alpha": 255,
+              "pixels": 1164
+            },
+            {
+              "alpha": 1,
+              "pixels": 546
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-q",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-q.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 1953196,
+        "sha256": "fac02e1a512ddf183390b1c2cfce04cd73f73e2045ace859751327aadf3b5e99",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            79,
+            35,
+            1236,
+            1194
+          ],
+          "visibleBoundsAlpha16": [
+            81,
+            96,
+            1164,
+            1192
+          ],
+          "transparentFraction": 0.596578,
+          "partialFraction": 0.402421,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 938128
+            },
+            {
+              "alpha": 253,
+              "pixels": 506152
+            },
+            {
+              "alpha": 252,
+              "pixels": 87651
+            },
+            {
+              "alpha": 254,
+              "pixels": 8527
+            },
+            {
+              "alpha": 251,
+              "pixels": 5296
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          81,
+          96,
+          1164,
+          1192
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-q.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 48352,
+        "sha256": "4a0858dc249bf3e3ea979b6b5c626e2bea05ad1d3246123ac1576704893f1297",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            75,
+            80,
+            434,
+            443
+          ],
+          "visibleBoundsAlpha16": [
+            77,
+            82,
+            432,
+            441
+          ],
+          "transparentFraction": 0.734936,
+          "partialFraction": 0.260002,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 192659
+            },
+            {
+              "alpha": 253,
+              "pixels": 53532
+            },
+            {
+              "alpha": 252,
+              "pixels": 7964
+            },
+            {
+              "alpha": 255,
+              "pixels": 1327
+            },
+            {
+              "alpha": 254,
+              "pixels": 819
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-k",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-k.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 2019819,
+        "sha256": "1173501dcce116c83e9dac90cf65657bcf1d8983f394ed2d8cc42c35bff865ca",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            9,
+            1214,
+            1254
+          ],
+          "visibleBoundsAlpha16": [
+            70,
+            101,
+            1184,
+            1155
+          ],
+          "transparentFraction": 0.573925,
+          "partialFraction": 0.424936,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 902507
+            },
+            {
+              "alpha": 253,
+              "pixels": 547309
+            },
+            {
+              "alpha": 252,
+              "pixels": 67194
+            },
+            {
+              "alpha": 254,
+              "pixels": 10434
+            },
+            {
+              "alpha": 1,
+              "pixels": 7974
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          70,
+          101,
+          1184,
+          1155
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-k.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 49070,
+        "sha256": "6460e8a87d77364bf65bb9870655f7353e628d045fc83b0abe16f5d322557ca0",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            71,
+            82,
+            441,
+            456
+          ],
+          "visibleBoundsAlpha16": [
+            74,
+            84,
+            438,
+            429
+          ],
+          "transparentFraction": 0.721199,
+          "partialFraction": 0.273445,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 189058
+            },
+            {
+              "alpha": 253,
+              "pixels": 58359
+            },
+            {
+              "alpha": 252,
+              "pixels": 5536
+            },
+            {
+              "alpha": 255,
+              "pixels": 1404
+            },
+            {
+              "alpha": 254,
+              "pixels": 988
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-a",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-a.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 1663928,
+        "sha256": "f1c228a8e6199bd65866edd8cb0b61776f297a32138ba428e66bc4c133aef8d4",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            87,
+            29,
+            1196,
+            1234
+          ],
+          "visibleBoundsAlpha16": [
+            89,
+            82,
+            1165,
+            1182
+          ],
+          "transparentFraction": 0.647792,
+          "partialFraction": 0.351378,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1018663
+            },
+            {
+              "alpha": 253,
+              "pixels": 465960
+            },
+            {
+              "alpha": 252,
+              "pixels": 46885
+            },
+            {
+              "alpha": 254,
+              "pixels": 13951
+            },
+            {
+              "alpha": 251,
+              "pixels": 4046
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          89,
+          82,
+          1165,
+          1182
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-a.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 41234,
+        "sha256": "4ada77317a34e8685451b3749444c5364a1f105cfcfb44e32c9b9976f865fd8f",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            78,
+            75,
+            434,
+            448
+          ],
+          "visibleBoundsAlpha16": [
+            80,
+            77,
+            432,
+            438
+          ],
+          "transparentFraction": 0.768745,
+          "partialFraction": 0.226673,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 201522
+            },
+            {
+              "alpha": 253,
+              "pixels": 49212
+            },
+            {
+              "alpha": 252,
+              "pixels": 3856
+            },
+            {
+              "alpha": 254,
+              "pixels": 1347
+            },
+            {
+              "alpha": 255,
+              "pixels": 1201
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-chalice",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-chalice.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 3350360,
+        "sha256": "142fded01d96da8ed131c538595876896fdd4e17740f62799444ed74102c0280",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            2,
+            1236,
+            1225
+          ],
+          "visibleBoundsAlpha16": [
+            42,
+            56,
+            1210,
+            1223
+          ],
+          "transparentFraction": 0.346639,
+          "partialFraction": 0.652428,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 886932
+            },
+            {
+              "alpha": 0,
+              "pixels": 545096
+            },
+            {
+              "alpha": 252,
+              "pixels": 103754
+            },
+            {
+              "alpha": 251,
+              "pixels": 5969
+            },
+            {
+              "alpha": 254,
+              "pixels": 4093
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          42,
+          56,
+          1210,
+          1223
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-chalice.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 66678,
+        "sha256": "c33b77e71a52fb40f3eabc3687dc69d6a27ec9142fb538e1c46e67e5e74d9181",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            62,
+            67,
+            449,
+            453
+          ],
+          "visibleBoundsAlpha16": [
+            64,
+            69,
+            447,
+            451
+          ],
+          "transparentFraction": 0.576321,
+          "partialFraction": 0.419071,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 151079
+            },
+            {
+              "alpha": 253,
+              "pixels": 94736
+            },
+            {
+              "alpha": 252,
+              "pixels": 9517
+            },
+            {
+              "alpha": 255,
+              "pixels": 1208
+            },
+            {
+              "alpha": 3,
+              "pixels": 646
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-crown",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-crown.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 2996749,
+        "sha256": "c849041711d2ff65f761e5d33497fbac427332e9499bfa396057915020dd9e91",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            29,
+            1240,
+            1186
+          ],
+          "visibleBoundsAlpha16": [
+            33,
+            81,
+            1221,
+            1180
+          ],
+          "transparentFraction": 0.407262,
+          "partialFraction": 0.591668,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 789594
+            },
+            {
+              "alpha": 0,
+              "pixels": 640426
+            },
+            {
+              "alpha": 252,
+              "pixels": 92172
+            },
+            {
+              "alpha": 251,
+              "pixels": 8537
+            },
+            {
+              "alpha": 1,
+              "pixels": 6264
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          33,
+          81,
+          1221,
+          1180
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-crown.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 65152,
+        "sha256": "315764580340bace1de77cd21ec8e0d6217802829e80325adb6fdfeceb16c936",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            59,
+            62,
+            453,
+            439
+          ],
+          "visibleBoundsAlpha16": [
+            62,
+            77,
+            450,
+            437
+          ],
+          "transparentFraction": 0.613941,
+          "partialFraction": 0.380508,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 160941
+            },
+            {
+              "alpha": 253,
+              "pixels": 84005
+            },
+            {
+              "alpha": 252,
+              "pixels": 8228
+            },
+            {
+              "alpha": 255,
+              "pixels": 1455
+            },
+            {
+              "alpha": 3,
+              "pixels": 727
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-eye",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-eye.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 2388206,
+        "sha256": "eb3464278f2775d4c61469913380b03ff2a45dc1da59abefb0f3b6e7630ba946",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            9,
+            1241,
+            1254
+          ],
+          "visibleBoundsAlpha16": [
+            17,
+            20,
+            1237,
+            1215
+          ],
+          "transparentFraction": 0.550539,
+          "partialFraction": 0.448731,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 865732
+            },
+            {
+              "alpha": 253,
+              "pixels": 623485
+            },
+            {
+              "alpha": 252,
+              "pixels": 28914
+            },
+            {
+              "alpha": 254,
+              "pixels": 14374
+            },
+            {
+              "alpha": 1,
+              "pixels": 8080
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          17,
+          20,
+          1237,
+          1215
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-eye.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 52564,
+        "sha256": "e05b9151d8490cdf587ad5e1781367b1d37df8534c3fe4ed141877cbbb773993",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            51,
+            54,
+            458,
+            451
+          ],
+          "visibleBoundsAlpha16": [
+            56,
+            57,
+            456,
+            449
+          ],
+          "transparentFraction": 0.707253,
+          "partialFraction": 0.287457,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 185402
+            },
+            {
+              "alpha": 253,
+              "pixels": 65782
+            },
+            {
+              "alpha": 252,
+              "pixels": 1844
+            },
+            {
+              "alpha": 254,
+              "pixels": 1541
+            },
+            {
+              "alpha": 255,
+              "pixels": 1387
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-reliquary",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-reliquary.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 2228798,
+        "sha256": "808be5b857ccc2ab3d950de40473fd338bcf0a6cfb3c572566c946fdafc542bb",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            20,
+            1135,
+            1228
+          ],
+          "visibleBoundsAlpha16": [
+            115,
+            23,
+            1133,
+            1224
+          ],
+          "transparentFraction": 0.524304,
+          "partialFraction": 0.475188,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 824476
+            },
+            {
+              "alpha": 253,
+              "pixels": 680119
+            },
+            {
+              "alpha": 252,
+              "pixels": 23085
+            },
+            {
+              "alpha": 254,
+              "pixels": 12367
+            },
+            {
+              "alpha": 251,
+              "pixels": 4991
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          115,
+          23,
+          1133,
+          1224
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-reliquary.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 50150,
+        "sha256": "13507c2171483f03276e6a322b79c770b32551aecfd1344f0fa876f429db305f",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            86,
+            56,
+            424,
+            454
+          ],
+          "visibleBoundsAlpha16": [
+            88,
+            58,
+            422,
+            451
+          ],
+          "transparentFraction": 0.690971,
+          "partialFraction": 0.304932,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 181134
+            },
+            {
+              "alpha": 253,
+              "pixels": 72046
+            },
+            {
+              "alpha": 252,
+              "pixels": 1502
+            },
+            {
+              "alpha": 254,
+              "pixels": 1335
+            },
+            {
+              "alpha": 255,
+              "pixels": 1074
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "symbol-scatter",
+      "group": "Symbols",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/symbol-scatter.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 3238825,
+        "sha256": "b3f70c2f70a1ee719374b33a358fa92574472fa0f1d81b79b9120b8e1381cd28",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            9,
+            1236,
+            1254
+          ],
+          "visibleBoundsAlpha16": [
+            44,
+            12,
+            1207,
+            1225
+          ],
+          "transparentFraction": 0.33678,
+          "partialFraction": 0.662812,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 852222
+            },
+            {
+              "alpha": 0,
+              "pixels": 529592
+            },
+            {
+              "alpha": 252,
+              "pixels": 123145
+            },
+            {
+              "alpha": 251,
+              "pixels": 12502
+            },
+            {
+              "alpha": 1,
+              "pixels": 9244
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.3269537480063796,
+        "x": 51,
+        "y": 51
+      },
+      "intendedScreens": [
+        "reel symbols",
+        "Base/Chance selector arrangements"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          44,
+          12,
+          1207,
+          1225
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/symbol-scatter.webp",
+        "width": 512,
+        "height": 512,
+        "bytes": 66928,
+        "sha256": "6432823a6fd852ad872583bf57daf1c996fafd6c2a09cf64aafa911506ca5731",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            63,
+            53,
+            448,
+            454
+          ],
+          "visibleBoundsAlpha16": [
+            65,
+            55,
+            446,
+            452
+          ],
+          "transparentFraction": 0.570057,
+          "partialFraction": 0.423801,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 149437
+            },
+            {
+              "alpha": 253,
+              "pixels": 91490
+            },
+            {
+              "alpha": 252,
+              "pixels": 11160
+            },
+            {
+              "alpha": 255,
+              "pixels": 1610
+            },
+            {
+              "alpha": 1,
+              "pixels": 845
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "altar-surround",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/altar-surround.png",
+      "native": {
+        "width": 2172,
+        "height": 724,
+        "mode": "RGBA",
+        "bytes": 873887,
+        "sha256": "acb42fbe3bbd244b4c737fab6fadedab949ef3bc94e6e86ed90ec876bec8d1b5",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            31,
+            2171,
+            688
+          ],
+          "visibleBoundsAlpha16": [
+            8,
+            137,
+            2165,
+            569
+          ],
+          "transparentFraction": 0.80709,
+          "partialFraction": 0.192361,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1269171
+            },
+            {
+              "alpha": 253,
+              "pixels": 170048
+            },
+            {
+              "alpha": 252,
+              "pixels": 56707
+            },
+            {
+              "alpha": 251,
+              "pixels": 15099
+            },
+            {
+              "alpha": 250,
+              "pixels": 7786
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.5883977900552486,
+        "x": 161,
+        "y": 53
+      },
+      "intendedScreens": [
+        "earned altar progress"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          8,
+          137,
+          2165,
+          569
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "role": "horizontal altar progression rail",
+      "tierLabels": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        120,
+        250,
+        500,
+        1000,
+        2500
+      ],
+      "sourceLabelAreaXYWH": [
+        370,
+        316,
+        1430,
+        94
+      ],
+      "bloodSegmentCount": 5,
+      "freeSpinRewardIncluded": false,
+      "export": {
+        "path": "assets/altar-surround.webp",
+        "width": 1600,
+        "height": 533,
+        "bytes": 75486,
+        "sha256": "84c18567b3fc29375be08dd8bce45dc6dfcc8a3f4ecab18f561eeed525f48582",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            161,
+            71,
+            1437,
+            457
+          ],
+          "visibleBoundsAlpha16": [
+            165,
+            133,
+            1435,
+            388
+          ],
+          "transparentFraction": 0.874135,
+          "partialFraction": 0.122858,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 745462
+            },
+            {
+              "alpha": 253,
+              "pixels": 58616
+            },
+            {
+              "alpha": 252,
+              "pixels": 17613
+            },
+            {
+              "alpha": 251,
+              "pixels": 3815
+            },
+            {
+              "alpha": 1,
+              "pixels": 3655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "offering-mark",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/offering-mark.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 2103827,
+        "sha256": "3bc25ae75fbd9bb103b46ff89aae6c2e5b87262ccf51d4de33fab629bca8fd33",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            36,
+            1198,
+            1230
+          ],
+          "visibleBoundsAlpha16": [
+            56,
+            39,
+            1195,
+            1189
+          ],
+          "transparentFraction": 0.577895,
+          "partialFraction": 0.421945,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 908749
+            },
+            {
+              "alpha": 253,
+              "pixels": 488753
+            },
+            {
+              "alpha": 252,
+              "pixels": 144467
+            },
+            {
+              "alpha": 251,
+              "pixels": 10124
+            },
+            {
+              "alpha": 1,
+              "pixels": 3339
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.6379585326953748,
+        "x": 100,
+        "y": 100
+      },
+      "intendedScreens": [
+        "marked symbols"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          56,
+          39,
+          1195,
+          1189
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/offering-mark.webp",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 173918,
+        "sha256": "84456f24d217c54a1196dcd5ca8c9ec846b69504ad6ca0964bd4e9e1425f2ec0",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            100,
+            122,
+            865,
+            885
+          ],
+          "visibleBoundsAlpha16": [
+            136,
+            124,
+            862,
+            858
+          ],
+          "transparentFraction": 0.729519,
+          "partialFraction": 0.26969,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 729519
+            },
+            {
+              "alpha": 253,
+              "pixels": 198627
+            },
+            {
+              "alpha": 252,
+              "pixels": 58629
+            },
+            {
+              "alpha": 251,
+              "pixels": 3803
+            },
+            {
+              "alpha": 1,
+              "pixels": 1136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blood-empty",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/blood-empty.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 1989894,
+        "sha256": "a8da594c3ae00264b002c098d7b3e4355e869007a9271678b4523ce3a1d5c45f",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            29,
+            54,
+            1184,
+            1254
+          ],
+          "visibleBoundsAlpha16": [
+            198,
+            56,
+            1057,
+            1201
+          ],
+          "transparentFraction": 0.599127,
+          "partialFraction": 0.400645,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 942137
+            },
+            {
+              "alpha": 253,
+              "pixels": 476902
+            },
+            {
+              "alpha": 252,
+              "pixels": 132501
+            },
+            {
+              "alpha": 251,
+              "pixels": 4278
+            },
+            {
+              "alpha": 1,
+              "pixels": 2024
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.6379585326953748,
+        "x": 100,
+        "y": 100
+      },
+      "intendedScreens": [
+        "Blood unfilled segment"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          198,
+          56,
+          1057,
+          1201
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/blood-empty.webp",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 154340,
+        "sha256": "b75e5f83fff328d5c52fdb21397b71fa0865b0718bff6948c1031f91e09a237c",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            126,
+            133,
+            855,
+            900
+          ],
+          "visibleBoundsAlpha16": [
+            226,
+            136,
+            774,
+            866
+          ],
+          "transparentFraction": 0.742913,
+          "partialFraction": 0.256301,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 742913
+            },
+            {
+              "alpha": 253,
+              "pixels": 193540
+            },
+            {
+              "alpha": 252,
+              "pixels": 54029
+            },
+            {
+              "alpha": 251,
+              "pixels": 1411
+            },
+            {
+              "alpha": 255,
+              "pixels": 786
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blood-filled",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/blood-filled.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 1809838,
+        "sha256": "7a2c423a7385ef8635e4e5a7d69f673b61d540e7f044fc4d368a428b0b23af36",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            140,
+            54,
+            1208,
+            1205
+          ],
+          "visibleBoundsAlpha16": [
+            198,
+            56,
+            1058,
+            1202
+          ],
+          "transparentFraction": 0.597601,
+          "partialFraction": 0.402161,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 939737
+            },
+            {
+              "alpha": 253,
+              "pixels": 539754
+            },
+            {
+              "alpha": 254,
+              "pixels": 69341
+            },
+            {
+              "alpha": 252,
+              "pixels": 7513
+            },
+            {
+              "alpha": 251,
+              "pixels": 2313
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.6379585326953748,
+        "x": 100,
+        "y": 100
+      },
+      "intendedScreens": [
+        "Blood earned segment"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          198,
+          56,
+          1058,
+          1202
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/blood-filled.webp",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 150974,
+        "sha256": "1da4fa00372496fadf4dea6e3bf487cc391e14f16b40c710e562f49f3b1209b5",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            224,
+            133,
+            871,
+            869
+          ],
+          "visibleBoundsAlpha16": [
+            226,
+            135,
+            775,
+            867
+          ],
+          "transparentFraction": 0.741864,
+          "partialFraction": 0.257249,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 741864
+            },
+            {
+              "alpha": 253,
+              "pixels": 219305
+            },
+            {
+              "alpha": 254,
+              "pixels": 28383
+            },
+            {
+              "alpha": 252,
+              "pixels": 2604
+            },
+            {
+              "alpha": 255,
+              "pixels": 887
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "offering-empty",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/offering-empty.png",
+      "native": {
+        "width": 1086,
+        "height": 1448,
+        "mode": "RGBA",
+        "bytes": 2362169,
+        "sha256": "205d232bbae6126eb52e751d918e9e41cbd8cd95c10974c8505dd8de85d09f4a",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1083,
+            1429
+          ],
+          "visibleBoundsAlpha16": [
+            128,
+            12,
+            959,
+            1426
+          ],
+          "transparentFraction": 0.503669,
+          "partialFraction": 0.496082,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 792033
+            },
+            {
+              "alpha": 252,
+              "pixels": 267554
+            },
+            {
+              "alpha": 253,
+              "pixels": 237746
+            },
+            {
+              "alpha": 251,
+              "pixels": 35802
+            },
+            {
+              "alpha": 1,
+              "pixels": 17028
+            }
+          ]
+        }
+      },
+      "stateRegistration": {
+        "canvas": [
+          768,
+          1280
+        ],
+        "centerX": 384,
+        "topY": 128,
+        "baseY": 1152
+      },
+      "sourceToExport": {
+        "scale": 0.7241867043847242,
+        "x": -10,
+        "y": 119
+      },
+      "uniformScaleOnly": true,
+      "registrationMethod": "matched outer top/base and midpoint; separately generated trim is not pixel-identical",
+      "intendedScreens": [
+        "empty Offering vessel"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          128,
+          12,
+          959,
+          1426
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/offering-empty.webp",
+        "width": 768,
+        "height": 1280,
+        "bytes": 300864,
+        "sha256": "35254665e345255ec817b2921a7170b000975bd3b11384790cf138a0a27082b4",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            1,
+            119,
+            756,
+            1154
+          ],
+          "visibleBoundsAlpha16": [
+            82,
+            127,
+            684,
+            1152
+          ],
+          "transparentFraction": 0.584245,
+          "partialFraction": 0.414643,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 574336
+            },
+            {
+              "alpha": 252,
+              "pixels": 139563
+            },
+            {
+              "alpha": 253,
+              "pixels": 125408
+            },
+            {
+              "alpha": 251,
+              "pixels": 18391
+            },
+            {
+              "alpha": 250,
+              "pixels": 7993
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "offering-filled",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/offering-filled.png",
+      "native": {
+        "width": 1086,
+        "height": 1448,
+        "mode": "RGBA",
+        "bytes": 2348965,
+        "sha256": "01f58f61236f80aeadf0701d7e5ce14a21be3236223917ac79325cde90eb7fb9",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            6,
+            967,
+            1448
+          ],
+          "visibleBoundsAlpha16": [
+            121,
+            12,
+            965,
+            1442
+          ],
+          "transparentFraction": 0.490258,
+          "partialFraction": 0.509205,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 770945
+            },
+            {
+              "alpha": 253,
+              "pixels": 643738
+            },
+            {
+              "alpha": 252,
+              "pixels": 58572
+            },
+            {
+              "alpha": 251,
+              "pixels": 14516
+            },
+            {
+              "alpha": 1,
+              "pixels": 13769
+            }
+          ]
+        }
+      },
+      "stateRegistration": {
+        "canvas": [
+          768,
+          1280
+        ],
+        "centerX": 384,
+        "topY": 128,
+        "baseY": 1152
+      },
+      "sourceToExport": {
+        "scale": 0.7160839160839161,
+        "x": -5,
+        "y": 119
+      },
+      "uniformScaleOnly": true,
+      "registrationMethod": "matched outer top/base and midpoint; separately generated trim is not pixel-identical",
+      "intendedScreens": [
+        "filled Offering vessel"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          121,
+          12,
+          965,
+          1442
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/offering-filled.webp",
+        "width": 768,
+        "height": 1280,
+        "bytes": 271914,
+        "sha256": "c62a5e33d7cfee8c1a3ee8ef3c6852be7d63a638ba18a2a1dfdca7872afb87cc",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            80,
+            123,
+            688,
+            1156
+          ],
+          "visibleBoundsAlpha16": [
+            82,
+            128,
+            686,
+            1152
+          ],
+          "transparentFraction": 0.582156,
+          "partialFraction": 0.415968,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 572283
+            },
+            {
+              "alpha": 253,
+              "pixels": 330114
+            },
+            {
+              "alpha": 252,
+              "pixels": 29323
+            },
+            {
+              "alpha": 251,
+              "pixels": 7011
+            },
+            {
+              "alpha": 1,
+              "pixels": 6256
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rose-halo",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/rose-halo.png",
+      "native": {
+        "width": 1254,
+        "height": 1254,
+        "mode": "RGBA",
+        "bytes": 2338522,
+        "sha256": "63a6ee2eebf2694b7236f3f7c4e0f885e2f623036ab96b9a6c0eb37a17eec3cf",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1240,
+            1254
+          ],
+          "visibleBoundsAlpha16": [
+            27,
+            5,
+            1227,
+            1241
+          ],
+          "transparentFraction": 0.563424,
+          "partialFraction": 0.436221,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 885993
+            },
+            {
+              "alpha": 253,
+              "pixels": 488409
+            },
+            {
+              "alpha": 252,
+              "pixels": 80708
+            },
+            {
+              "alpha": 251,
+              "pixels": 20764
+            },
+            {
+              "alpha": 1,
+              "pixels": 14995
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.6379585326953748,
+        "x": 100,
+        "y": 100
+      },
+      "intendedScreens": [
+        "pending intervention",
+        "confirmed intervention"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          27,
+          5,
+          1227,
+          1241
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/rose-halo.webp",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 216540,
+        "sha256": "c4415596fe7a18c2991131429ad5a1f48e201b2de8372174fa902fa2abfc1690",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            100,
+            100,
+            890,
+            900
+          ],
+          "visibleBoundsAlpha16": [
+            117,
+            103,
+            883,
+            892
+          ],
+          "transparentFraction": 0.720863,
+          "partialFraction": 0.277606,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 720863
+            },
+            {
+              "alpha": 253,
+              "pixels": 198568
+            },
+            {
+              "alpha": 252,
+              "pixels": 32584
+            },
+            {
+              "alpha": 251,
+              "pixels": 7906
+            },
+            {
+              "alpha": 1,
+              "pixels": 5363
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ray-texture",
+      "group": "Mechanics",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/ray-texture.png",
+      "native": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2548989,
+        "sha256": "52eb32f018f8323298a7f8850efd78beba5ae3b8b946037c68803582d1a9b125",
+        "alpha": {
+          "extrema": [
+            0,
+            253
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            36,
+            5,
+            989,
+            1526
+          ],
+          "transparentFraction": 0.270723,
+          "partialFraction": 0.729277,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 425810
+            },
+            {
+              "alpha": 1,
+              "pixels": 135513
+            },
+            {
+              "alpha": 2,
+              "pixels": 45179
+            },
+            {
+              "alpha": 3,
+              "pixels": 29822
+            },
+            {
+              "alpha": 250,
+              "pixels": 28816
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.78125,
+        "x": 100,
+        "y": 150
+      },
+      "intendedScreens": [
+        "intervention light layer"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          36,
+          5,
+          989,
+          1526
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "compositionNote": "Dense light center is intentional. Place behind character at restrained opacity; do not cover symbols or counters.",
+      "export": {
+        "path": "assets/ray-texture.webp",
+        "width": 1000,
+        "height": 1500,
+        "bytes": 436776,
+        "sha256": "499b1d6ab4df63245d85abeb984b315f35c3fea811bb4dbf73ed170e028727e0",
+        "alpha": {
+          "extrema": [
+            0,
+            253
+          ],
+          "nonzeroBounds": [
+            100,
+            150,
+            900,
+            1350
+          ],
+          "visibleBoundsAlpha16": [
+            128,
+            154,
+            873,
+            1342
+          ],
+          "transparentFraction": 0.532843,
+          "partialFraction": 0.467157,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 799265
+            },
+            {
+              "alpha": 1,
+              "pixels": 83198
+            },
+            {
+              "alpha": 2,
+              "pixels": 27462
+            },
+            {
+              "alpha": 3,
+              "pixels": 18246
+            },
+            {
+              "alpha": 250,
+              "pixels": 17514
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rite-lesser",
+      "group": "Rites",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/rite-lesser.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 2976348,
+        "sha256": "ea6d2c512a93df84247e4f025f200c8f50ab2e396c88e8f1a94ef2e159920981",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            60,
+            1516,
+            988
+          ],
+          "visibleBoundsAlpha16": [
+            21,
+            63,
+            1512,
+            985
+          ],
+          "transparentFraction": 0.470791,
+          "partialFraction": 0.529209,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 740490
+            },
+            {
+              "alpha": 253,
+              "pixels": 685144
+            },
+            {
+              "alpha": 254,
+              "pixels": 75257
+            },
+            {
+              "alpha": 252,
+              "pixels": 25314
+            },
+            {
+              "alpha": 1,
+              "pixels": 7622
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "bonus selector",
+        "bonus entry"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          21,
+          63,
+          1512,
+          985
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false,
+        "selector": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.5
+        },
+        "entry": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.667
+        }
+      },
+      "export": {
+        "path": "assets/rite-lesser.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 194062,
+        "sha256": "35d932c67b42114f287684f2ac2863035df73041992a2f23b6c2c441d38c1243",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            117,
+            1068,
+            698
+          ],
+          "visibleBoundsAlpha16": [
+            133,
+            119,
+            1065,
+            696
+          ],
+          "transparentFraction": 0.661403,
+          "partialFraction": 0.336774,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 634947
+            },
+            {
+              "alpha": 253,
+              "pixels": 266743
+            },
+            {
+              "alpha": 254,
+              "pixels": 30255
+            },
+            {
+              "alpha": 252,
+              "pixels": 9277
+            },
+            {
+              "alpha": 251,
+              "pixels": 2391
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rite-blood",
+      "group": "Rites",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/rite-blood.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 2841451,
+        "sha256": "dcff9267ecc49c09b0cfb2fdccd7bc093d6c8a941f43a8a7252578847fc2f5a8",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            12,
+            1530,
+            998
+          ],
+          "visibleBoundsAlpha16": [
+            10,
+            14,
+            1526,
+            980
+          ],
+          "transparentFraction": 0.500396,
+          "partialFraction": 0.499604,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 787055
+            },
+            {
+              "alpha": 253,
+              "pixels": 659781
+            },
+            {
+              "alpha": 252,
+              "pixels": 36982
+            },
+            {
+              "alpha": 254,
+              "pixels": 25739
+            },
+            {
+              "alpha": 1,
+              "pixels": 12822
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "bonus selector",
+        "bonus entry"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          10,
+          14,
+          1526,
+          980
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false,
+        "selector": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.5
+        },
+        "entry": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.667
+        }
+      },
+      "export": {
+        "path": "assets/rite-blood.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 199428,
+        "sha256": "200c55d25f5dbc1a3384dd9e18d907c46142b64e841f4f715d3786d47e585272",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            86,
+            1076,
+            704
+          ],
+          "visibleBoundsAlpha16": [
+            126,
+            89,
+            1074,
+            693
+          ],
+          "transparentFraction": 0.680772,
+          "partialFraction": 0.317081,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 653541
+            },
+            {
+              "alpha": 253,
+              "pixels": 257502
+            },
+            {
+              "alpha": 252,
+              "pixels": 13428
+            },
+            {
+              "alpha": 254,
+              "pixels": 10527
+            },
+            {
+              "alpha": 1,
+              "pixels": 3512
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rite-greater",
+      "group": "Rites",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/rite-greater.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 3031241,
+        "sha256": "d01e6aab04f51bb0cae6ab10bff6ca213718bef3c28c461ca02e364a0e5d58af",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            16,
+            9,
+            1520,
+            1010
+          ],
+          "visibleBoundsAlpha16": [
+            18,
+            11,
+            1518,
+            1005
+          ],
+          "transparentFraction": 0.422959,
+          "partialFraction": 0.577041,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 756565
+            },
+            {
+              "alpha": 0,
+              "pixels": 665257
+            },
+            {
+              "alpha": 252,
+              "pixels": 53549
+            },
+            {
+              "alpha": 1,
+              "pixels": 16685
+            },
+            {
+              "alpha": 251,
+              "pixels": 14580
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "bonus selector",
+        "bonus entry"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          18,
+          11,
+          1518,
+          1005
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false,
+        "selector": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.5
+        },
+        "entry": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.667
+        }
+      },
+      "export": {
+        "path": "assets/rite-greater.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 211560,
+        "sha256": "f642a8cfeed1963c19eb83ffcb9d5e3dacad3080de893bea1fcda010cb774bf6",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            129,
+            85,
+            1071,
+            711
+          ],
+          "visibleBoundsAlpha16": [
+            131,
+            87,
+            1069,
+            709
+          ],
+          "transparentFraction": 0.631702,
+          "partialFraction": 0.366195,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 606434
+            },
+            {
+              "alpha": 253,
+              "pixels": 295534
+            },
+            {
+              "alpha": 252,
+              "pixels": 19728
+            },
+            {
+              "alpha": 1,
+              "pixels": 5850
+            },
+            {
+              "alpha": 251,
+              "pixels": 4953
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rite-god",
+      "group": "Rites",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/rite-god.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 3204375,
+        "sha256": "8d159a8eb27879bf4d2c59cbb63e8420a322ca1258e1f801141844382ac3c0a1",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            11,
+            1524,
+            1012
+          ],
+          "visibleBoundsAlpha16": [
+            17,
+            13,
+            1520,
+            1007
+          ],
+          "transparentFraction": 0.384533,
+          "partialFraction": 0.615467,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 816577
+            },
+            {
+              "alpha": 0,
+              "pixels": 604818
+            },
+            {
+              "alpha": 252,
+              "pixels": 61689
+            },
+            {
+              "alpha": 251,
+              "pixels": 14533
+            },
+            {
+              "alpha": 1,
+              "pixels": 13039
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "bonus selector",
+        "bonus entry"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          17,
+          13,
+          1520,
+          1007
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false,
+        "selector": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.5
+        },
+        "entry": {
+          "sourceRectXYXY": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "fit": "contain",
+          "focusNormalized": [
+            0.5,
+            0.5
+          ],
+          "preferredViewportAspect": 1.667
+        }
+      },
+      "export": {
+        "path": "assets/rite-god.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 228898,
+        "sha256": "ae2dcf242d9dad8938bb6322a1560205cbf0c06bb3503ee498469e2a9f50a2e6",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            86,
+            1072,
+            712
+          ],
+          "visibleBoundsAlpha16": [
+            130,
+            88,
+            1070,
+            710
+          ],
+          "transparentFraction": 0.606548,
+          "partialFraction": 0.391756,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 582286
+            },
+            {
+              "alpha": 253,
+              "pixels": 319446
+            },
+            {
+              "alpha": 252,
+              "pixels": 22686
+            },
+            {
+              "alpha": 251,
+              "pixels": 5226
+            },
+            {
+              "alpha": 254,
+              "pixels": 4006
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "intro-blood",
+      "group": "Introduction",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/intro-blood.png",
+      "native": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "bytes": 3323946,
+        "sha256": "8b62e677a51869b8d2dd09c28187642c9596e61aa913934f591d1eda584a6ed5",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1572864
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "feature introduction",
+        "Help"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "liveCopySafeRectNormalized": [
+        0.12,
+        0.76,
+        0.76,
+        0.19
+      ],
+      "export": {
+        "path": "assets/intro-blood.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 531684,
+        "sha256": "98daec02075f0a488af297338dd08a2e07efe44f47d661f04f4ce4fa6535eb9b",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1572864
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "intro-offerings",
+      "group": "Introduction",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/intro-offerings.png",
+      "native": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "bytes": 3670108,
+        "sha256": "50cae474601f1992729cd7834f009852ab57758538a5140e8138acd7ce34ee85",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1572864
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "feature introduction",
+        "Help"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "liveCopySafeRectNormalized": [
+        0.12,
+        0.76,
+        0.76,
+        0.19
+      ],
+      "export": {
+        "path": "assets/intro-offerings.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 597448,
+        "sha256": "3bcd869e9b37858f1c7a2b063c703ef85cdce014610a33b4834148ada392619b",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1572864
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "intro-scatters",
+      "group": "Introduction",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/intro-scatters.png",
+      "native": {
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGB",
+        "bytes": 3484690,
+        "sha256": "a9a866ad04bdb7aec4f29e6960dfcad77e0134e78956a341fd04df834a2c9399",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1572864
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "feature introduction",
+        "Help"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "liveCopySafeRectNormalized": [
+        0.12,
+        0.76,
+        0.76,
+        0.19
+      ],
+      "export": {
+        "path": "assets/intro-scatters.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 564238,
+        "sha256": "958e5244cda5b2d415b0bd20fc594b51de2f4a6951d05c9965e682fbdda42b29",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1024,
+            1536
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1572864
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "feature-result",
+      "group": "Results",
+      "status": "review-candidate",
+      "alpha": false,
+      "source": "sources/feature-result.png",
+      "native": {
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "bytes": 3206682,
+        "sha256": "a4bd18054237df151df662f9a8651914c7555dddd79b0e4c2717a2cf74fbc54c",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      },
+      "upscaled": false,
+      "intendedScreens": [
+        "feature completion, including zero return"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          0,
+          0,
+          1672,
+          941
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/feature-result.webp",
+        "width": 1672,
+        "height": 941,
+        "bytes": 486772,
+        "sha256": "046b562bdacbb5e324caf1309bc0cd83dfdfd1f738e5ff10f6acdf198de318e7",
+        "alpha": {
+          "extrema": [
+            255,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "visibleBoundsAlpha16": [
+            0,
+            0,
+            1672,
+            941
+          ],
+          "transparentFraction": 0.0,
+          "partialFraction": 0.0,
+          "dominantValues": [
+            {
+              "alpha": 255,
+              "pixels": 1573352
+            },
+            {
+              "alpha": 0,
+              "pixels": 0
+            },
+            {
+              "alpha": 1,
+              "pixels": 0
+            },
+            {
+              "alpha": 2,
+              "pixels": 0
+            },
+            {
+              "alpha": 3,
+              "pixels": 0
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "win-big",
+      "group": "Results",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/win-big.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 2617662,
+        "sha256": "699fed5b6802ba640f5d008eaba382521ba86e537ba494bca684c2c0b74656d9",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            12,
+            1536,
+            1024
+          ],
+          "visibleBoundsAlpha16": [
+            11,
+            14,
+            1525,
+            1010
+          ],
+          "transparentFraction": 0.58168,
+          "partialFraction": 0.41832,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 914904
+            },
+            {
+              "alpha": 253,
+              "pixels": 454247
+            },
+            {
+              "alpha": 252,
+              "pixels": 85230
+            },
+            {
+              "alpha": 251,
+              "pixels": 20584
+            },
+            {
+              "alpha": 1,
+              "pixels": 18043
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "win celebration: big"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          11,
+          14,
+          1525,
+          1010
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "amountSafeRectSourceXYWH": [
+        340,
+        655,
+        856,
+        236
+      ],
+      "amountSafeRectExportXYWH": [
+        332.5,
+        489.375,
+        535.0,
+        147.5
+      ],
+      "amountPlacement": "center live amount in the documented transparent opening; reduce type size for long amounts",
+      "export": {
+        "path": "assets/win-big.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 195258,
+        "sha256": "91de19e09816519471b65c9f89f91c45ff0853cb3d4b3fe5ca4455c5d6a14acf",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            86,
+            1080,
+            720
+          ],
+          "visibleBoundsAlpha16": [
+            127,
+            88,
+            1073,
+            712
+          ],
+          "transparentFraction": 0.733318,
+          "partialFraction": 0.263007,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 703985
+            },
+            {
+              "alpha": 253,
+              "pixels": 177468
+            },
+            {
+              "alpha": 252,
+              "pixels": 31291
+            },
+            {
+              "alpha": 251,
+              "pixels": 6752
+            },
+            {
+              "alpha": 1,
+              "pixels": 5020
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "win-mega",
+      "group": "Results",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/win-mega.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 2748801,
+        "sha256": "dd280c8bff50cda35a52bebb94dcd4d9834005edb704efb5cc4c0e5cfc099fcc",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            14,
+            1535,
+            1011
+          ],
+          "visibleBoundsAlpha16": [
+            11,
+            16,
+            1526,
+            1009
+          ],
+          "transparentFraction": 0.52323,
+          "partialFraction": 0.47677,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 822970
+            },
+            {
+              "alpha": 253,
+              "pixels": 463729
+            },
+            {
+              "alpha": 252,
+              "pixels": 111025
+            },
+            {
+              "alpha": 251,
+              "pixels": 32141
+            },
+            {
+              "alpha": 1,
+              "pixels": 26502
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "win celebration: mega"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          11,
+          16,
+          1526,
+          1009
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "amountSafeRectSourceXYWH": [
+        440,
+        492,
+        657,
+        215
+      ],
+      "amountSafeRectExportXYWH": [
+        395.0,
+        387.5,
+        410.625,
+        134.375
+      ],
+      "amountPlacement": "center live amount in the documented transparent opening; reduce type size for long amounts",
+      "export": {
+        "path": "assets/win-mega.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 235374,
+        "sha256": "d32a0a4f44eee2fe2cab15635aaa2256ee96cd781076e2e52697676a08009d89",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            87,
+            1078,
+            713
+          ],
+          "visibleBoundsAlpha16": [
+            127,
+            90,
+            1074,
+            711
+          ],
+          "transparentFraction": 0.697145,
+          "partialFraction": 0.29883,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 669259
+            },
+            {
+              "alpha": 253,
+              "pixels": 181568
+            },
+            {
+              "alpha": 252,
+              "pixels": 41486
+            },
+            {
+              "alpha": 251,
+              "pixels": 11214
+            },
+            {
+              "alpha": 1,
+              "pixels": 7667
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "win-epic",
+      "group": "Results",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/win-epic.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 2925378,
+        "sha256": "1aefec273cfd05fa8351ddcad7567cbaf57e11e88bead8ced9d4afef4e80a5ae",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "visibleBoundsAlpha16": [
+            4,
+            6,
+            1532,
+            1019
+          ],
+          "transparentFraction": 0.504518,
+          "partialFraction": 0.495482,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 793538
+            },
+            {
+              "alpha": 253,
+              "pixels": 615987
+            },
+            {
+              "alpha": 252,
+              "pixels": 66160
+            },
+            {
+              "alpha": 1,
+              "pixels": 19065
+            },
+            {
+              "alpha": 251,
+              "pixels": 16366
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "win celebration: epic"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          4,
+          6,
+          1532,
+          1019
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "amountSafeRectSourceXYWH": [
+        541,
+        532,
+        453,
+        216
+      ],
+      "amountSafeRectExportXYWH": [
+        458.125,
+        412.5,
+        283.125,
+        135.0
+      ],
+      "amountPlacement": "center live amount in the documented transparent opening; reduce type size for long amounts",
+      "export": {
+        "path": "assets/win-epic.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 214490,
+        "sha256": "e91336694d75cee35ff39aeb3e3e47a8867b414c45aaba8b3e625e7e4391f1c9",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            80,
+            1080,
+            720
+          ],
+          "visibleBoundsAlpha16": [
+            122,
+            84,
+            1077,
+            717
+          ],
+          "transparentFraction": 0.683994,
+          "partialFraction": 0.313281,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 656634
+            },
+            {
+              "alpha": 253,
+              "pixels": 240911
+            },
+            {
+              "alpha": 252,
+              "pixels": 24361
+            },
+            {
+              "alpha": 1,
+              "pixels": 5694
+            },
+            {
+              "alpha": 251,
+              "pixels": 5376
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "win-divine",
+      "group": "Results",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/win-divine.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 3095060,
+        "sha256": "fa91b09cbb900d15cf90640f07245b8e6f997117e8afc6cd46b8450db357d3e4",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "visibleBoundsAlpha16": [
+            8,
+            4,
+            1528,
+            1010
+          ],
+          "transparentFraction": 0.43843,
+          "partialFraction": 0.56157,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 689590
+            },
+            {
+              "alpha": 253,
+              "pixels": 675834
+            },
+            {
+              "alpha": 252,
+              "pixels": 57935
+            },
+            {
+              "alpha": 1,
+              "pixels": 28192
+            },
+            {
+              "alpha": 251,
+              "pixels": 21177
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "win celebration: divine"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          8,
+          4,
+          1528,
+          1010
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "amountSafeRectSourceXYWH": [
+        433,
+        748,
+        669,
+        163
+      ],
+      "amountSafeRectExportXYWH": [
+        390.625,
+        547.5,
+        418.125,
+        101.875
+      ],
+      "amountPlacement": "center live amount in the documented transparent opening; reduce type size for long amounts",
+      "export": {
+        "path": "assets/win-divine.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 247188,
+        "sha256": "e36a518c6b3643b38a133bb267c41ef7e4ab1806e7ad4f9613b929a2a0b1db20",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            80,
+            1080,
+            720
+          ],
+          "visibleBoundsAlpha16": [
+            125,
+            82,
+            1075,
+            711
+          ],
+          "transparentFraction": 0.642344,
+          "partialFraction": 0.355902,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 616650
+            },
+            {
+              "alpha": 253,
+              "pixels": 264436
+            },
+            {
+              "alpha": 252,
+              "pixels": 21953
+            },
+            {
+              "alpha": 1,
+              "pixels": 9435
+            },
+            {
+              "alpha": 251,
+              "pixels": 7588
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "win-cap",
+      "group": "Results",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/win-cap.png",
+      "native": {
+        "width": 1536,
+        "height": 1024,
+        "mode": "RGBA",
+        "bytes": 2829304,
+        "sha256": "29c38d01d44f600b70e92e95e6e0ba4a9d44f53a03bb3694fa849d33bc7dc47c",
+        "alpha": {
+          "extrema": [
+            0,
+            254
+          ],
+          "nonzeroBounds": [
+            0,
+            6,
+            1517,
+            1015
+          ],
+          "visibleBoundsAlpha16": [
+            26,
+            10,
+            1510,
+            1013
+          ],
+          "transparentFraction": 0.462025,
+          "partialFraction": 0.537975,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 726702
+            },
+            {
+              "alpha": 253,
+              "pixels": 615399
+            },
+            {
+              "alpha": 252,
+              "pixels": 71902
+            },
+            {
+              "alpha": 1,
+              "pixels": 25314
+            },
+            {
+              "alpha": 251,
+              "pixels": 23618
+            }
+          ]
+        }
+      },
+      "paddingFractionMinimum": 0.1,
+      "sourceToExport": {
+        "scale": 0.625,
+        "x": 120,
+        "y": 80
+      },
+      "intendedScreens": [
+        "maximum return ending"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          26,
+          10,
+          1510,
+          1013
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "amountSafeRectSourceXYWH": [
+        287,
+        829,
+        962,
+        62
+      ],
+      "amountSafeRectExportXYWH": [
+        299.375,
+        598.125,
+        601.25,
+        38.75
+      ],
+      "amountPlacement": "outside artwork for a large readable value; inner rail reserved for short supporting copy",
+      "export": {
+        "path": "assets/win-cap.webp",
+        "width": 1200,
+        "height": 800,
+        "bytes": 221682,
+        "sha256": "3b62dc782eabf0562b0ad6794640f7561b58fb65eafc3fb72244650aad4c9925",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            120,
+            84,
+            1068,
+            715
+          ],
+          "visibleBoundsAlpha16": [
+            136,
+            86,
+            1064,
+            713
+          ],
+          "transparentFraction": 0.657616,
+          "partialFraction": 0.339292,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 631311
+            },
+            {
+              "alpha": 253,
+              "pixels": 240805
+            },
+            {
+              "alpha": 252,
+              "pixels": 26325
+            },
+            {
+              "alpha": 251,
+              "pixels": 8349
+            },
+            {
+              "alpha": 254,
+              "pixels": 8154
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "priest-neutral",
+      "group": "Priest",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/priest-neutral.png",
+      "native": {
+        "width": 757,
+        "height": 2076,
+        "mode": "RGBA",
+        "bytes": 2753582,
+        "sha256": "cbf0d831410a6d35a55080ec335546668245424fb932c353da0988287824b940",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            757,
+            2076
+          ],
+          "visibleBoundsAlpha16": [
+            6,
+            1,
+            750,
+            2072
+          ],
+          "transparentFraction": 0.380758,
+          "partialFraction": 0.618892,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 789758
+            },
+            {
+              "alpha": 0,
+              "pixels": 598374
+            },
+            {
+              "alpha": 252,
+              "pixels": 128294
+            },
+            {
+              "alpha": 251,
+              "pixels": 10931
+            },
+            {
+              "alpha": 1,
+              "pixels": 7845
+            }
+          ]
+        }
+      },
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      },
+      "sourceAnchors": {
+        "headY": 5,
+        "footY": 2070,
+        "footX": 320
+      },
+      "sourceToExport": {
+        "scale": 0.6973365617433414,
+        "x": 277,
+        "y": 77
+      },
+      "registrationMethod": "visually checked hair-top, lowest sole and midpoint of both shoes",
+      "uniformScaleOnly": true,
+      "intendedScreens": [
+        "priest static pose: neutral"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          6,
+          1,
+          750,
+          2072
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/priest-neutral.webp",
+        "width": 1000,
+        "height": 1600,
+        "bytes": 233642,
+        "sha256": "1b62310382ddde0b6029e3b24557876c9ca8169ca4aecc22405f97da30e06c27",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            277,
+            77,
+            805,
+            1525
+          ],
+          "visibleBoundsAlpha16": [
+            281,
+            78,
+            800,
+            1522
+          ],
+          "transparentFraction": 0.703823,
+          "partialFraction": 0.295341,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1126116
+            },
+            {
+              "alpha": 253,
+              "pixels": 383534
+            },
+            {
+              "alpha": 252,
+              "pixels": 62671
+            },
+            {
+              "alpha": 251,
+              "pixels": 4679
+            },
+            {
+              "alpha": 1,
+              "pixels": 3339
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "priest-invocation",
+      "group": "Priest",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/priest-invocation.png",
+      "native": {
+        "width": 757,
+        "height": 2078,
+        "mode": "RGBA",
+        "bytes": 2498078,
+        "sha256": "082032c384d55e7bf7316b9823088559fee4284c766ed53e15487196b98cd5b5",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            752,
+            2025
+          ],
+          "visibleBoundsAlpha16": [
+            16,
+            8,
+            748,
+            2021
+          ],
+          "transparentFraction": 0.406272,
+          "partialFraction": 0.592995,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 802847
+            },
+            {
+              "alpha": 0,
+              "pixels": 639084
+            },
+            {
+              "alpha": 254,
+              "pixels": 65409
+            },
+            {
+              "alpha": 252,
+              "pixels": 25549
+            },
+            {
+              "alpha": 251,
+              "pixels": 6832
+            }
+          ]
+        }
+      },
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      },
+      "sourceAnchors": {
+        "headY": 9,
+        "footY": 2019,
+        "footX": 345.5
+      },
+      "sourceToExport": {
+        "scale": 0.7164179104477612,
+        "x": 252,
+        "y": 74
+      },
+      "registrationMethod": "visually checked hair-top, lowest sole and midpoint of both shoes",
+      "uniformScaleOnly": true,
+      "intendedScreens": [
+        "priest static pose: invocation"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          16,
+          8,
+          748,
+          2021
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/priest-invocation.webp",
+        "width": 1000,
+        "height": 1600,
+        "bytes": 214762,
+        "sha256": "5d4b119bca28a40a73fda943b960c38fa059e2d41debeb399e644bc61bce199b",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            252,
+            74,
+            790,
+            1525
+          ],
+          "visibleBoundsAlpha16": [
+            263,
+            80,
+            787,
+            1522
+          ],
+          "transparentFraction": 0.699863,
+          "partialFraction": 0.298951,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1119780
+            },
+            {
+              "alpha": 253,
+              "pixels": 411578
+            },
+            {
+              "alpha": 254,
+              "pixels": 33713
+            },
+            {
+              "alpha": 252,
+              "pixels": 12282
+            },
+            {
+              "alpha": 251,
+              "pixels": 2983
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "priest-bonus",
+      "group": "Priest",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/priest-bonus.png",
+      "native": {
+        "width": 757,
+        "height": 2078,
+        "mode": "RGBA",
+        "bytes": 2634652,
+        "sha256": "c0469705271fe60a3944238bcb16dfbf1fa64e6f34100e21fce5de832d226d19",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            757,
+            2048
+          ],
+          "visibleBoundsAlpha16": [
+            7,
+            8,
+            757,
+            2045
+          ],
+          "transparentFraction": 0.391472,
+          "partialFraction": 0.607852,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 848822
+            },
+            {
+              "alpha": 0,
+              "pixels": 615804
+            },
+            {
+              "alpha": 254,
+              "pixels": 40203
+            },
+            {
+              "alpha": 252,
+              "pixels": 27680
+            },
+            {
+              "alpha": 251,
+              "pixels": 6467
+            }
+          ]
+        }
+      },
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      },
+      "sourceAnchors": {
+        "headY": 9,
+        "footY": 2044,
+        "footX": 341
+      },
+      "sourceToExport": {
+        "scale": 0.7076167076167076,
+        "x": 259,
+        "y": 74
+      },
+      "registrationMethod": "visually checked hair-top, lowest sole and midpoint of both shoes",
+      "uniformScaleOnly": true,
+      "intendedScreens": [
+        "priest static pose: bonus"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          7,
+          8,
+          757,
+          2045
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/priest-bonus.webp",
+        "width": 1000,
+        "height": 1600,
+        "bytes": 218168,
+        "sha256": "b3dcc221c93b4c01c1963d8e4887c7bf9fc0d6ab5738cd601d35c8e5ea488581",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            259,
+            74,
+            795,
+            1523
+          ],
+          "visibleBoundsAlpha16": [
+            264,
+            80,
+            795,
+            1521
+          ],
+          "transparentFraction": 0.699879,
+          "partialFraction": 0.299001,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1119806
+            },
+            {
+              "alpha": 253,
+              "pixels": 424798
+            },
+            {
+              "alpha": 254,
+              "pixels": 20498
+            },
+            {
+              "alpha": 252,
+              "pixels": 13026
+            },
+            {
+              "alpha": 251,
+              "pixels": 2706
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "priest-benediction",
+      "group": "Priest",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/priest-benediction.png",
+      "native": {
+        "width": 757,
+        "height": 2078,
+        "mode": "RGBA",
+        "bytes": 2586026,
+        "sha256": "8b1be5d12ad98ee6c3b5e90a066241f79a26c643bc3173d99e4a7dc8348364d4",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            0,
+            0,
+            757,
+            2042
+          ],
+          "visibleBoundsAlpha16": [
+            8,
+            3,
+            757,
+            2040
+          ],
+          "transparentFraction": 0.385351,
+          "partialFraction": 0.613642,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 839587
+            },
+            {
+              "alpha": 0,
+              "pixels": 606175
+            },
+            {
+              "alpha": 254,
+              "pixels": 61510
+            },
+            {
+              "alpha": 252,
+              "pixels": 25698
+            },
+            {
+              "alpha": 251,
+              "pixels": 6285
+            }
+          ]
+        }
+      },
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      },
+      "sourceAnchors": {
+        "headY": 4,
+        "footY": 2038,
+        "footX": 360
+      },
+      "sourceToExport": {
+        "scale": 0.7079646017699115,
+        "x": 245,
+        "y": 77
+      },
+      "registrationMethod": "visually checked hair-top, lowest sole and midpoint of both shoes",
+      "uniformScaleOnly": true,
+      "intendedScreens": [
+        "priest static pose: benediction"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          8,
+          3,
+          757,
+          2040
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/priest-benediction.webp",
+        "width": 1000,
+        "height": 1600,
+        "bytes": 215462,
+        "sha256": "08f290c0fdefe717a4ec9acecb0537b711ffa78bc80007d11f29557415399e3a",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            245,
+            77,
+            781,
+            1523
+          ],
+          "visibleBoundsAlpha16": [
+            251,
+            79,
+            781,
+            1521
+          ],
+          "transparentFraction": 0.696471,
+          "partialFraction": 0.302195,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1114353
+            },
+            {
+              "alpha": 253,
+              "pixels": 420178
+            },
+            {
+              "alpha": 254,
+              "pixels": 31192
+            },
+            {
+              "alpha": 252,
+              "pixels": 11971
+            },
+            {
+              "alpha": 251,
+              "pixels": 2533
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "priest-expiry",
+      "group": "Priest",
+      "status": "review-candidate",
+      "alpha": true,
+      "source": "sources/priest-expiry.png",
+      "native": {
+        "width": 757,
+        "height": 2078,
+        "mode": "RGBA",
+        "bytes": 2618234,
+        "sha256": "72fadb66fb1fc2bec22217a38c61b4d28c2c52bb6530e21f538b02c1b6c5e437",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            52,
+            1,
+            749,
+            2064
+          ],
+          "visibleBoundsAlpha16": [
+            55,
+            12,
+            746,
+            2061
+          ],
+          "transparentFraction": 0.395989,
+          "partialFraction": 0.603234,
+          "dominantValues": [
+            {
+              "alpha": 253,
+              "pixels": 853053
+            },
+            {
+              "alpha": 0,
+              "pixels": 622909
+            },
+            {
+              "alpha": 254,
+              "pixels": 36997
+            },
+            {
+              "alpha": 252,
+              "pixels": 24667
+            },
+            {
+              "alpha": 251,
+              "pixels": 5299
+            }
+          ]
+        }
+      },
+      "registration": {
+        "canvas": [
+          1000,
+          1600
+        ],
+        "footX": 500,
+        "footY": 1520,
+        "headY": 80
+      },
+      "sourceAnchors": {
+        "headY": 13,
+        "footY": 2060,
+        "footX": 325
+      },
+      "sourceToExport": {
+        "scale": 0.7034684904738642,
+        "x": 271,
+        "y": 71
+      },
+      "registrationMethod": "visually checked hair-top, lowest sole and midpoint of both shoes",
+      "uniformScaleOnly": true,
+      "intendedScreens": [
+        "priest static pose: expiry"
+      ],
+      "cropPolicy": {
+        "sourceArtBoundsXYXY": [
+          55,
+          12,
+          746,
+          2061
+        ],
+        "default": "contain at uniform scale; retain padded export outside optical bounds",
+        "overwriteOriginal": false
+      },
+      "export": {
+        "path": "assets/priest-expiry.webp",
+        "width": 1000,
+        "height": 1600,
+        "bytes": 210804,
+        "sha256": "1570095558bf004bc81e3cb1c42cb9b46f1fd3ca506a3d6462d7a91f469c7e8e",
+        "alpha": {
+          "extrema": [
+            0,
+            255
+          ],
+          "nonzeroBounds": [
+            307,
+            72,
+            799,
+            1523
+          ],
+          "visibleBoundsAlpha16": [
+            310,
+            79,
+            797,
+            1521
+          ],
+          "transparentFraction": 0.705244,
+          "partialFraction": 0.293673,
+          "dominantValues": [
+            {
+              "alpha": 0,
+              "pixels": 1128391
+            },
+            {
+              "alpha": 253,
+              "pixels": 422167
+            },
+            {
+              "alpha": 254,
+              "pixels": 18630
+            },
+            {
+              "alpha": 252,
+              "pixels": 11378
+            },
+            {
+              "alpha": 251,
+              "pixels": 2253
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "layout": {
+    "frame": {
+      "aperture": {
+        "x": 0.12129528125,
+        "y": 0.19887189165186503,
+        "width": 0.7574094375,
+        "height": 0.6348302664298402
+      },
+      "sourceWidth": 1600,
+      "sourceHeight": 1126
+    },
+    "altar": {
+      "tiers": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        120,
+        250,
+        500,
+        1000,
+        2500
+      ],
+      "bloodSegments": 5,
+      "proposedSpinReward": false
+    }
+  },
+  "totalExportBytes": 9335448,
+  "essentialPlan": {
+    "assetIds": [
+      "altar-surround",
+      "blood-empty",
+      "blood-filled",
+      "environment-base",
+      "frame",
+      "logo-ornament",
+      "offering-empty",
+      "offering-filled",
+      "offering-mark",
+      "priest-neutral",
+      "symbol-a",
+      "symbol-chalice",
+      "symbol-crown",
+      "symbol-eye",
+      "symbol-j",
+      "symbol-k",
+      "symbol-q",
+      "symbol-reliquary",
+      "symbol-scatter"
+    ],
+    "bytes": 2584598,
+    "budgetBytes": 10485760,
+    "withinBudget": true,
+    "secondaryScreens": "lazy load mode environments, entry/results, celebration, introduction and reaction poses"
+  },
+  "limitations": [
+    {
+      "id": "environment-base",
+      "severity": "limitation",
+      "issue": "Native width 1672px; desktop review at 1920 will enlarge it. No artificial source upscaling applied."
+    },
+    {
+      "id": "environment-bonus",
+      "severity": "limitation",
+      "issue": "Native width 1672px; desktop review at 1920 will enlarge it. No artificial source upscaling applied."
+    },
+    {
+      "id": "environment-god",
+      "severity": "limitation",
+      "issue": "Native width 1672px; desktop review at 1920 will enlarge it. No artificial source upscaling applied."
+    },
+    {
+      "id": "feature-result",
+      "severity": "limitation",
+      "issue": "Native width 1672px; desktop review at 1920 will enlarge it. No artificial source upscaling applied."
+    }
+  ]
+}

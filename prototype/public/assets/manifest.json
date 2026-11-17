@@ -1,0 +1,93 @@
+{
+  "version": 5,
+  "status": "Crimson Cathedral v0.9 art prototype; presentation only",
+  "model": "Soul 2.0 via Higgsfield website",
+  "style": "Gilded gothic fantasy, ivory ranks, jewel relics, crimson ritual and violet cathedral",
+  "symbols": {
+    "src": "/assets/crimson-relics.png",
+    "width": 1024,
+    "height": 1024,
+    "columns": 2,
+    "rows": 2,
+    "order": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "S"
+    ],
+    "cells": {
+      "P1": 0,
+      "P2": 1,
+      "P3": 2,
+      "P4": 3
+    },
+    "matte": "alpha",
+    "model": "soul_2"
+  },
+  "cathedral": {
+    "src": "/assets/crimson-cathedral.webp",
+    "width": 2048,
+    "height": 1152,
+    "model": "soul_2"
+  },
+  "priest": {
+    "src": "/assets/crimson-priest.png",
+    "width": 1024,
+    "height": 768,
+    "columns": 2,
+    "rows": 1,
+    "poses": [
+      "standing",
+      "kneeling"
+    ],
+    "model": "soul_2"
+  },
+  "seal": {
+    "src": "/assets/crimson-seal.png",
+    "width": 1024,
+    "height": 1024,
+    "model": "soul_2",
+    "size": 232,
+    "voidRadius": 57
+  },
+  "ranks": {
+    "src": "/assets/crimson-ranks.png",
+    "width": 1024,
+    "height": 1024,
+    "columns": 2,
+    "rows": 2,
+    "order": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "matte": "alpha",
+    "model": "soul_2"
+  },
+  "scatter": {
+    "src": "/assets/crimson-scatter.png",
+    "width": 768,
+    "height": 768,
+    "columns": 1,
+    "rows": 1,
+    "order": [
+      "S"
+    ],
+    "matte": "alpha",
+    "model": "soul_2"
+  },
+  "frame": {
+    "src": "/assets/crimson-frame.png",
+    "width": 2048,
+    "height": 1536,
+    "model": "soul_2",
+    "rendering": "Segmented border with preserved crest and repositioned candles; source pixels unchanged",
+    "layout": "crimson"
+  }
+}

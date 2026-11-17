@@ -1,0 +1,46 @@
+.revelation{position:absolute;inset:0;pointer-events:none;z-index:0;isolation:isolate}
+.revelation-halo{position:absolute;left:29%;top:-26%;width:42%;aspect-ratio:1;object-fit:contain;opacity:.48;filter:drop-shadow(0 0 12px #961c3a44)}
+.revelation-rays{position:absolute;left:28%;top:-5%;width:48%;height:60%;object-fit:fill;opacity:.24;mix-blend-mode:screen;transform-origin:50% 0;mask-image:linear-gradient(transparent,#000 15%,#0008 55%,transparent)}
+.revelation[data-phase=waiting] .revelation-rays{opacity:.13}
+.revelation[data-phase=waiting] .revelation-halo{filter:brightness(.7) drop-shadow(0 0 8px #a3283a33)}
+.revelation[data-phase=confirming] .revelation-rays{filter:sepia(.7) saturate(1.4)}
+.revelation[data-phase=confirming] .revelation-halo{filter:sepia(.3) brightness(1.05) drop-shadow(0 0 12px #e9be6d55)}
+.revelation[data-phase=god] .revelation-rays{filter:brightness(1.2);opacity:.65}
+.revelation-motes{position:absolute;left:25%;top:-22%;width:50%;height:33%;overflow:hidden}
+.revelation-motes i{position:absolute;width:2px;height:2px;left:calc(9% + var(--i)*10%);top:calc(10% + var(--i)*8%);background:#ead7bc;box-shadow:0 0 5px #efc7a7;border-radius:50%;opacity:.4;animation:revelation-drift 4s linear infinite;animation-delay:calc(var(--i)*-.53s)}
+.patron .pending{left:11%;right:auto;top:-21%;width:78%;padding:.45cqw .2cqw;background:radial-gradient(ellipse,#0b0f13e8, #0b0f1377 46%,transparent 72%);border:0;box-shadow:none;filter:none;text-shadow:0 2px 4px #000,0 0 9px #000;pointer-events:none}
+.patron .pending:before{display:none}
+.patron[data-ceremony]:not([data-ceremony=idle]) .patron-heading{visibility:hidden}
+.patron .pending span{font-size:clamp(9px,.68cqw,15px);letter-spacing:.16em;color:#eed4d5}
+.patron .pending strong{font:2.65cqw/1.1 Rite;margin:.32cqw 0;color:#fff3dc;font-variant-numeric:tabular-nums}
+.patron .pending b{display:block;font-size:clamp(9px,.65cqw,15px);line-height:1.4;max-width:24ch;margin:auto}
+.patron[data-ceremony=confirming] .pending span{color:#f1d99f}
+.ceremony-layer{position:absolute;inset:0;z-index:7;pointer-events:none;overflow:hidden}
+.ceremony-bead{position:absolute;left:0;top:0;width:.5cqw;height:.5cqw;margin:-.25cqw;border-radius:50%;background:#fff1ca;box-shadow:0 0 8px #eac992,0 0 20px #d7ad63}
+.revelation-dust{position:absolute;width:3px;height:3px;background:#c73854;box-shadow:0 0 6px #a81e3c;z-index:2}
+.offering-gem.is-invoking{filter:brightness(1.7) drop-shadow(0 0 8px #c52c4c)}
+.mascot-poster,.mascot-video,.mascot-reaction-video,.mascot-reaction-pose{transition:opacity var(--reaction-blend,140ms) linear}
+.mascot-reaction-video,.mascot-reaction-pose{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;pointer-events:none;opacity:0}
+.mascot.is-reacting .mascot-video,.mascot.is-reacting .mascot-poster{opacity:0}
+.mascot-reaction-video.is-visible,.mascot-reaction-pose.is-visible{opacity:1}
+.mascot[data-reaction=invocation] .mascot-aura{opacity:.32;animation:none}
+.mascot[data-reaction=benediction] .mascot-aura,.mascot[data-reaction=altar] .mascot-aura{opacity:.22;background:radial-gradient(ellipse,#d5b77955,transparent 65%);animation:none}
+.mascot[data-reaction=expiry] .mascot-aura{opacity:.09;animation:none}
+.mascot.vessel-highlight .mascot-aura{left:27%;right:40%;top:32%;height:13%;opacity:.5;animation:vessel-glint .55s ease-out}
+.mascot[data-generated-mascot].vessel-highlight .mascot-aura{left:11%;right:64%;top:14%;height:15%}
+@keyframes vessel-glint{0%,100%{opacity:0}40%{opacity:.65}}
+@keyframes revelation-drift{to{transform:translate(4px,-20px);opacity:0}}
+@media(max-aspect-ratio:4/5){
+  .scene[data-ceremony]:not([data-ceremony=idle]) .rite-caption{visibility:hidden}
+  .revelation-halo{left:-55%;top:-15%;width:62%}
+  .patron .pending{left:-67%;top:-8%;width:86%;padding:1cqw 0}
+  .patron .pending span{font-size:max(9px,1.6cqw)}
+  .patron .pending strong{font-size:6cqw;margin:1.2cqw 0}
+  .patron .pending b{font-size:max(9px,1.7cqw)}
+  .revelation-rays{left:35%;width:55%;top:-8%;height:70%}
+  .revelation-motes{left:-55%;top:-12%;width:62%}
+}
+@media(max-height:500px) and (min-aspect-ratio:4/5){.revelation-motes{display:none}.patron .pending span,.patron .pending b{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.revelation-motes,.revelation-rays{display:none}.mascot-poster,.mascot-video,.mascot-reaction-video,.mascot-reaction-pose{transition-duration:80ms}}
+.motion-paused .revelation-motes i{animation-play-state:paused}
+.scene{overflow:clip}
